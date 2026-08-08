@@ -1,0 +1,8 @@
+project:
+  title: "BIO-123-Preview-Note"
+
+editor: visual
+
+format:
+  html:
+    css: style.css

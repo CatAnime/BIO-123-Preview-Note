@@ -5,6 +5,35 @@ format: html
 
 ## 5.1 Cells Are the Fundamental Units of Life
 
+- [Cell theory]{.underline}:
+
+  1.  Cells are the fundamental units of life.
+  2.  All living organisms are composed of cells.
+  3.  All cells come from preexisting cells.
+  4.  Modern cells evolved from a common ancestor.
+
+- 3 important implications of cell theory:
+
+  1.  Studying cell biology is in some sense the same as studying life.
+  2.  Life is continuous.
+  3.  The origin of life on Earth was marked by the origin of the first cells.
+
+- several important roles of [membrane]{.underline}:
+
+  - acts as a selectively permeable barrier:
+
+    - prevent some substances from crossing in
+
+    - permit other substances to enter & leave the cell
+
+  - regulate transport across it $\Rightarrow$ allows the cell to maintain a more or less constant internal environment
+
+  - important in
+
+    - communicating with adjacent cells
+
+    - receiving signals from the environment
+
 ## 5.2 Prokaryotic Cells Are the Simplest Cells
 
 ## 5.3 Eukaryotic Cells Contain Organelles

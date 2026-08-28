@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+
+
 body, h1, h2, h3, h4, h5, h6 {
   
   /*font-family: "Parisienne", cursive;*/
@@ -9,7 +16,7 @@ body, h1, h2, h3, h4, h5, h6 {
   /*font-family: "Italianno", cursive;*/
   
   /* Natural handwritten */
-  font-family: "Dancing Script";
+  font-family: "Dancing Script", "LXGW WenKai Mono TC";
   
   /* Elegant */
   /* font-family: "Allura", cursive; */
@@ -22,7 +29,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 rt {
-    font-family: "LXGW WenKai";
+    font-family: "LXGW WenKai Mono TC";
     text-align: center;
     font-size: 0.6em;
     color: #666;

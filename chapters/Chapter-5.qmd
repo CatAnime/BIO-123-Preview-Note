@@ -1,6 +1,7 @@
 ---
 title: "Chapter 5 Cells: The Working Units of Life"
 format: html
+toc: true
 ---
 
 ## 5.1 Cells Are the Fundamental Units of Life
@@ -47,9 +48,219 @@ format: html
 
   - contain membrane-enclosed comaprtments called [organelles]{.underline}
 
+- [nucleus]{.underline}:
+
+  - where most of the cell's DNA is located
+
+  - where gene expression begins
+
 ## 5.2 Prokaryotic Cells Are the Simplest Cells
 
+- [nucleoid]{.underline} \[病毒\] 病毒核心; \[细胞\] 类核: region in the cell where the DNA is located
+
+- ribosomes 核糖体: complexes of RNA and proteins in the cytoplasm
+
+- cell wall
+
+  - located outside the cell membrane
+
+  - supports the cell
+
+  - determines cells' shape
+
+- cell wall of most bacteria, but not archaea:
+
+  - contain **peptidoglycan**: a polymer of amino sugars that is linked at regular intervals to short peptides
+
+- in some bacteria, **outer membrane**: polysaccharide-rich phospholipid membrane
+
+  - encloses the peptidoglycan layer
+
+- in some bacteria. **capsule**: a slimy layer composed mostly of polysaccharides
+
+  - enclosing the cell wall
+
+- some bacteria have an **internal membrane system**: contains molecules needed for photosynthesis
+
+- some prokaryotes swim by using appendages called **flagella**
+
+  - sometimes look like tiny corkscrews
+
+- **pill**: structures made of protein
+
+  - project from the surfaces of some types of bacterial cells
+
+- **cytoskeleton**: protein filaments
+
+  - play roles in cell division, cell movement, and in maintaining the shapes of cells.
+
 ## 5.3 Eukaryotic Cells Contain Organelles
+
+- **nucleus**:
+
+  - location of most of the cell's DNA and the site of DNA replication
+
+  - the site where gene transcription is turned on or off
+
+  - **nucleolus**: a region within the nucleus
+
+    - where ribosomes begin to be assembled from RNA and proteins
+
+- the nucleus is enclosed by **nuclear envelope**: an integrated structure composed of two membranes
+
+- chromosomes: long, thin threads
+
+  - made up by chromatin: inside nucleus, DNA molecule + proteins
+
+- **endomembrane system**: interconnected system of membrane-enclosed compartments, includes:
+
+  - cell membrane
+
+  - nuclear envelope
+
+  - endoplasmic reticulum 内质网
+
+  - Golgi apparatus \[细胞\] 高尔基氏体; 内网器
+
+  - lysosomes 溶酶体
+
+- **vesicles** 囊: membrane-surrounded droplets
+
+  - shuttle substances between the various components of the endomembrane system
+
+- **endoplasmic reticulum** (ER) 内质网: networks of interconnected membranes branching throughout the cytoplasm
+
+  - forming tubes and flattened sacs
+
+- **rough endoplasmic reticulum** (RER) 带有核糖体的内质网: many ribosomes attached to the outer surface of the membrane, giving it a "rough" appearance in electron microscopy
+
+  - receives into its **lumen** 内腔 (管状器官内的空腔) certain newly synthesized proteins
+
+    - segregating them away from the cytoplasm
+
+    - participates in transporting these proteins to other locations in the cell
+
+  - proteins can be
+
+    - chemically modified to alter their functions
+
+    - "tag" them for delivery to specific cellular destinations
+
+  - proteins are sent to destinations elsewhere in the cell enclosed within vesicles that pinch off from the RER
+
+  - most membrane-bound proteins are made in the RER
+
+  - **glycoproteins** 糖蛋白: some proteins become covalently linked to carbohydrate groups in the RER
+
+- **smooth endoplasmic reticulum** (SER) 平滑内质网: lacks ribosomes and is more tubular (and less like fattened sacs) than the RER, but shows continuity with portions of the RER
+
+  - responsible for the chemical modification of small molecules taken in by the cell that may be toxic to the cell
+
+    - make the targeted molecules more polar, so they are more water soluble and easily removed
+
+  - is the site for glycogen degradation in animal cells
+
+  - where lipids and steroids are synthesized, as well as some polysaccharides 多糖 in plant cells
+
+  - store calcium ions, released trigger numerous cell responses
+
+- **Golgi apparatus** 内网器, consists of two components: flattened membranous sacs called **cisternae** 潴泡 (singular cisterna) that are piled up like saucers, and small membrane-enclosed vesicles
+
+  - receives protein-containing vesicles from the RER
+
+  - modifies, concentrates, packages, and sorts proteins. before they are sent to their cellular or extracellular destinations
+
+  - adds carbohydrates to proteins
+
+  - modifies other carbohydrates that were attached to proteins in the RER
+
+  - where some polysaccharides for the plant cell wall are synthesized
+
+  - cuts certain large precursor proteins transferred from the RER into smaller, functional fragments
+
+- 3 functionally distinct regions (faces) of Golgi apparatus:
+
+  1.  The *cis* face lies nearest to the nucleus or a patch of RER
+  2.  The *trans* face lies closest to the cell membrane
+  3.  The *medial* face lies in between
+
+- primary lysosomes: originate from the Golgi apoparatus
+
+- contain digestive enzymes
+
+- the sites where **macromolecule**s (protein, polysaccharides, nucleic acids, lipids) are hydrolyzed into their monomers
+
+- **phagocytosis** 吞噬作用: a process of food, other cells, or foreign objects enter the cell
+
+- **secondary lysosome** \[细胞\]\[免疫\] 次级溶酶体: phagosome 吞噬体 fuses with a primary lysosome to form a \~
+
+  - where digestion occurs
+
+  - there reactions are enhanced by the acidity of the lysosome's interior
+
+- **exocytosis** (细胞生物学) 胞吐作用:
+
+  - the "used" secondary lysosome containing undigested particles
+
+  - moves to the cell membrane
+
+  - fuses with it, and releases the undigested contents to the environment
+
+- **autophagy** (生物学) 自噬: programmed destruction of cell components
+
+  - some cell components are continually being broken down and replaced by new ones
+
+- **lysosomes** 溶酶体:
+
+  - where the cell breaks down its own materials
+
+  - with the proper signal, lysosomes can engulf entire organelles, hydrolyzing their constituents
+
+- **lysosomal storage diseases**: caused by the failure of lysosomes to digest specific cellular components
+
+  - invariably harmful or fatal
+
+  - e.g. **Tay-Sachs disease** 黑蒙性家族性痴愚; 泰-萨二氏病
+
+    - a particular lipid called a **ganglioside** \[生化\] 神经节苷脂 is not broken down in the lysosomes
+
+    - instead accumulates in brain cells
+
+    - a baby starts exhibiting neurological symptoms and becomes blind, deaf, and unable to swallow after 6 months of age
+
+    - death occurs before age 4
+
+- plant cells do not appear to contain lysosomes, but the **vacuole** \[细胞\] 液泡 of a plant cell may function in an equivalent capacity because it, like lysosomes, hydrolyzes macromolecules
+
+- energy is harvested from
+
+  - fuel molecules in the **mitochondria** 线粒体 (**mitochondrion** 的复数)
+
+    - found in all eukaryotic cells
+
+  - sunlight in the **chloroplast**s 叶绿体 of plant cells\\
+
+- energy in biological systems is stored and transferred in the form of [covalent bonds]{.underline} in organic molecules
+
+- In eukaryotic cells, breakdown of energy-rich molecules sucha s glucose begins in the cytoplasm.
+
+- mitochondria:
+
+  - harvests the chemical-bond energy of those molecules in a form that he cell can use
+
+  - namely the [energy-rich molecule]{.underline} ATP (**adenosine triphosphate** 腺苷三磷酸)
+
+  - some can reproduce and divide independently of the central nucleus
+
+  - Cells that are [active in movement and growth]{.underline} require the [most chemical-bond energy]{.underline} and tend to have the [most mitochondria]{.underline}.
+
+- cellular respiration
+
+  - production of ATP in the mitochondria
+
+  - using fuel molecules and molecular oxygen ($\ce{O2}$)
+
+- 
 
 ## 5.4 Extracellular Materials Provide Structure
 

@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
 
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css');
+
 
 body, h1, h2, h3, h4, h5, h6 {
   
@@ -16,7 +18,10 @@ body, h1, h2, h3, h4, h5, h6 {
   /*font-family: "Italianno", cursive;*/
   
   /* Natural handwritten */
-  font-family: "Dancing Script", "LXGW WenKai Mono TC";
+  /* font-family: "Dancing Script"; */
+  
+  /* LXGW */
+  font-family: "LXGW WenKai Screen";
   
   /* Elegant */
   /* font-family: "Allura", cursive; */
@@ -26,6 +31,10 @@ body, h1, h2, h3, h4, h5, h6 {
   
   /* Victorian aristocrat writing a suspicious letter */
   /* font-family: "Pinyon Script", cursive; */
+}
+
+strong, b {
+    font-weight: 1500; /* 或者使用更粗的数值如 800, 900 */
 }
 
 rt {

@@ -260,7 +260,217 @@ toc: true
 
   - using fuel molecules and molecular oxygen ($\ce{O2}$)
 
-- 
+- Mitochondria have [two membranes]{.underline}:
+
+  - **outer membrane**:
+
+    - smooth
+
+    - permits the movement of substances into and out of the organelle
+
+  - **inner membrane**:
+
+    - folds inward in many places
+
+    - has a surface area much greater tha nthat of the outer membrane
+
+    - **cristae** 脊: shelflike structures
+
+    - exerts much more control over what enters and leaves the space it encloses than does the outer membrane
+
+  - large protein complexes embedded in the inner mitochondrial membrane
+
+    - participate tin cellular respiration
+
+- **mitochondrial matrix** 线粒体基质
+
+  - the space enclosed by the inner membrane
+
+  - contains [ribosomes and DNA]{.underline} that are used to make some of the mitochondrial proteins needed for cellular respiration
+
+- **plastid**s 质体，色素体:
+
+  - occur only in the cells of plants and certain protists
+
+  - can divide independently of the cell nucleus
+
+- **chloroplast**s 叶绿体: $\nwarrow$ (one type of plastids)
+
+  - contain the green pigment **chlorophyll** 叶绿素
+
+  - are the sites of **photosynthesis**
+
+    - light energy is converted into chemical-bond energy
+
+  - enclosed by two membranes
+
+  - **thylakoid**s 类囊体: a series of internal membrane that often look like stacks of flat, hollow pita bread
+
+    - only 10% are **phospholipid**s 磷脂
+
+    - the rest are **galactose-substituted diglyceride**s 半乳糖取代的二甘油酯 and **sulfolipid**s 硫脂
+
+    - are the most abundant lipids in the biosphere
+
+    - the membranes of the thylakoids contain chlorophyll and other pigments taht harvest light energy for photosynthesis
+
+  - The thylakoids of one granum may be [connected to those of other grana]{.underline}, making the interior of the chloroplast [a highly developed network]{.underline}, much like the ER.
+
+  - **stroma** 间质: the [fluid]{.underline} in which the grana are suspended
+
+    - contains [ribosomes nad DNA]{.underline}
+
+      - used to synthasize some chloroplast polypeptides
+
+- **chromoplast** 色素母细胞 (another type of plastids)
+
+  - [make and store red, yellow, and orange pigments]{.underline}
+
+  - especially in [flowers and fruits]{.underline}
+
+- **leucoplast**s \[植\] 白色体 (another type of plastids):
+
+  - storage organelles that [store starch]{.underline}
+
+- 3 other organelles whose [boundary membranes separate their specialized chemical reactions and contents]{.underline} from the rest fo the cytoplasm: **peroxisome**s 过氧物酶体, **glyoxysome**s 糖体, and **vacuole**s 液泡.
+
+- **peroxisome** 过氧物酶体:
+
+  - found only in plants
+
+  - organelles that accumulate toxic peroxides
+
+    - e.g. hydrogen peroxide ($\ce{H2O2}$): occur as byproducts of some biochemical reactions
+
+    - safely broken down inside the peroxisomes without mixing with other parts of the cell
+
+    - 
+      $$\ce{RH2 + O2 -> R + H2O2 \text{(cellular reactions)}} \\
+      \ce{2H2O2 -> 2H2O + O2 \text{(inside peroxisome)}}$$
+
+- **glyoxysome** 糖体:
+
+  - found only in plants
+
+  - most abundant in young plants
+
+  - they are the locations where stored lipids are converted into carbohydrates for transport to growing cells
+
+  - The direct conversion of fat to carbohydrate is unique to these plants.
+
+- **vacuole** 液泡:
+
+  - occur in many eukaryotic cells but particularly those of plants, fungi, and protists
+
+  - arise from the ER or Golgi apparatus
+
+  - structure:
+
+    - in many plant cells, \~ take up more than 90% of the cell volume
+
+    - grow as the cell grows
+
+    - presence of dissolved substances in the vacuole [causes water to enter it]{.underline} from the cytosol, making the vacuole [swell like a balloon]{.underline}
+
+    - A [mature]{.underline} plant cell does not swell when the vacuole fills with water, since it has a rigid cell wall.
+
+    - Instead, it stiffens 绷紧 from the increase in water pressure (called **turgor** (细胞组织的) 肿胀), and this supports the plant body.
+
+  - reproduction:
+
+    - \~ contains some fo the pigments (especially blue and pink) in the petals and fruits of flowering plants
+
+    - these pigments – the **anthocyanin**s 花色素苷 – are [visual cues]{.underline} that help attract animals that assist in [pollination]{.underline} or [seed dispersal]{.underline}
+
+  - digestion:
+
+    - in some plants, \~ in seeds contain molecules that hydrolyze [stored proteins]{.underline} into [monomers]{.underline}
+
+    - during [seed germination]{.underline} 发芽, the monomers are used as [food]{.underline} by the developing plant seedlings
+
+  - storage:
+
+    - storing water
+
+    - store toxic molecules and waste products
+
+    - they may be poisonous or distasteful, these stored materials deter some animals from eating the plants and contribute to [plant defense and survival]{.underline}
+
+    - e.g. **tannin**s 单宁酸: a class of **polyphenol**s 多元酚 (具有抗氧化作用), made in many plants; in [tea and red wine]{.underline}
+
+      -  bitter taste deters predators
+
+      - dark color acts like animal melanin 黑色素 to protect the plant from ultraviolet light dmg
+
+      - made in the chloroplast and end up in the vacuole
+
+      - A newly disc9overed organelle, named tannosome 单宁体, contains tannins.
+
+- **cytoskeleton** 细胞骨架:
+
+  - supports the cell and maintains its shape
+
+  - holds cell organelles and other particles in position within the cell
+
+  - moves organelles and other particles around in the cell
+
+  - involved with movements of the cytoplasm, called **cytoplasmic streaming** 细胞质流动
+
+  - interacts with extracellular structures, helping anchor 锚 the cell in place
+
+- **microfilament**s 微丝:
+
+  - can exist as single filaments, in bundles, or in networks
+
+  - about $\pu{7nm}$ in diameter and up to several micrometers long
+
+  - two major roles:
+
+    1.  helpo the entire cell or parts of the cell move
+    2.  determine and stabilize cell shape
+
+  - assembled from monomers of **actin** 肌动蛋白: a protein that exists in several forms; has many function, especially in animals
+
+    - has distinct ends: designated "plus" and "minus"
+
+    - these ends permit actin monomers to interact with one another to form long, double-helical chains
+
+    - the polymerization of actin into microfilaments is reversible
+
+    - the microfilaments can disappear from cells by breaking down into monomers of free actin
+
+    - Special actin-binding proteins mediate these processes.
+
+    - in non-muscle cells, \~ filaments are associated with localized changes in cell shape
+
+      - e.g. cytoplasmic streaming: flowing movement of the cytoplasm
+
+      - e.g. amoeboid movement \[细胞\] 变形运动
+
+      - e.g. "pinching" contractions that divide an animal cell into two daughter cells
+
+    - involved in the formation of cellular extensions called **pseudopodia** 伪足: enables some cells to move
+
+- **intermediate filament**s 中间纤维
+
+  - at least 50 different kinds
+
+  - generally fall into six molecular classes that share the same general structure
+
+  - one of these classes consists of fibrous proteins fo the [keratin family]{.underline}, which also includes the proteins that make up hair and fingernails
+
+  - tough, ropelike protein structures $\pu{8-12nm}$ in diametere
+
+  - more permanet tthatn the other two types in that they do not continually form and re-form
+
+  - two major structural functions:
+
+    1.  anchor cell structures in place
+        - radiate from the nuclear envelope and help maintain the position of the nucleus and other organelles in the cell
+    2.  resist tension
+        - maintian rigidity in body surface tissues by stretching through the cytoplasm
+
+        - connecting specialized membrane structures called desmosomes 细胞桥粒 (上皮细胞膜中的局部增厚部份)
 
 ## 5.4 Extracellular Materials Provide Structure
 

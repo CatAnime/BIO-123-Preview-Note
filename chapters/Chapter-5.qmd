@@ -344,8 +344,7 @@ toc: true
 
     - safely broken down inside the peroxisomes without mixing with other parts of the cell
 
-    - 
-      $$\ce{RH2 + O2 -> R + H2O2 \text{(cellular reactions)}} \\
+    - $$\ce{RH2 + O2 -> R + H2O2 \text{(cellular reactions)}} \\
       \ce{2H2O2 -> 2H2O + O2 \text{(inside peroxisome)}}$$
 
 - **glyoxysome** 糖体:
@@ -398,7 +397,7 @@ toc: true
 
     - e.g. **tannin**s 单宁酸: a class of **polyphenol**s 多元酚 (具有抗氧化作用), made in many plants; in [tea and red wine]{.underline}
 
-      -  bitter taste deters predators
+      - bitter taste deters predators
 
       - dark color acts like animal melanin 黑色素 to protect the plant from ultraviolet light dmg
 
@@ -471,6 +470,50 @@ toc: true
         - maintian rigidity in body surface tissues by stretching through the cytoplasm
 
         - connecting specialized membrane structures called desmosomes 细胞桥粒 (上皮细胞膜中的局部增厚部份)
+
+- **microtubules** 微管: long, hollow, unbranched cylinders about $\pu{25nm}$ in diameter and up to several micrometers long
+
+  - two roles in the cell:
+
+    1.  form a rigid internal skeleton for some cells
+    2.  act as a framework along which motor proteins can move structures within the cell
+
+  - Microtubule = chain of dimers
+
+  - **dimer** 二聚物 = $\alpha$-tubulin 微管蛋白 + $\beta$-tubulin (paired)
+
+  - $\alpha$ and $\beta$ = two similar proteins
+
+  - One dimer → next dimer → tube grows
+
+  - Thirteen chains of tubulin doublets surround the central cavity of hte microtubule.
+
+  - 
+    $$\ce{\alpha-tubulin + \beta-tubulin -> \alpha\beta doublet -> polymer of doublets (microtubule)}$$
+
+  - the two ends of a microtubule are different: one is designated the "plus" end and the other the "minus" end.
+
+  - Tubulin dimers can be rapidly added or subtracted, mainly at the plus end, lengthening or shortening the microtubule.
+
+  - 
+    $$\text{Microtubules} \leftrightarrow \text{tubulin doublets}$$
+
+  - The capacity to [change length rapidly]{.underline} makes microtubules dynamic structures: they are [readily adapted for new purposes]{.underline} in the cell.
+
+  - e.g. by disassembly 分解 and reassembly 重组, they can drag along substances attached to them
+
+  - In plants, microtubules act as a framework for the assembly of cellulose and help orient the cellulose fibers of the cell wall.
+
+- motor proteins: specialized molecules that use cellular energy to change their shapes and move
+
+  - bind to and move along the microtubules, carrying materials from one part of the cell to another
+
+  - two main types of motor proteins:
+
+    1.  **kinesins** 驱动蛋白: move materials toward the "plus" end
+    2.  **dyneins** 动力蛋白 move materials toward the minus end
+
+- **cilia** 纤毛 and **flagella** 鞭毛 line the interior of certain movable appendages on eukaryotic cells
 
 ## 5.4 Extracellular Materials Provide Structure
 

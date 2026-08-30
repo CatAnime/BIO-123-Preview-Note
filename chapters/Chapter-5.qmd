@@ -488,15 +488,13 @@ toc: true
 
   - Thirteen chains of tubulin doublets surround the central cavity of hte microtubule.
 
-  - 
-    $$\ce{\alpha-tubulin + \beta-tubulin -> \alpha\beta doublet -> polymer of doublets (microtubule)}$$
+  - $$\ce{\alpha-tubulin + \beta-tubulin -> \alpha\beta doublet -> polymer of doublets (microtubule)}$$
 
   - the two ends of a microtubule are different: one is designated the "plus" end and the other the "minus" end.
 
   - Tubulin dimers can be rapidly added or subtracted, mainly at the plus end, lengthening or shortening the microtubule.
 
-  - 
-    $$\text{Microtubules} \leftrightarrow \text{tubulin doublets}$$
+  - $$\text{Microtubules} \leftrightarrow \text{tubulin doublets}$$
 
   - The capacity to [change length rapidly]{.underline} makes microtubules dynamic structures: they are [readily adapted for new purposes]{.underline} in the cell.
 
@@ -511,10 +509,42 @@ toc: true
   - two main types of motor proteins:
 
     1.  **kinesins** 驱动蛋白: move materials toward the "plus" end
-    2.  **dyneins** 动力蛋白 move materials toward the minus end
+    2.  **dyneins** 动力蛋白: move materials toward the "minus" end
 
-- **cilia** 纤毛 and **flagella** 鞭毛 line the interior of certain movable appendages on eukaryotic cells
+- microtubules and their associated proteins line the interior of **cilia** 纤毛 and **flagella** 鞭毛 on eukaryotic cells
+
+  - many cells have one or the other of these appendages, which form from projections of the cell membrane
+
+- **cilia**: $\pu{0.25\mu m}$ in length
+
+  - They occur by the hundreds on individual cells and move stiffly to either [propel the cell]{.underline} (i.e. in protists 原生生物) or to [move fluid over a stationary cell]{.underline} (i.e. in the human respiratory system)
+
+- **flagella**: longer, $\pu{100}$ to $\pu{200\mu m}$
+
+  - occur [singly or in pairs]{.underline}
+
+  - can [push or pull a cell]{.underline} through its [aqueous environment]{.underline}
+
+- In cell biology, two approaches are often used to show that a structure or process A causes function B:
+
+  1.  **Inhibition**: Use a drug thta inhibits A and see if B still occurs. If it does not, then A is probably a causative factor for B.
+  2.  **Mutation**: Examine a cell that lacks the gene (or genes) for A and see if B still occurs. If it does not, then A is probably a causative factor for B.
 
 ## 5.4 Extracellular Materials Provide Structure
+
+### The plant cell wall provides structure and protection
+
+3 major roles of plant cell wall
+
+1.  provides [support]{.underline} for the cell and plant by remaining [rigid]{.underline}
+    - [flexible]{.underline} enough that it can allow the plant to bend in the wind
+2.  acts as a [barrier]{.underline} to infection by [fungi and other organisms]{.underline} that can cause [plant diseases]{.underline}
+3.  contributes to plant form by [growing as the plant cells expand]{.underline}
+
+Cytoplasms of adjacent plant cells are connected by numerous cell membrane-lined channels called **plasmodesmata** (plasmodesma) 胞间连丝, about $\pu{20-40\mu m}$
+
+### The extracellular matrix 细胞外基质 supports tissue functions in animals
+
+Many animal cells are surrounded by, or in contact with an **extracellular matrix** 细胞外基质.
 
 ## 5.5 Eukaryotic Cells Evolved in Several Steps

@@ -8,6 +8,14 @@
 
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css');
 
+body {
+  background-color: #FFFFFF;
+  color: #86A4B7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #966327;
+}
 
 body, h1, h2, h3, h4, h5, h6 {
   
@@ -34,7 +42,24 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 strong, b {
-    font-weight: 1500; /* 或者使用更粗的数值如 800, 900 */
+    font-weight: 1500;
+    background-color: #AF999B4D;
+    border-radius: 8px;          /* 8像素圆角 */
+    padding: 2px 1px;            /* 上下2px，左右8px内边距，让背景不贴字 */
+}
+
+.underline {
+    text-decoration: none;              /* 先去掉默认的下划线，避免冲突 */
+    border-bottom: 3px dashed #AF999B; /* 这里可以改成 solid（实线）、dotted（点线） */
+    padding-bottom: 2px;               /* 调整线与文字的距离 */
+    display: inline-block;             /* 让边框只包裹文字本身，很重要！ */
+}
+
+u:not([style]) {
+    text-decoration: none !important;
+    border-bottom: 1px solid #AF999B !important;
+    padding-bottom: 1px !important;
+    display: inline-block !important;
 }
 
 rt {

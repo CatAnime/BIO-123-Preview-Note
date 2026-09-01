@@ -603,16 +603,37 @@ A single prokaryotic cell is often biochemically specialized, limited in the res
 
 ### Internal membranes and the nuclear envelope probably came from the cell membrane
 
-theory: the endomembrane system and the cell nucleus originated by related processes
+- theory: the endomembrane system and the cell nucleus originated by related processes
 
-A bacterium with enclosed compartments would have several [evolutionary advantages]{.underline}.
+- A bacterium with enclosed compartments would have several [evolutionary advantages]{.underline}.
 
-[Chemicals]{.underline} could be concentrated in [particular regions]{.underline} of the cell, allowing chemical reactions to proceed more [efficiently]{.underline}.
+- [Chemicals]{.underline} could be concentrated in [particular regions]{.underline} of the cell, allowing chemical reactions to proceed more [efficiently]{.underline}.
 
-A biochemical process could be segregated within an organelle with, for example, a different pH from the rest of the cell, creating more favorable conditions for that process.
+- A biochemical process could be segregated within an organelle with, for example, a different pH from the rest of the cell, creating more favorable conditions for that process.
 
+- 
 [DNA transcription]{.underline} could be [separated from translation]{.underline}, providing more opportunities for [separate control]{.underline} of these steps in [gene expression]{.underline}.
 
 ### Some organelles arose by endosymbiosis
 
-**Symbiosis** 共生 means "living together," and often refers to two organisms that coexist, each one supplying something that the other needs.
+- **Symbiosis** 共生 means "living together," and often refers to two organisms that coexist, each one supplying something that the other needs.
+
+- **theory of endosymbiosis**: some organelles—mitochondria & plastids—arose not by an infolding of the cell membrane, but by [one cell ingesting (but not digesting) another cell]{.underline}, giving rise to a [symbiotic relationship]{.underline}.
+
+- Eventually, the ingested cell [lost its autonomy]{.underline} and [some of its functions]{.underline}.
+
+- Many of the ingested cell's genes were transferred to the host's DNA.
+
+- Mitochondria and plastids in today's eukaryotic cells are the [remnants]{.underline} of these symbionts, retaining some [specialized function]{.underline} that benefit their host cells.
+
+- plastid:
+
+  - About 2.5 billion years ago some prokaryotes (the cyanobacteria) developed [photosynthesis]{.underline}.
+
+  - The emergence of these prokaryotes was a key event in the evolution of complex organisms because they increased the $\ce{O2}$ concentration in Earth's atmosphere.
+  
+  - Plastids may have arisen by a similar event involving an ancestral eukaryote and a __cyanobacterium__ 藻青菌.
+  
+- Cells without cell walls can engulf relatively large particles by **phagocytosis** 吞噬作用.
+  
+  - e.g. phagocytes 吞噬细胞 in the human immune system, the engulfed particle can be an entire cell, such as a bacterium

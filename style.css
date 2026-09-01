@@ -8,13 +8,26 @@
 
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css');
 
+:root {
+  /* font size */
+  --main-font-size: 16px;
+  
+  /* colors */
+  --main-font-color: #86A4B7;
+  --highlight-color: #AF999B4D;
+  --underline-color: #AF999B;
+  --background-color: #FFFFFF;
+  --title-color: #966327;
+  --rt-color: #666;
+}
+
 body {
-  background-color: #FFFFFF;
-  color: #86A4B7;
+  background-color: var(--background-color);
+  color: var(--main-font-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #966327;
+  color: var(--title-color);
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -50,14 +63,14 @@ strong, b {
 
 .underline {
     text-decoration: none;              /* 先去掉默认的下划线，避免冲突 */
-    border-bottom: 3px dashed #AF999B; /* 这里可以改成 solid（实线）、dotted（点线） */
+    border-bottom: 3px dashed var(--underline-color); /* 这里可以改成 solid（实线）、dotted（点线） */
     padding-bottom: 2px;               /* 调整线与文字的距离 */
     display: inline-block;             /* 让边框只包裹文字本身，很重要！ */
 }
 
 u:not([style]) {
     text-decoration: none !important;
-    border-bottom: 1px solid #AF999B !important;
+    border-bottom: 1px solid var(--underline-color) !important;
     padding-bottom: 1px !important;
     display: inline-block !important;
 }
@@ -66,7 +79,7 @@ rt {
     font-family: "LXGW WenKai Mono TC";
     text-align: center;
     font-size: 0.6em;
-    color: #666;
+    color: var(--rt-color);
 }
 
 

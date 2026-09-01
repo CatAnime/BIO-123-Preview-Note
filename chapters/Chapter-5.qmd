@@ -547,4 +547,63 @@ Cytoplasms of adjacent plant cells are connected by numerous cell membrane-lined
 
 Many animal cells are surrounded by, or in contact with an **extracellular matrix** 细胞外基质.
 
+> 细胞外基质：由特定类型的细胞产生但不是细胞的部分：为细胞提供支持并常作为组织的共同成分之一，尤其是结缔组织。
+
+This matrix is composed of three types of molecules:
+
+1.  fibrous proteins such as **collagen** 胶原质
+    - **collagen**: the most abundant protein in [mammals]{.underline}, constituting [over 25% of the protein]{.underline} in the [human body]{.underline}
+2.  a matrix of glycoproteins 糖蛋白 termed **proteoglycans** 蛋白聚糖, consisting primarily of sugars
+3.  a third group of proteins that [link the fibrous proteins and the gel-like proteoglycan matrix]{.underline} together
+
+Several functions of extracellular matrix:
+
+- [holds cells together]{.underline} in tissues
+
+- contributes to the [physical properties of cellular aggregates]{.underline} called **tissue**s
+
+  - **Cartilage** 软骨 and bone are part of connective tissue.
+
+  - e.g. The mineral component of bone is laid down on an organized extracellular matix.
+
+    - In tissue engineering, cells are removed from the extracellular matrix and the latter serves as a scaffold for the development of new organs with the correct architecture.
+
+- helps filter materials passing between different tissues
+
+  - e.g. especially important in the kidney
+
+- helps orient cell movements during [embryonic development]{.underline} and during [tissue repair]{.underline}
+
+- plays a role in [chemical signaling]{.underline} from one cell to another
+
+  - Proteins connect the cell's cell membrane to the extracellular matrix.
+
+  - These [proteins]{.underline} (e.g. **integrin** 整合蛋白) [span the cell membrane]{.underline} and are involved with [transmitting signals]{.underline} to the [interior of the cell]{.underline}.
+
+  - This allows [communication]{.underline} between the [extracellular matrix]{.underline} and the [cytoplasm]{.underline} of the cell.
+
 ## 5.5 Eukaryotic Cells Evolved in Several Steps
+
+The first life on Earth was prokaryotic.
+
+- **Prokaryotes** are [simple cells without a nucleus]{.underline}, like bacteria.
+
+For about [1 billion years]{.underline}, only prokaryotes existed on Earth.
+
+This period started when prokaryotic cells first appeared.
+
+It lasted until about 2.7 billion years ago.
+
+At 2.7 billion years ago, the first evidence of eukaryotic cells appears in ancient rocks.
+
+- **Eukaryotes** are [complex cells with a nucleus]{.underline} – the ancestors of plants and animals.
+
+A single prokaryotic cell is often biochemically specialized, limited in the resources it can use and the functions it can perform.
+
+### Internal membranes and the nuclear envelope probably came from the cell membrane
+
+theory: the endomembrane system and the cell nucleus originated by related processes
+
+A bacterium with enclosed compartments would have several [evolutionary advantages]{.underline}.
+
+- Chemicals could be concentrated in particular regions of the cell, allowing chemical reactions to proceed more efficiently.

@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>chapter-5 – BIO 123 Notes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Chapter-5.html">Part 1: Science of Life</a></li><li class="breadcrumb-item"><a href="../chapters/Chapter-5.html">Chapter 5 Cells: The Working Units of Life</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BIO 123 Notes</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BIO-123-Notes</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Part 1: Science of Life</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/Chapter-5.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Chapter 5 Cells: The Working Units of Life</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chapter-5-cells-the-working-units-of-life" id="toc-chapter-5-cells-the-working-units-of-life" class="nav-link active" data-scroll-target="#chapter-5-cells-the-working-units-of-life">Chapter 5 Cells: The Working Units of Life</a></li>
+  <li><a href="#cells-are-the-fundamental-units-of-life" id="toc-cells-are-the-fundamental-units-of-life" class="nav-link" data-scroll-target="#cells-are-the-fundamental-units-of-life">5.1 Cells Are the Fundamental Units of Life</a>
+  <ul class="collapse">
+  <li><a href="#prokaryotic-cells-are-the-simplest-cells" id="toc-prokaryotic-cells-are-the-simplest-cells" class="nav-link" data-scroll-target="#prokaryotic-cells-are-the-simplest-cells">5.2 Prokaryotic Cells Are the Simplest Cells</a></li>
+  </ul></li>
+  <li><a href="#eukaryotic-cells-contain-organelles" id="toc-eukaryotic-cells-contain-organelles" class="nav-link" data-scroll-target="#eukaryotic-cells-contain-organelles">5.3 Eukaryotic Cells Contain Organelles</a>
+  <ul class="collapse">
+  <li><a href="#extracellular-materials-provide-structure" id="toc-extracellular-materials-provide-structure" class="nav-link" data-scroll-target="#extracellular-materials-provide-structure">5.4 Extracellular Materials Provide Structure</a>
+  <ul class="collapse">
+  <li><a href="#the-plant-cell-wall-provides-structure-and-protection" id="toc-the-plant-cell-wall-provides-structure-and-protection" class="nav-link" data-scroll-target="#the-plant-cell-wall-provides-structure-and-protection">The plant cell wall provides structure and protection</a></li>
+  <li><a href="#the-extracellular-matrix-细胞外基质-supports-tissue-functions-in-animals" id="toc-the-extracellular-matrix-细胞外基质-supports-tissue-functions-in-animals" class="nav-link" data-scroll-target="#the-extracellular-matrix-细胞外基质-supports-tissue-functions-in-animals">The extracellular matrix 细胞外基质 supports tissue functions in animals</a></li>
+  </ul></li>
+  <li><a href="#eukaryotic-cells-evolved-in-several-steps" id="toc-eukaryotic-cells-evolved-in-several-steps" class="nav-link" data-scroll-target="#eukaryotic-cells-evolved-in-several-steps">5.5 Eukaryotic Cells Evolved in Several Steps</a>
+  <ul class="collapse">
+  <li><a href="#internal-membranes-and-the-nuclear-envelope-probably-came-from-the-cell-membrane" id="toc-internal-membranes-and-the-nuclear-envelope-probably-came-from-the-cell-membrane" class="nav-link" data-scroll-target="#internal-membranes-and-the-nuclear-envelope-probably-came-from-the-cell-membrane">Internal membranes and the nuclear envelope probably came from the cell membrane</a></li>
+  <li><a href="#some-organelles-arose-by-endosymbiosis" id="toc-some-organelles-arose-by-endosymbiosis" class="nav-link" data-scroll-target="#some-organelles-arose-by-endosymbiosis">Some organelles arose by endosymbiosis</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Chapter-5.html">Part 1: Science of Life</a></li><li class="breadcrumb-item"><a href="../chapters/Chapter-5.html">Chapter 5 Cells: The Working Units of Life</a></li></ol></nav></header>
+
+
+
+
+<section id="chapter-5-cells-the-working-units-of-life" class="level1">
+<h1>Chapter 5 Cells: The Working Units of Life</h1>
+</section>
+<section id="cells-are-the-fundamental-units-of-life" class="level1">
+<h1>5.1 Cells Are the Fundamental Units of Life</h1>
+<ul>
+<li><p><u>Cell theory</u>:</p>
+<ol type="1">
+<li>Cells are the fundamental units of life.</li>
+<li>All living organisms are composed of cells.</li>
+<li>All cells come from preexisting cells.</li>
+<li>Modern cells evolved from a common ancestor.</li>
+</ol></li>
+<li><p>3 important implications of cell theory:</p>
+<ol type="1">
+<li>Studying cell biology is in some sense the same as studying life.</li>
+<li>Life is continuous.</li>
+<li>The origin of life on Earth was marked by the origin of the first cells.</li>
+</ol></li>
+<li><p>several important roles of <u>membrane</u>:</p>
+<ul>
+<li><p>acts as a selectively permeable barrier:</p>
+<ul>
+<li><p>prevent some substances from crossing in</p></li>
+<li><p>permit other substances to enter &amp; leave the cell</p></li>
+</ul></li>
+<li><p>regulate transport across it <span class="math inline">\(\Rightarrow\)</span> allows the cell to maintain a more or less constant internal environment</p></li>
+<li><p>important in</p>
+<ul>
+<li><p>communicating with adjacent cells</p></li>
+<li><p>receiving signals from the environment</p></li>
+</ul></li>
+</ul></li>
+<li><p>Everything inside the cell, except for the nucleus if the cell has one, is termed the <u>cytoplasm</u>.</p></li>
+<li><p>The cytosol is the fluid cytoplasm not contained inside another compartment.</p></li>
+<li><p><u>prokaryote</u>: organisms in Archaea and Bacteria</p>
+<ul>
+<li>does not have membrane-enclosed internal compartments</li>
+<li>does not have a nucleus</li>
+</ul></li>
+<li><p><u>eukaryote</u>: protists 原生生物, plants, fungi, and animals</p>
+<ul>
+<li>contain membrane-enclosed comaprtments called <u>organelles</u></li>
+</ul></li>
+<li><p><u>nucleus</u>:</p>
+<ul>
+<li><p>where most of the cell’s DNA is located</p></li>
+<li><p>where gene expression begins</p></li>
+</ul></li>
+</ul>
+<section id="prokaryotic-cells-are-the-simplest-cells" class="level2">
+<h2 class="anchored" data-anchor-id="prokaryotic-cells-are-the-simplest-cells">5.2 Prokaryotic Cells Are the Simplest Cells</h2>
+<ul>
+<li><p><u>nucleoid</u> [病毒] 病毒核心; [细胞] 类核: region in the cell where the DNA is located</p></li>
+<li><p>ribosomes 核糖体: complexes of RNA and proteins in the cytoplasm</p></li>
+<li><p>cell wall</p>
+<ul>
+<li><p>located outside the cell membrane</p></li>
+<li><p>supports the cell</p></li>
+<li><p>determines cells’ shape</p></li>
+</ul></li>
+<li><p>cell wall of most bacteria, but not archaea:</p>
+<ul>
+<li>contain <strong>peptidoglycan</strong>: a polymer of amino sugars that is linked at regular intervals to short peptides</li>
+</ul></li>
+<li><p>in some bacteria, <strong>outer membrane</strong>: polysaccharide-rich phospholipid membrane</p>
+<ul>
+<li>encloses the peptidoglycan layer</li>
+</ul></li>
+<li><p>in some bacteria. <strong>capsule</strong>: a slimy layer composed mostly of polysaccharides</p>
+<ul>
+<li>enclosing the cell wall</li>
+</ul></li>
+<li><p>some bacteria have an <strong>internal membrane system</strong>: contains molecules needed for photosynthesis</p></li>
+<li><p>some prokaryotes swim by using appendages called <strong>flagella</strong></p>
+<ul>
+<li>sometimes look like tiny corkscrews</li>
+</ul></li>
+<li><p><strong>pill</strong>: structures made of protein</p>
+<ul>
+<li>project from the surfaces of some types of bacterial cells</li>
+</ul></li>
+<li><p><strong>cytoskeleton</strong>: protein filaments</p>
+<ul>
+<li>play roles in cell division, cell movement, and in maintaining the shapes of cells.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="eukaryotic-cells-contain-organelles" class="level1">
+<h1>5.3 Eukaryotic Cells Contain Organelles</h1>
+<ul>
+<li><p><strong>nucleus</strong>:</p>
+<ul>
+<li><p>location of most of the cell’s DNA and the site of DNA replication</p></li>
+<li><p>the site where gene transcription is turned on or off</p></li>
+<li><p><strong>nucleolus</strong>: a region within the nucleus</p>
+<ul>
+<li>where ribosomes begin to be assembled from RNA and proteins</li>
+</ul></li>
+</ul></li>
+<li><p>the nucleus is enclosed by <strong>nuclear envelope</strong>: an integrated structure composed of two membranes</p></li>
+<li><p>chromosomes: long, thin threads</p>
+<ul>
+<li>made up by chromatin: inside nucleus, DNA molecule + proteins</li>
+</ul></li>
+<li><p><strong>endomembrane system</strong>: interconnected system of membrane-enclosed compartments, includes:</p>
+<ul>
+<li><p>cell membrane</p></li>
+<li><p>nuclear envelope</p></li>
+<li><p>endoplasmic reticulum 内质网</p></li>
+<li><p>Golgi apparatus [细胞] 高尔基氏体; 内网器</p></li>
+<li><p>lysosomes 溶酶体</p></li>
+</ul></li>
+<li><p><strong>vesicles</strong> 囊: membrane-surrounded droplets</p>
+<ul>
+<li>shuttle substances between the various components of the endomembrane system</li>
+</ul></li>
+<li><p><strong>endoplasmic reticulum</strong> (ER) 内质网: networks of interconnected membranes branching throughout the cytoplasm</p>
+<ul>
+<li>forming tubes and flattened sacs</li>
+</ul></li>
+<li><p><strong>rough endoplasmic reticulum</strong> (RER) 带有核糖体的内质网: many ribosomes attached to the outer surface of the membrane, giving it a “rough” appearance in electron microscopy</p>
+<ul>
+<li><p>receives into its <strong>lumen</strong> 内腔 (管状器官内的空腔) certain newly synthesized proteins</p>
+<ul>
+<li><p>segregating them away from the cytoplasm</p></li>
+<li><p>participates in transporting these proteins to other locations in the cell</p></li>
+</ul></li>
+<li><p>proteins can be</p>
+<ul>
+<li><p>chemically modified to alter their functions</p></li>
+<li><p>“tag” them for delivery to specific cellular destinations</p></li>
+</ul></li>
+<li><p>proteins are sent to destinations elsewhere in the cell enclosed within vesicles that pinch off from the RER</p></li>
+<li><p>most membrane-bound proteins are made in the RER</p></li>
+<li><p><strong>glycoproteins</strong> 糖蛋白: some proteins become covalently linked to carbohydrate groups in the RER</p></li>
+</ul></li>
+<li><p><strong>smooth endoplasmic reticulum</strong> (SER) 平滑内质网: lacks ribosomes and is more tubular (and less like fattened sacs) than the RER, but shows continuity with portions of the RER</p>
+<ul>
+<li><p>responsible for the chemical modification of small molecules taken in by the cell that may be toxic to the cell</p>
+<ul>
+<li>make the targeted molecules more polar, so they are more water soluble and easily removed</li>
+</ul></li>
+<li><p>is the site for glycogen degradation in animal cells</p></li>
+<li><p>where lipids and steroids are synthesized, as well as some polysaccharides 多糖 in plant cells</p></li>
+<li><p>store calcium ions, released trigger numerous cell responses</p></li>
+</ul></li>
+<li><p><strong>Golgi apparatus</strong> 内网器, consists of two components: flattened membranous sacs called <strong>cisternae</strong> 潴泡 (singular cisterna) that are piled up like saucers, and small membrane-enclosed vesicles</p>
+<ul>
+<li><p>receives protein-containing vesicles from the RER</p></li>
+<li><p>modifies, concentrates, packages, and sorts proteins. before they are sent to their cellular or extracellular destinations</p></li>
+<li><p>adds carbohydrates to proteins</p></li>
+<li><p>modifies other carbohydrates that were attached to proteins in the RER</p></li>
+<li><p>where some polysaccharides for the plant cell wall are synthesized</p></li>
+<li><p>cuts certain large precursor proteins transferred from the RER into smaller, functional fragments</p></li>
+</ul></li>
+<li><p>3 functionally distinct regions (faces) of Golgi apparatus:</p>
+<ol type="1">
+<li>The <em>cis</em> face lies nearest to the nucleus or a patch of RER</li>
+<li>The <em>trans</em> face lies closest to the cell membrane</li>
+<li>The <em>medial</em> face lies in between</li>
+</ol></li>
+<li><p>primary lysosomes: originate from the Golgi apoparatus</p></li>
+<li><p>contain digestive enzymes</p></li>
+<li><p>the sites where <strong>macromolecule</strong>s (protein, polysaccharides, nucleic acids, lipids) are hydrolyzed into their monomers</p></li>
+<li><p><strong>phagocytosis</strong> 吞噬作用: a process of food, other cells, or foreign objects enter the cell</p></li>
+<li><p><strong>secondary lysosome</strong> [细胞][免疫] 次级溶酶体: phagosome 吞噬体 fuses with a primary lysosome to form a ~</p>
+<ul>
+<li><p>where digestion occurs</p></li>
+<li><p>there reactions are enhanced by the acidity of the lysosome’s interior</p></li>
+</ul></li>
+<li><p><strong>exocytosis</strong> (细胞生物学) 胞吐作用:</p>
+<ul>
+<li><p>the “used” secondary lysosome containing undigested particles</p></li>
+<li><p>moves to the cell membrane</p></li>
+<li><p>fuses with it, and releases the undigested contents to the environment</p></li>
+</ul></li>
+<li><p><strong>autophagy</strong> (生物学) 自噬: programmed destruction of cell components</p>
+<ul>
+<li>some cell components are continually being broken down and replaced by new ones</li>
+</ul></li>
+<li><p><strong>lysosomes</strong> 溶酶体:</p>
+<ul>
+<li><p>where the cell breaks down its own materials</p></li>
+<li><p>with the proper signal, lysosomes can engulf entire organelles, hydrolyzing their constituents</p></li>
+</ul></li>
+<li><p><strong>lysosomal storage diseases</strong>: caused by the failure of lysosomes to digest specific cellular components</p>
+<ul>
+<li><p>invariably harmful or fatal</p></li>
+<li><p>e.g.&nbsp;<strong>Tay-Sachs disease</strong> 黑蒙性家族性痴愚; 泰-萨二氏病</p>
+<ul>
+<li><p>a particular lipid called a <strong>ganglioside</strong> [生化] 神经节苷脂 is not broken down in the lysosomes</p></li>
+<li><p>instead accumulates in brain cells</p></li>
+<li><p>a baby starts exhibiting neurological symptoms and becomes blind, deaf, and unable to swallow after 6 months of age</p></li>
+<li><p>death occurs before age 4</p></li>
+</ul></li>
+</ul></li>
+<li><p>plant cells do not appear to contain lysosomes, but the <strong>vacuole</strong> [细胞] 液泡 of a plant cell may function in an equivalent capacity because it, like lysosomes, hydrolyzes macromolecules</p></li>
+<li><p>energy is harvested from</p>
+<ul>
+<li><p>fuel molecules in the <strong>mitochondria</strong> 线粒体 (<strong>mitochondrion</strong> 的复数)</p>
+<ul>
+<li>found in all eukaryotic cells</li>
+</ul></li>
+<li><p>sunlight in the <strong>chloroplast</strong>s 叶绿体 of plant cells\</p></li>
+</ul></li>
+<li><p>energy in biological systems is stored and transferred in the form of <u>covalent bonds</u> in organic molecules</p></li>
+<li><p>In eukaryotic cells, breakdown of energy-rich molecules sucha s glucose begins in the cytoplasm.</p></li>
+<li><p>mitochondria:</p>
+<ul>
+<li><p>harvests the chemical-bond energy of those molecules in a form that he cell can use</p></li>
+<li><p>namely the <u>energy-rich molecule</u> ATP (<strong>adenosine triphosphate</strong> 腺苷三磷酸)</p></li>
+<li><p>some can reproduce and divide independently of the central nucleus</p></li>
+<li><p>Cells that are <u>active in movement and growth</u> require the <u>most chemical-bond energy</u> and tend to have the <u>most mitochondria</u>.</p></li>
+</ul></li>
+<li><p>cellular respiration</p>
+<ul>
+<li><p>production of ATP in the mitochondria</p></li>
+<li><p>using fuel molecules and molecular oxygen (<span class="math inline">\(\ce{O2}\)</span>)</p></li>
+</ul></li>
+<li><p>Mitochondria have <u>two membranes</u>:</p>
+<ul>
+<li><p><strong>outer membrane</strong>:</p>
+<ul>
+<li><p>smooth</p></li>
+<li><p>permits the movement of substances into and out of the organelle</p></li>
+</ul></li>
+<li><p><strong>inner membrane</strong>:</p>
+<ul>
+<li><p>folds inward in many places</p></li>
+<li><p>has a surface area much greater tha nthat of the outer membrane</p></li>
+<li><p><strong>cristae</strong> 脊: shelflike structures</p></li>
+<li><p>exerts much more control over what enters and leaves the space it encloses than does the outer membrane</p></li>
+</ul></li>
+<li><p>large protein complexes embedded in the inner mitochondrial membrane</p>
+<ul>
+<li>participate tin cellular respiration</li>
+</ul></li>
+</ul></li>
+<li><p><strong>mitochondrial matrix</strong> 线粒体基质</p>
+<ul>
+<li><p>the space enclosed by the inner membrane</p></li>
+<li><p>contains <u>ribosomes and DNA</u> that are used to make some of the mitochondrial proteins needed for cellular respiration</p></li>
+</ul></li>
+<li><p><strong>plastid</strong>s 质体，色素体:</p>
+<ul>
+<li><p>occur only in the cells of plants and certain protists</p></li>
+<li><p>can divide independently of the cell nucleus</p></li>
+</ul></li>
+<li><p><strong>chloroplast</strong>s 叶绿体: <span class="math inline">\(\nwarrow\)</span> (one type of plastids)</p>
+<ul>
+<li><p>contain the green pigment <strong>chlorophyll</strong> 叶绿素</p></li>
+<li><p>are the sites of <strong>photosynthesis</strong></p>
+<ul>
+<li>light energy is converted into chemical-bond energy</li>
+</ul></li>
+<li><p>enclosed by two membranes</p></li>
+<li><p><strong>thylakoid</strong>s 类囊体: a series of internal membrane that often look like stacks of flat, hollow pita bread</p>
+<ul>
+<li><p>only 10% are <strong>phospholipid</strong>s 磷脂</p></li>
+<li><p>the rest are <strong>galactose-substituted diglyceride</strong>s 半乳糖取代的二甘油酯 and <strong>sulfolipid</strong>s 硫脂</p></li>
+<li><p>are the most abundant lipids in the biosphere</p></li>
+<li><p>the membranes of the thylakoids contain chlorophyll and other pigments taht harvest light energy for photosynthesis</p></li>
+</ul></li>
+<li><p>The thylakoids of one granum may be <u>connected to those of other grana</u>, making the interior of the chloroplast <u>a highly developed network</u>, much like the ER.</p></li>
+<li><p><strong>stroma</strong> 间质: the <u>fluid</u> in which the grana are suspended</p>
+<ul>
+<li><p>contains <u>ribosomes nad DNA</u></p>
+<ul>
+<li>used to synthasize some chloroplast polypeptides</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p><strong>chromoplast</strong> 色素母细胞 (another type of plastids)</p>
+<ul>
+<li><p><u>make and store red, yellow, and orange pigments</u></p></li>
+<li><p>especially in <u>flowers and fruits</u></p></li>
+</ul></li>
+<li><p><strong>leucoplast</strong>s [植] 白色体 (another type of plastids):</p>
+<ul>
+<li>storage organelles that <u>store starch</u></li>
+</ul></li>
+<li><p>3 other organelles whose <u>boundary membranes separate their specialized chemical reactions and contents</u> from the rest fo the cytoplasm: <strong>peroxisome</strong>s 过氧物酶体, <strong>glyoxysome</strong>s 糖体, and <strong>vacuole</strong>s 液泡.</p></li>
+<li><p><strong>peroxisome</strong> 过氧物酶体:</p>
+<ul>
+<li><p>found only in plants</p></li>
+<li><p>organelles that accumulate toxic peroxides</p>
+<ul>
+<li><p>e.g.&nbsp;hydrogen peroxide (<span class="math inline">\(\ce{H2O2}\)</span>): occur as byproducts of some biochemical reactions</p></li>
+<li><p>safely broken down inside the peroxisomes without mixing with other parts of the cell</p></li>
+<li><p><span class="math display">\[\ce{RH2 + O2 -&gt; R + H2O2 \text{(cellular reactions)}} \\
+\ce{2H2O2 -&gt; 2H2O + O2 \text{(inside peroxisome)}}\]</span></p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>glyoxysome</strong> 糖体:</p>
+<ul>
+<li><p>found only in plants</p></li>
+<li><p>most abundant in young plants</p></li>
+<li><p>they are the locations where stored lipids are converted into carbohydrates for transport to growing cells</p></li>
+<li><p>The direct conversion of fat to carbohydrate is unique to these plants.</p></li>
+</ul></li>
+<li><p><strong>vacuole</strong> 液泡:</p>
+<ul>
+<li><p>occur in many eukaryotic cells but particularly those of plants, fungi, and protists</p></li>
+<li><p>arise from the ER or Golgi apparatus</p></li>
+<li><p>structure:</p>
+<ul>
+<li><p>in many plant cells, ~ take up more than 90% of the cell volume</p></li>
+<li><p>grow as the cell grows</p></li>
+<li><p>presence of dissolved substances in the vacuole <u>causes water to enter it</u> from the cytosol, making the vacuole <u>swell like a balloon</u></p></li>
+<li><p>A <u>mature</u> plant cell does not swell when the vacuole fills with water, since it has a rigid cell wall.</p></li>
+<li><p>Instead, it stiffens 绷紧 from the increase in water pressure (called <strong>turgor</strong> (细胞组织的) 肿胀), and this supports the plant body.</p></li>
+</ul></li>
+<li><p>reproduction:</p>
+<ul>
+<li><p>~ contains some fo the pigments (especially blue and pink) in the petals and fruits of flowering plants</p></li>
+<li><p>these pigments – the <strong>anthocyanin</strong>s 花色素苷 – are <u>visual cues</u> that help attract animals that assist in <u>pollination</u> or <u>seed dispersal</u></p></li>
+</ul></li>
+<li><p>digestion:</p>
+<ul>
+<li><p>in some plants, ~ in seeds contain molecules that hydrolyze <u>stored proteins</u> into <u>monomers</u></p></li>
+<li><p>during <u>seed germination</u> 发芽, the monomers are used as <u>food</u> by the developing plant seedlings</p></li>
+</ul></li>
+<li><p>storage:</p>
+<ul>
+<li><p>storing water</p></li>
+<li><p>store toxic molecules and waste products</p></li>
+<li><p>they may be poisonous or distasteful, these stored materials deter some animals from eating the plants and contribute to <u>plant defense and survival</u></p></li>
+<li><p>e.g.&nbsp;<strong>tannin</strong>s 单宁酸: a class of <strong>polyphenol</strong>s 多元酚 (具有抗氧化作用), made in many plants; in <u>tea and red wine</u></p>
+<ul>
+<li><p>bitter taste deters predators</p></li>
+<li><p>dark color acts like animal melanin 黑色素 to protect the plant from ultraviolet light dmg</p></li>
+<li><p>made in the chloroplast and end up in the vacuole</p></li>
+<li><p>A newly disc9overed organelle, named tannosome 单宁体, contains tannins.</p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p><strong>cytoskeleton</strong> 细胞骨架:</p>
+<ul>
+<li><p>supports the cell and maintains its shape</p></li>
+<li><p>holds cell organelles and other particles in position within the cell</p></li>
+<li><p>moves organelles and other particles around in the cell</p></li>
+<li><p>involved with movements of the cytoplasm, called <strong>cytoplasmic streaming</strong> 细胞质流动</p></li>
+<li><p>interacts with extracellular structures, helping anchor 锚 the cell in place</p></li>
+</ul></li>
+<li><p><strong>microfilament</strong>s 微丝:</p>
+<ul>
+<li><p>can exist as single filaments, in bundles, or in networks</p></li>
+<li><p>about <span class="math inline">\(\pu{7nm}\)</span> in diameter and up to several micrometers long</p></li>
+<li><p>two major roles:</p>
+<ol type="1">
+<li>helpo the entire cell or parts of the cell move</li>
+<li>determine and stabilize cell shape</li>
+</ol></li>
+<li><p>assembled from monomers of <strong>actin</strong> 肌动蛋白: a protein that exists in several forms; has many function, especially in animals</p>
+<ul>
+<li><p>has distinct ends: designated “plus” and “minus”</p></li>
+<li><p>these ends permit actin monomers to interact with one another to form long, double-helical chains</p></li>
+<li><p>the polymerization of actin into microfilaments is reversible</p></li>
+<li><p>the microfilaments can disappear from cells by breaking down into monomers of free actin</p></li>
+<li><p>Special actin-binding proteins mediate these processes.</p></li>
+<li><p>in non-muscle cells, ~ filaments are associated with localized changes in cell shape</p>
+<ul>
+<li><p>e.g.&nbsp;cytoplasmic streaming: flowing movement of the cytoplasm</p></li>
+<li><p>e.g.&nbsp;amoeboid movement [细胞] 变形运动</p></li>
+<li><p>e.g.&nbsp;“pinching” contractions that divide an animal cell into two daughter cells</p></li>
+</ul></li>
+<li><p>involved in the formation of cellular extensions called <strong>pseudopodia</strong> 伪足: enables some cells to move</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>intermediate filament</strong>s 中间纤维</p>
+<ul>
+<li><p>at least 50 different kinds</p></li>
+<li><p>generally fall into six molecular classes that share the same general structure</p></li>
+<li><p>one of these classes consists of fibrous proteins fo the <u>keratin family</u>, which also includes the proteins that make up hair and fingernails</p></li>
+<li><p>tough, ropelike protein structures <span class="math inline">\(\pu{8-12nm}\)</span> in diametere</p></li>
+<li><p>more permanet tthatn the other two types in that they do not continually form and re-form</p></li>
+<li><p>two major structural functions:</p>
+<ol type="1">
+<li>anchor cell structures in place
+<ul>
+<li>radiate from the nuclear envelope and help maintain the position of the nucleus and other organelles in the cell</li>
+</ul></li>
+<li>resist tension
+<ul>
+<li><p>maintian rigidity in body surface tissues by stretching through the cytoplasm</p></li>
+<li><p>connecting specialized membrane structures called desmosomes 细胞桥粒 (上皮细胞膜中的局部增厚部份)</p></li>
+</ul></li>
+</ol></li>
+</ul></li>
+<li><p><strong>microtubules</strong> 微管: long, hollow, unbranched cylinders about <span class="math inline">\(\pu{25nm}\)</span> in diameter and up to several micrometers long</p>
+<ul>
+<li><p>two roles in the cell:</p>
+<ol type="1">
+<li>form a rigid internal skeleton for some cells</li>
+<li>act as a framework along which motor proteins can move structures within the cell</li>
+</ol></li>
+<li><p>Microtubule = chain of dimers</p></li>
+<li><p><strong>dimer</strong> 二聚物 = <span class="math inline">\(\alpha\)</span>-tubulin 微管蛋白 + <span class="math inline">\(\beta\)</span>-tubulin (paired)</p></li>
+<li><p><span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span> = two similar proteins</p></li>
+<li><p>One dimer → next dimer → tube grows</p></li>
+<li><p>Thirteen chains of tubulin doublets surround the central cavity of hte microtubule.</p></li>
+<li><p><span class="math display">\[\ce{\alpha-tubulin + \beta-tubulin -&gt; \alpha\beta doublet -&gt; polymer of doublets (microtubule)}\]</span></p></li>
+<li><p>the two ends of a microtubule are different: one is designated the “plus” end and the other the “minus” end.</p></li>
+<li><p>Tubulin dimers can be rapidly added or subtracted, mainly at the plus end, lengthening or shortening the microtubule.</p></li>
+<li><p><span class="math display">\[\text{Microtubules} \leftrightarrow \text{tubulin doublets}\]</span></p></li>
+<li><p>The capacity to <u>change length rapidly</u> makes microtubules dynamic structures: they are <u>readily adapted for new purposes</u> in the cell.</p></li>
+<li><p>e.g.&nbsp;by disassembly 分解 and reassembly 重组, they can drag along substances attached to them</p></li>
+<li><p>In plants, microtubules act as a framework for the assembly of cellulose and help orient the cellulose fibers of the cell wall.</p></li>
+</ul></li>
+<li><p>motor proteins: specialized molecules that use cellular energy to change their shapes and move</p>
+<ul>
+<li><p>bind to and move along the microtubules, carrying materials from one part of the cell to another</p></li>
+<li><p>two main types of motor proteins:</p>
+<ol type="1">
+<li><strong>kinesins</strong> 驱动蛋白: move materials toward the “plus” end</li>
+<li><strong>dyneins</strong> 动力蛋白: move materials toward the “minus” end</li>
+</ol></li>
+</ul></li>
+<li><p>microtubules and their associated proteins line the interior of <strong>cilia</strong> 纤毛 and <strong>flagella</strong> 鞭毛 on eukaryotic cells</p>
+<ul>
+<li>many cells have one or the other of these appendages, which form from projections of the cell membrane</li>
+</ul></li>
+<li><p><strong>cilia</strong>: <span class="math inline">\(\pu{0.25\mu m}\)</span> in length</p>
+<ul>
+<li>They occur by the hundreds on individual cells and move stiffly to either <u>propel the cell</u> (i.e.&nbsp;in protists 原生生物) or to <u>move fluid over a stationary cell</u> (i.e.&nbsp;in the human respiratory system)</li>
+</ul></li>
+<li><p><strong>flagella</strong>: longer, <span class="math inline">\(\pu{100}\)</span> to <span class="math inline">\(\pu{200\mu m}\)</span></p>
+<ul>
+<li><p>occur <u>singly or in pairs</u></p></li>
+<li><p>can <u>push or pull a cell</u> through its <u>aqueous environment</u></p></li>
+</ul></li>
+<li><p>In cell biology, two approaches are often used to show that a structure or process A causes function B:</p>
+<ol type="1">
+<li><strong>Inhibition</strong>: Use a drug thta inhibits A and see if B still occurs. If it does not, then A is probably a causative factor for B.</li>
+<li><strong>Mutation</strong>: Examine a cell that lacks the gene (or genes) for A and see if B still occurs. If it does not, then A is probably a causative factor for B.</li>
+</ol></li>
+</ul>
+<section id="extracellular-materials-provide-structure" class="level2">
+<h2 class="anchored" data-anchor-id="extracellular-materials-provide-structure">5.4 Extracellular Materials Provide Structure</h2>
+<section id="the-plant-cell-wall-provides-structure-and-protection" class="level3">
+<h3 class="anchored" data-anchor-id="the-plant-cell-wall-provides-structure-and-protection">The plant cell wall provides structure and protection</h3>
+<p>3 major roles of plant cell wall</p>
+<ol type="1">
+<li>provides <u>support</u> for the cell and plant by remaining <u>rigid</u>
+<ul>
+<li><u>flexible</u> enough that it can allow the plant to bend in the wind</li>
+</ul></li>
+<li>acts as a <u>barrier</u> to infection by <u>fungi and other organisms</u> that can cause <u>plant diseases</u></li>
+<li>contributes to plant form by <u>growing as the plant cells expand</u></li>
+</ol>
+<p>Cytoplasms of adjacent plant cells are connected by numerous cell membrane-lined channels called <strong>plasmodesmata</strong> (plasmodesma) 胞间连丝, about <span class="math inline">\(\pu{20-40\mu m}\)</span></p>
+</section>
+<section id="the-extracellular-matrix-细胞外基质-supports-tissue-functions-in-animals" class="level3">
+<h3 class="anchored" data-anchor-id="the-extracellular-matrix-细胞外基质-supports-tissue-functions-in-animals">The extracellular matrix 细胞外基质 supports tissue functions in animals</h3>
+<p>Many animal cells are surrounded by, or in contact with an <strong>extracellular matrix</strong> 细胞外基质.</p>
+<blockquote class="blockquote">
+<p>细胞外基质：由特定类型的细胞产生但不是细胞的部分：为细胞提供支持并常作为组织的共同成分之一，尤其是结缔组织。</p>
+</blockquote>
+<p>This matrix is composed of three types of molecules:</p>
+<ol type="1">
+<li>fibrous proteins such as <strong>collagen</strong> 胶原质
+<ul>
+<li><strong>collagen</strong>: the most abundant protein in <u>mammals</u>, constituting <u>over 25% of the protein</u> in the <u>human body</u></li>
+</ul></li>
+<li>a matrix of glycoproteins 糖蛋白 termed <strong>proteoglycans</strong> 蛋白聚糖, consisting primarily of sugars</li>
+<li>a third group of proteins that <u>link the fibrous proteins and the gel-like proteoglycan matrix</u> together</li>
+</ol>
+<p>Several functions of extracellular matrix:</p>
+<ul>
+<li><p><u>holds cells together</u> in tissues</p></li>
+<li><p>contributes to the <u>physical properties of cellular aggregates</u> called <strong>tissue</strong>s</p>
+<ul>
+<li><p><strong>Cartilage</strong> 软骨 and bone are part of connective tissue.</p></li>
+<li><p>e.g.&nbsp;The mineral component of bone is laid down on an organized extracellular matix.</p>
+<ul>
+<li>In tissue engineering, cells are removed from the extracellular matrix and the latter serves as a scaffold for the development of new organs with the correct architecture.</li>
+</ul></li>
+</ul></li>
+<li><p>helps filter materials passing between different tissues</p>
+<ul>
+<li>e.g.&nbsp;especially important in the kidney</li>
+</ul></li>
+<li><p>helps orient cell movements during <u>embryonic development</u> and during <u>tissue repair</u></p></li>
+<li><p>plays a role in <u>chemical signaling</u> from one cell to another</p>
+<ul>
+<li><p>Proteins connect the cell’s cell membrane to the extracellular matrix.</p></li>
+<li><p>These <u>proteins</u> (e.g.&nbsp;<strong>integrin</strong> 整合蛋白) <u>span the cell membrane</u> and are involved with <u>transmitting signals</u> to the <u>interior of the cell</u>.</p></li>
+<li><p>This allows <u>communication</u> between the <u>extracellular matrix</u> and the <u>cytoplasm</u> of the cell.</p></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="eukaryotic-cells-evolved-in-several-steps" class="level2">
+<h2 class="anchored" data-anchor-id="eukaryotic-cells-evolved-in-several-steps">5.5 Eukaryotic Cells Evolved in Several Steps</h2>
+<p>The first life on Earth was prokaryotic.</p>
+<ul>
+<li><strong>Prokaryotes</strong> are <u>simple cells without a nucleus</u>, like bacteria.</li>
+</ul>
+<p>For about <u>1 billion years</u>, only prokaryotes existed on Earth.</p>
+<p>This period started when prokaryotic cells first appeared.</p>
+<p>It lasted until about 2.7 billion years ago.</p>
+<p>At 2.7 billion years ago, the first evidence of eukaryotic cells appears in ancient rocks.</p>
+<ul>
+<li><strong>Eukaryotes</strong> are <u>complex cells with a nucleus</u> – the ancestors of plants and animals.</li>
+</ul>
+<p>A single prokaryotic cell is often biochemically specialized, limited in the resources it can use and the functions it can perform.</p>
+<section id="internal-membranes-and-the-nuclear-envelope-probably-came-from-the-cell-membrane" class="level3">
+<h3 class="anchored" data-anchor-id="internal-membranes-and-the-nuclear-envelope-probably-came-from-the-cell-membrane">Internal membranes and the nuclear envelope probably came from the cell membrane</h3>
+<p>theory: the endomembrane system and the cell nucleus originated by related processes</p>
+<p>A bacterium with enclosed compartments would have several <u>evolutionary advantages</u>.</p>
+<p><u>Chemicals</u> could be concentrated in <u>particular regions</u> of the cell, allowing chemical reactions to proceed more <u>efficiently</u>.</p>
+<p>A biochemical process could be segregated within an organelle with, for example, a different pH from the rest of the cell, creating more favorable conditions for that process.</p>
+<p><u>DNA transcription</u> could be <u>separated from translation</u>, providing more opportunities for <u>separate control</u> of these steps in <u>gene expression</u>.</p>
+</section>
+<section id="some-organelles-arose-by-endosymbiosis" class="level3">
+<h3 class="anchored" data-anchor-id="some-organelles-arose-by-endosymbiosis">Some organelles arose by endosymbiosis</h3>
+<p><strong>Symbiosis</strong> 共生 means “living together,” and often refers to two organisms that coexist, each one supplying something that the other needs.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

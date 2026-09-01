@@ -1,7 +1,16 @@
 project:
-  title: "BIO-123-Preview-Note"
+  type: website
+  output-dir: docs
 
-editor: visual
+website:
+  title: "BIO 123 Notes"
+  sidebar:
+    style: "docked"
+    contents:
+      - index.qmd
+      - section: "Part 1: Science of Life"
+        contents:
+          - chapters/Chapter-5.qmd
 
 format:
   html:

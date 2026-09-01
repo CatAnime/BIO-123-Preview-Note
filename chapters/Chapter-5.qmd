@@ -1,8 +1,9 @@
 ---
-title: "Chapter 5 Cells: The Working Units of Life"
 format: html
 toc: true
 ---
+
+# Chapter 5 Cells: The Working Units of Life
 
 ## 5.1 Cells Are the Fundamental Units of Life
 
@@ -606,4 +607,12 @@ theory: the endomembrane system and the cell nucleus originated by related proce
 
 A bacterium with enclosed compartments would have several [evolutionary advantages]{.underline}.
 
-- Chemicals could be concentrated in particular regions of the cell, allowing chemical reactions to proceed more efficiently.
+[Chemicals]{.underline} could be concentrated in [particular regions]{.underline} of the cell, allowing chemical reactions to proceed more [efficiently]{.underline}.
+
+A biochemical process could be segregated within an organelle with, for example, a different pH from the rest of the cell, creating more favorable conditions for that process.
+
+[DNA transcription]{.underline} could be [separated from translation]{.underline}, providing more opportunities for [separate control]{.underline} of these steps in [gene expression]{.underline}.
+
+### Some organelles arose by endosymbiosis
+
+**Symbiosis** 共生 means "living together," and often refers to two organisms that coexist, each one supplying something that the other needs.

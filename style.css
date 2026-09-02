@@ -40,6 +40,81 @@ body { font-size: var(--text-base); }
 p { font-size: var(--text-base); }
 small, .caption { font-size: var(--text-sm); }
 
+/* ========================================
+   Definition
+   ======================================== */
+
+.definition {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #8b6bbd;
+  border-radius: 6px;
+  background-color: #f6f1fb;
+}
+
+/* 没有自定义 title */
+.definition:not([title])::before {
+  content: "◆  Definition";
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #68469b;
+}
+
+/* 有自定义 title */
+.definition[title]::before {
+  content: "◆  Definition — " attr(title);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #68469b;
+}
+
+.definition > :last-child {
+  margin-bottom: 0;
+}
+
+
+/* ========================================
+   Example
+   ======================================== */
+
+.example {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #65a87a;
+  border-radius: 6px;
+  background-color: #f0f8f2;
+}
+
+.example:not([title])::before {
+  content: "●  Example";
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #39764d;
+}
+
+.example[title]::before {
+  content: "●  Example — " attr(title);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #39764d;
+}
+
+.example > :last-child {
+  margin-bottom: 0;
+}
+
+/* ----- picture ----- */
+
+.img-border {
+  border: 1px solid black;
+}
+
+/* ----- other ----- */
+
 body {
   background-color: var(--background-color);
   color: var(--main-font-color);

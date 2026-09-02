@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BIO 123 Notes</title>
+<title>chapter-6 – BIO 123 Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,11 +67,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="nav-sidebar docked fullcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,7 +109,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Part 1 The Science of Life and Its Chemical Basis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      BIO 123 Notes
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -95,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">BIO 123 Notes</a> 
+      <a href="../">BIO 123 Notes</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -107,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Part 1 The Science of Life and Its Chemical Basis</span></a>
   </div>
 </li>
@@ -122,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Chapter-5.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Chapter-5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chapter 5 Cells: The Working Units of Life</span></a>
   </div>
 </li>
@@ -133,21 +164,136 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chapter-6-cell-membranes" id="toc-chapter-6-cell-membranes" class="nav-link active" data-scroll-target="#chapter-6-cell-membranes">Chapter 6 Cell Membranes</a>
+  <ul class="collapse">
+  <li><a href="#biological-membranes" id="toc-biological-membranes" class="nav-link" data-scroll-target="#biological-membranes">6.1 Biological Membranes</a>
+  <ul class="collapse">
+  <li><a href="#lipids-form-the-hydrophobic-core-of-hte-membrane" id="toc-lipids-form-the-hydrophobic-core-of-hte-membrane" class="nav-link" data-scroll-target="#lipids-form-the-hydrophobic-core-of-hte-membrane">Lipids form the hydrophobic core of hte membrane</a></li>
+  <li><a href="#membrane-proteins-are-asymmetrically-distributed" id="toc-membrane-proteins-are-asymmetrically-distributed" class="nav-link" data-scroll-target="#membrane-proteins-are-asymmetrically-distributed">Membrane proteins are asymmetrically distributed</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="part-1-the-science-of-life-and-its-chemical-basis" class="level1">
-<h1>Part 1 The Science of Life and Its Chemical Basis</h1>
+<section id="chapter-6-cell-membranes" class="level1">
+<h1>Chapter 6 Cell Membranes</h1>
+<section id="biological-membranes" class="level2">
+<h2 class="anchored" data-anchor-id="biological-membranes">6.1 Biological Membranes</h2>
 <ul>
-<li><p><a href="./chapters/Chapter-5.html">Chapter 5 Cells: The Working Units of Life</a></p></li>
-<li><p><a href="./chapters/Chapter-6.html">Chapter 6 Cell Membranes</a></p></li>
+<li><p><strong>fluid mosaic model</strong> 流动镶嵌模型: the phospholipid bilayer serves as a lipid “lake” in which a variety of proteins “float”</p>
+<ul>
+<li><p>“mosaid” because it is made up of many discrete components</p></li>
+<li><p>“fluid” because components can move freely</p></li>
+</ul></li>
 </ul>
+<section id="lipids-form-the-hydrophobic-core-of-hte-membrane" class="level3">
+<h3 class="anchored" data-anchor-id="lipids-form-the-hydrophobic-core-of-hte-membrane">Lipids form the hydrophobic core of hte membrane</h3>
+<div class="definition" title="phospholipids 磷脂">
+<p>the major lipid components of biological membranes</p>
+</div>
+<ul>
+<li><p>phospholipids:</p>
+<ul>
+<li><p>form thin bilayers</p></li>
+<li><p>with their charged, hydrophilic “heads” on the external surface interacting with the aqueous environment</p></li>
+<li><p>nonpolar, fatty acid “tails” interacting with each other on the inside of hte membrane</p></li>
+</ul></li>
+<li><p>thickness of a biological membrane is about 8nm ($ $), about 2 times of a phospholid $ $ bilayer</p></li>
+<li><p>membranes from different organelles within a cell may vary greatly in their lipid composition, e.g., differ in:</p>
+<ul>
+<li><p>fatty acid chain length (number of carbon atoms)</p></li>
+<li><p>degree of unsaturation (number of double bonds) in the fatty acids</p></li>
+<li><p>the polar groups present</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../z_Assets/6-1-1.png" class="img-border img-fluid figure-img"></p>
+<figcaption>The Fluid Mosaic Model<br>The general molecular structure of a biological membran eis a continuous phospholipid bilayer that has proteins embeded in or associated wiht it.</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Anchored membrane proteins</strong> are <u>covalently bonded</u> to lipids that are inserted into the membrane.</li>
+</ul>
+<div class="definition" title="__peripheral membrane protein__ 周边膜蛋白">
+<p>一类与细胞膜表面相互作用的蛋白质，不像跨膜蛋白那样穿过脂质双层，而是通过与脂质双层或其他膜蛋白的相互作用而附在膜上。</p>
+</div>
+<ul>
+<li><p>Cholesterol 胆固醇 alters membrane fluidity</p>
+<ul>
+<li><p>The saturated chains allow close packing of fatty acids in hte bilayer.</p></li>
+<li><p>The “kinks” 扭结 in unsaturated fatty acids make for a less dense, more fluid packing.</p></li>
+</ul></li>
+<li><p>The <strong>steroid cholesterol</strong> 类固醇 is an abundant component (20%-50%) of animal cell membranes.</p>
+<ul>
+<li><p>The hydroxyl group of cholesterol interacts with the polar eneds of phospholipids, and the nonpolar rings and hydrocarbon chain insert into the fatty acids chains in the interior of the membrane.</p></li>
+<li><p>Cholesterol is important for <u>membrane integrity</u> 完整性 and modulates <u>membrane fluidity</u>.</p></li>
+<li><p>The cholestrol in your <u>membranes</u> is not hazardous 有害的 to your health.</p></li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>胆固醇本身无问题，但位置和运输方式很重要。</p>
+<ul>
+<li><p>在 cell membrane 里， 正常 &amp; 必须</p></li>
+<li><p>在血液里，不溶于水，必须搭乘 <strong>lipoproteins</strong> 脂蛋白运输</p>
+<ul>
+<li><p>LDL “bad cholesterol”</p></li>
+<li><p>HDL “good cholesterol”</p></li>
+</ul></li>
+<li><p>LDL <span class="math inline">\(\Uparrow\)</span>, 容易把胆固醇沉积到血管壁</p>
+<ul>
+<li>时间 <span class="math inline">\(\Uparrow\)</span>, atherosclerotic plaques 动脉粥样硬化斑块</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<ul>
+<li><p>Since spontaneous phospholipid flip-flops are rare, the inner and outer halves of the bilayer may be quite different in the kinds of phospholipids they contain.</p></li>
+<li><p>2 particularly important factors affects <u>membrane fluidity</u>:</p>
+<ol type="1">
+<li>Lipid composition:</li>
+</ol>
+<ul>
+<li><p><u>Cholesterol</u> and <u>long-chain, saturated fatty acids</u>, pack tightly beside on another, with little room for movement</p></li>
+<li><p>This close packing results in <u>less fluid membranes</u>.</p></li>
+<li><p>A membrane with <u>shorter-chain</u> fatty acids, unsaturated fatty acids, or less cholesterol is <u>more fluid</u>.</p></li>
+</ul>
+<ol start="2" type="1">
+<li>Temperature</li>
+</ol>
+<ul>
+<li><p>At <span class="math inline">\(\Downarrow\)</span> Temperature, molecuels move more slowly and fluidity decreases at reduced temperatures <span class="math inline">\(\Longrightarrow\)</span> cellular processes that take place within the membrane may slow down or stop under cold conditions in organisms that cannot keep their bodies warm.</p></li>
+<li><p>In some organisms the lipid composition of their membranes changes when they get cold, replacing saturated with unsaturated fatty acids and using fatty acids with shorter tails.</p></li>
+<li><p>Theses changes play a role in the survival of plants, bacteria, and hibernating animals during the winter.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="membrane-proteins-are-asymmetrically-distributed" class="level3">
+<h3 class="anchored" data-anchor-id="membrane-proteins-are-asymmetrically-distributed">Membrane proteins are asymmetrically distributed</h3>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

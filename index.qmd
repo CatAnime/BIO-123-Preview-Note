@@ -1,3 +1,5 @@
 # Part 1 The Science of Life and Its Chemical Basis
 
 - [Chapter 5 Cells: The Working Units of Life](chapters/Chapter-5.qmd)
+
+- [Chapter 6 Cell Membranes](chapters/Chapter-6.qmd)

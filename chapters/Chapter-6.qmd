@@ -1,0 +1,101 @@
+---
+format: html
+toc: true
+---
+
+# Chapter 6 Cell Membranes
+
+## 6.1 Biological Membranes
+
+- __fluid mosaic model__ 流动镶嵌模型: the phospholipid bilayer serves as a lipid "lake" in which a variety of proteins "float"
+
+  - "mosaid" because it is made up of many discrete components
+  
+  - "fluid" because components can move freely
+  
+### Lipids form the hydrophobic core of hte membrane
+
+:::{.definition title = "phospholipids 磷脂"}
+the major lipid components of biological membranes
+:::
+
+- phospholipids:
+  
+  - form thin bilayers
+  
+  - with their charged, hydrophilic "heads" on the external surface interacting with the aqueous environment
+  
+  - nonpolar, fatty acid "tails" interacting with each other on the inside of hte membrane
+  
+- thickness of a biological membrane is about 8nm ($ \pu{0.0008\mu m} $), about 2 times of a phospholid $ \Longrightarrow $ bilayer
+
+- membranes from different organelles within a cell may vary greatly in their lipid composition, e.g., differ in:
+
+  - fatty acid chain length (number of carbon atoms)
+  
+  - degree of unsaturation (number of double bonds) in the fatty acids
+  
+  - the polar groups present
+  
+![The Fluid Mosaic Model<br>The general molecular structure of a biological membran eis a continuous phospholipid bilayer that has proteins embeded in or associated wiht it.](../z_Assets/6-1-1.png){.img-border}
+
+- __Anchored membrane proteins__ are [covalently bonded]{.underline} to lipids that are inserted into the membrane.
+
+:::{.definition title = "peripheral membrane protein 周边膜蛋白"}
+一类与细胞膜表面相互作用的蛋白质，不像跨膜蛋白那样穿过脂质双层，而是通过与脂质双层或其他膜蛋白的相互作用而附在膜上。
+:::
+
+- Cholesterol 胆固醇 alters membrane fluidity
+  
+  - The saturated chains allow close packing of fatty acids in the bilayer.
+  
+  - The "kinks" 扭结 in unsaturated fatty acids make for a less dense, more fluid packing.
+  
+- The __steroid cholesterol__ 类固醇 is an abundant component (20%-50%) of animal cell membranes.
+  
+  - The hydroxyl group of cholesterol interacts with the polar eneds of phospholipids, and the nonpolar rings and hydrocarbon chain insert into the fatty acids chains in the interior of the membrane.
+  
+  - Cholesterol is important for [membrane integrity]{.underline} 完整性 and modulates [membrane fluidity]{.underline}.
+  
+  - The cholestrol in your [membranes]{.underline} is not hazardous 有害的 to your health.
+  
+:::{.callout-note}
+
+胆固醇本身无问题，但位置和运输方式很重要。
+
+- 在 cell membrane 里， 正常 & 必须
+
+- 在血液里，不溶于水，必须搭乘 __lipoproteins__ 脂蛋白运输
+
+  - LDL "bad cholesterol"
+  
+  - HDL "good cholesterol"
+
+- LDL $\Uparrow$, 容易把胆固醇沉积到血管壁
+
+  - 时间 $\Uparrow$, atherosclerotic plaques 动脉粥样硬化斑块
+:::
+
+- Since spontaneous phospholipid flip-flops are rare, the inner and outer halves of the bilayer may be quite different in the kinds of phospholipids they contain.
+
+- 2 particularly important factors affects [membrane fluidity]{.underline}:
+
+  1. Lipid composition:
+    
+    - [Cholesterol]{.underline} and [long-chain, saturated fatty acids]{.underline}, pack tightly beside on another, with little room for movement
+    
+    - This close packing results in [less fluid membranes]{.underline}.
+    
+    - A membrane with [shorter-chain]{.underline} fatty acids, unsaturated fatty acids, or less cholesterol is [more fluid]{.underline}.
+  
+  2. Temperature
+    
+    - At $\Downarrow$ Temperature, molecuels move more slowly and fluidity decreases at reduced temperatures $\Longrightarrow$ cellular processes that take place within the membrane may slow down or stop under cold conditions in organisms that cannot keep their bodies warm.
+    
+    - In some organisms the lipid composition of their membranes changes when they get cold, replacing saturated with unsaturated fatty acids and using fatty acids with shorter tails.
+    
+    - Theses changes play a role in the survival of plants, bacteria, and hibernating animals during the winter.
+    
+### Membrane proteins are asymmetrically distributed
+    
+    

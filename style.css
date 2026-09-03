@@ -1,3 +1,7 @@
+/* ========================================
+   Imports
+   ======================================== */
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
@@ -7,6 +11,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
 
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css');
+
+
+/* ========================================
+   Variables
+   ======================================== */
 
 :root {
   /* font size */
@@ -28,9 +37,24 @@
   --background-color: #FFFFFF;
   --title-color: #966327;
   --rt-color: #666;
+  
+  /* practice box theme */
+  --practice-border-color: #FFDB58;
+  --practice-bg-color: #FDF0A6;
+  --practice-title-color: #CC7722;
+  
+  /* left margin */
+  --left-brace-color: #85a9c1;
+  --up-arrow-color: #ff5050;
 }
 
-/* font sizes */
+
+/* ========================================
+   Global Typography
+   ======================================== */
+
+/* ----- font sizes ----- */
+
 h1 { font-size: var(--text-5xl); }
 h2 { font-size: var(--text-4xl); }
 h3 { font-size: var(--text-3xl); }
@@ -40,80 +64,7 @@ body { font-size: var(--text-base); }
 p { font-size: var(--text-base); }
 small, .caption { font-size: var(--text-sm); }
 
-/* ========================================
-   Definition
-   ======================================== */
-
-.definition {
-  margin: 1rem 0;
-  padding: 0.8rem 1rem;
-  border-left: 5px solid #8b6bbd;
-  border-radius: 6px;
-  background-color: #f6f1fb;
-}
-
-/* 没有自定义 title */
-.definition:not([title])::before {
-  content: "◆  Definition";
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  color: #68469b;
-}
-
-/* 有自定义 title */
-.definition[title]::before {
-  content: "◆  Definition — " attr(title);
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  color: #68469b;
-}
-
-.definition > :last-child {
-  margin-bottom: 0;
-}
-
-
-/* ========================================
-   Example
-   ======================================== */
-
-.example {
-  margin: 1rem 0;
-  padding: 0.8rem 1rem;
-  border-left: 5px solid #65a87a;
-  border-radius: 6px;
-  background-color: #f0f8f2;
-}
-
-.example:not([title])::before {
-  content: "●  Example";
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  color: #39764d;
-}
-
-.example[title]::before {
-  content: "●  Example — " attr(title);
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  color: #39764d;
-}
-
-.example > :last-child {
-  margin-bottom: 0;
-}
-
-/* ----- picture ----- */
-
-.img-border {
-  border: 1px solid black;
-}
-
-/* ----- other ----- */
+/* ----- body & headings ----- */
 
 body {
   background-color: var(--background-color);
@@ -148,6 +99,234 @@ body, h1, h2, h3, h4, h5, h6 {
   /* font-family: "Pinyon Script", cursive; */
 }
 
+
+/* ========================================
+   Decorative Blocks
+   ======================================== */
+
+/* ----- Brace Right ----- */
+
+.brace-right {
+  position: relative;
+  padding-right: 2.5rem;
+}
+
+/* 用 SVG 绘制可自动伸缩的大括号 */
+.brace-right::after {
+  content: "";
+  position: absolute;
+
+  /* 大括号的位置 */
+  right: 0.5rem;
+  top: 0;
+  bottom: 0;
+
+  width: 1.2rem;
+
+  /* SVG brace */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 100' preserveAspectRatio='none'%3E%3Cpath d='M2 0 C14 0 14 8 14 18 L14 38 C14 47 18 50 20 50 C18 50 14 53 14 62 L14 82 C14 92 14 100 2 100' fill='none' stroke='%2385a9c1' stroke-width='2' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  pointer-events: none;
+}
+
+/* ----- Brace Left ----- */
+
+.brace-left {
+  position: relative;
+}
+
+/* 整个方括号 */
+.brace-left::before {
+  content: "";
+  position: absolute;
+
+  /* 放进左侧 margin */
+  left: -1.3rem;
+
+  top: 0;
+  bottom: 0;
+
+  width: 1rem;
+
+  border-left: 2px solid var(--left-brace-color);
+  border-top: 2px solid var(--left-brace-color);
+  border-bottom: 2px solid var(--left-brace-color);
+
+  pointer-events: none;
+}
+
+/* ----- Side Arrow ----- */
+
+.side-arrow-up {
+  position: relative;
+}
+
+/* 左边竖线 + 底部横线 */
+.side-arrow-up::before {
+  content: "";
+  position: absolute;
+
+  left: -1.3rem;
+  top: 2rem;
+  bottom: 1rem;
+
+  width: 1.3rem;
+
+  border-left: 3px solid var(--up-arrow-color);
+  border-bottom: 3px solid var(--up-arrow-color);
+
+  border-radius: 0 0 0 3px;
+
+  pointer-events: none;
+}
+
+/* 顶部 → 箭头 */
+.side-arrow-up::after {
+  content: "";
+  position: absolute;
+
+  left: -1.3rem;
+  top: 1.65rem;
+
+  width: 2.1rem;
+  height: 0.8rem;
+
+  background: var(--up-arrow-color);
+
+  clip-path: polygon(
+    0 40%,
+    72% 40%,
+    72% 0,
+    100% 50%,
+    72% 100%,
+    72% 60%,
+    0 60%
+  );
+
+  pointer-events: none;
+}
+
+
+/* ========================================
+   Custom Callouts
+   ======================================== */
+
+/* ----- Definition ----- */
+
+.definition {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #8b6bbd;
+  border-radius: 6px;
+  background-color: #f6f1fb;
+}
+
+/* 没有自定义 title */
+.definition:not([title])::before {
+  content: "◆  Definition";
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: #68469b;
+}
+
+/* 有自定义 title */
+.definition[title]::before {
+  content: "◆  Definition — " attr(title);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: #68469b;
+}
+
+.definition > :last-child {
+  margin-bottom: 0;
+}
+
+/* ----- Example ----- */
+
+.example {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #65a87a;
+  border-radius: 6px;
+  background-color: #f0f8f2;
+}
+
+.example:not([title])::before {
+  content: "●  Example";
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: #39764d;
+}
+
+.example[title]::before {
+  content: "●  Example — " attr(title);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: #39764d;
+}
+
+.example > :last-child {
+  margin-bottom: 0;
+}
+
+/* ----- Practice ----- */
+
+.practice {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid var(--practice-border-color);
+  border-radius: 6px;
+  background-color: var(--practice-bg-color);
+}
+
+.practice:not([title])::before {
+  content: "●  Practice";
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: var(--practice-title-color);
+}
+
+.practice[title]::before {
+  content: "●  Practice — " attr(title);
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  font-weight: bold;
+  color: var(--practice-title-color);
+}
+
+.practice > :last-child {
+  margin-bottom: 0;
+}
+
+
+/* ========================================
+   Inline Text Styles
+   ======================================== */
+
+/* ----- Highlight ----- */
+
+.highlight {
+  background: var(--highlight-color);
+  border-radius: 8px;
+  padding: 2px 1px;
+}
+
+/* ----- Bold / Underline / Ruby ----- */
+
 strong, b {
     font-weight: 1500;
     background-color: #AF999B4D;
@@ -177,9 +356,20 @@ rt {
 }
 
 
-/* ---------------------------------
-   Bookmark card
---------------------------------- */
+/* ========================================
+   Images
+   ======================================== */
+
+.img-border {
+  border: 1px solid black;
+}
+
+
+/* ========================================
+   Bookmark Card
+   ======================================== */
+
+/* ----- Card container ----- */
 
 .bookmark-card {
     display: flex;
@@ -209,10 +399,6 @@ rt {
     transform: translateY(-1px);
 }
 
-
-/* ---------------------------------
-   Left text area
---------------------------------- */
 
 .bookmark-left {
     flex: 1 1 auto;
@@ -301,10 +487,6 @@ rt {
 }
 
 
-/* ---------------------------------
-   Right preview image
---------------------------------- */
-
 .bookmark-right {
     flex: 0 0 220px;
     width: 220px;
@@ -328,10 +510,6 @@ rt {
     object-position: center;
 }
 
-
-/* ---------------------------------
-   Narrow window / mobile
---------------------------------- */
 
 @media (max-width: 700px) {
     .bookmark-card {

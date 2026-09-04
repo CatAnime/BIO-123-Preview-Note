@@ -49,6 +49,12 @@ toc: true
     
     - $\Uparrow$ T = $\Uparrow$ fluidity
 
+:::{.callout-warning}
+
+顺式双键（cis）才会造成"折弯", 反式脂肪酸（trans）虽然是"不饱和", 但结构接近直链, 实际上会降低流动性。
+
+:::
+
 ### Types of Membrane Proteins
 
 - [integral proteins]{.highlight}: embedded in bilayer, have hydrophilic and hydrophobic domains

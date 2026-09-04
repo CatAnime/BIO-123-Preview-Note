@@ -1,0 +1,57 @@
+---
+title: "Chapter-7"
+toc: true
+---
+
+# Chapter 7: Cell Communication and Multicellularity
+
+---
+
+## Signal Transduction Pathway 信号转导通路
+
+- a sequence of molecular events and chemical reactions that lead to a cell's response to a signal
+
+- every pathway involves three elements
+  
+  - signal 信号
+  
+  - receptor 受体
+  
+  - response 响应
+
+### Types of Chemical Signals 化学信号类型
+
+| Signal Type | Mode of Action | Example |
+| ----- | ----- | ----- |
+| [autocrine]{.highlight} 自分泌 | diffuse to and affect the cells that produce them | tumor cells that make and respond to signals stimulating cell division |
+| [juxtacrine]{.highlight} 领分泌/接触依赖 | affect only cells right next to and in contact with the signal-producing cell | common during development when cells are differentiating |
+| [paracrine]{.highlight} 旁分泌 | diffuse to and affect nearby cells | inflammation signals from skin cells to nearby blood cells during healing |
+| [hormones]{.highlight} 激素 | travel through circulatory systems of animals or vascular system of plants | signals that act on distant cells |
+
+### Specificity 特异性
+
+- All cells may be [exposed to a signal]{.underline}, but only cells with the [appropriate receptors]{.underline} can respond.
+
+- Specificity depends on whether the target cell expresses the [specific receptor]{.underline} for that signal.
+
+### Crosstalk 交叉对话
+
+- Interactions between different signal transduction 传导 pathways.
+
+- Multiple pathways may [converge]{.underline} on a single transcription factor, allowing a single gene to be [regulated by multiple signals]{.underline}.
+
+- Activation of one pathway may inhibit another.
+
+- Biologists often refer to ["signaling networks]{.underline} 信号网络" rather than pathways due to this complexity.
+
+---
+
+## 7.2 Receptors Bind Signals to Initiate a Cellular Response
+
+### Ligand 配体
+
+- A specific [chemical signal molecule]{.underline} that fits into a 3-D site on its protein receptor.
+
+- Ligand binding causes the receptor protein to undergo a conformational change 构想变化, initiating a cellular response.
+
+- The ligand itself is usually not changed; its role is purely to "knock on the door" 触发信号.

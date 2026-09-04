@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>chapter-6-key-concept – BIO 123 Notes</title>
+<title>Chapter-7 – BIO 123 Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,35 +67,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -109,7 +80,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Chapter-5.html">Part 1: Science of Life</a></li><li class="breadcrumb-item"><a href="../chapters/Chapter-6-key-concept.html">Chapter 6: Cell Membranes</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      BIO 123 Notes
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -151,7 +124,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/Chapter-6-key-concept.html" class="sidebar-item-text sidebar-link active">
+  <a href="../chapters/Chapter-6-key-concept.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chapter 6: Cell Membranes</span></a>
   </div>
 </li>
@@ -167,312 +140,124 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#chapter-6-cell-membranes" id="toc-chapter-6-cell-membranes" class="nav-link active" data-scroll-target="#chapter-6-cell-membranes">Chapter 6: Cell Membranes</a>
+  <li><a href="#chapter-7-cell-communication-and-multicellularity" id="toc-chapter-7-cell-communication-and-multicellularity" class="nav-link active" data-scroll-target="#chapter-7-cell-communication-and-multicellularity">Chapter 7: Cell Communication and Multicellularity</a>
   <ul class="collapse">
-  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
-  <li><a href="#biological-membranes-are-lipid-protein-bilayers" id="toc-biological-membranes-are-lipid-protein-bilayers" class="nav-link" data-scroll-target="#biological-membranes-are-lipid-protein-bilayers">6.1 Biological Membranes Are Lipid-Protein Bilayers</a>
+  <li><a href="#signal-transduction-pathway-信号转导通路" id="toc-signal-transduction-pathway-信号转导通路" class="nav-link" data-scroll-target="#signal-transduction-pathway-信号转导通路">Signal Transduction Pathway 信号转导通路</a>
   <ul class="collapse">
-  <li><a href="#membrane-composition-structure" id="toc-membrane-composition-structure" class="nav-link" data-scroll-target="#membrane-composition-structure">Membrane Composition &amp; Structure</a></li>
-  <li><a href="#lipid-properties" id="toc-lipid-properties" class="nav-link" data-scroll-target="#lipid-properties">Lipid Properties</a></li>
-  <li><a href="#types-of-membrane-proteins" id="toc-types-of-membrane-proteins" class="nav-link" data-scroll-target="#types-of-membrane-proteins">Types of Membrane Proteins</a></li>
-  <li><a href="#protein-distribution-mobility" id="toc-protein-distribution-mobility" class="nav-link" data-scroll-target="#protein-distribution-mobility">Protein Distribution &amp; Mobility</a></li>
-  <li><a href="#membrane-dynamics" id="toc-membrane-dynamics" class="nav-link" data-scroll-target="#membrane-dynamics">Membrane Dynamics</a></li>
-  <li><a href="#membrane-carbohydrates" id="toc-membrane-carbohydrates" class="nav-link" data-scroll-target="#membrane-carbohydrates">Membrane Carbohydrates</a></li>
+  <li><a href="#types-of-chemical-signals-化学信号类型" id="toc-types-of-chemical-signals-化学信号类型" class="nav-link" data-scroll-target="#types-of-chemical-signals-化学信号类型">Types of Chemical Signals 化学信号类型</a></li>
+  <li><a href="#specificity-特异性" id="toc-specificity-特异性" class="nav-link" data-scroll-target="#specificity-特异性">Specificity 特异性</a></li>
+  <li><a href="#crosstalk-交叉对话" id="toc-crosstalk-交叉对话" class="nav-link" data-scroll-target="#crosstalk-交叉对话">Crosstalk 交叉对话</a></li>
   </ul></li>
-  <li><a href="#the-cell-membrane-is-important-in-cell-adhesion-and-recognition" id="toc-the-cell-membrane-is-important-in-cell-adhesion-and-recognition" class="nav-link" data-scroll-target="#the-cell-membrane-is-important-in-cell-adhesion-and-recognition">6.2 The Cell Membrane Is Important in Cell Adhesion and Recognition</a>
+  <li><a href="#receptors-bind-signals-to-initiate-a-cellular-response" id="toc-receptors-bind-signals-to-initiate-a-cellular-response" class="nav-link" data-scroll-target="#receptors-bind-signals-to-initiate-a-cellular-response">7.2 Receptors Bind Signals to Initiate a Cellular Response</a>
   <ul class="collapse">
-  <li><a href="#cell-recognition-adhesion" id="toc-cell-recognition-adhesion" class="nav-link" data-scroll-target="#cell-recognition-adhesion">Cell Recognition &amp; Adhesion</a></li>
-  <li><a href="#adhesion-molecules" id="toc-adhesion-molecules" class="nav-link" data-scroll-target="#adhesion-molecules">Adhesion Molecules</a></li>
-  <li><a href="#types-of-cell-junctions-animals" id="toc-types-of-cell-junctions-animals" class="nav-link" data-scroll-target="#types-of-cell-junctions-animals">Types of Cell Junctions (Animals)</a></li>
-  <li><a href="#cell-extracellular-matrix-adhesion" id="toc-cell-extracellular-matrix-adhesion" class="nav-link" data-scroll-target="#cell-extracellular-matrix-adhesion">Cell-Extracellular Matrix Adhesion</a></li>
-  </ul></li>
-  <li><a href="#substances-can-cross-membranes-by-passive-processes" id="toc-substances-can-cross-membranes-by-passive-processes" class="nav-link" data-scroll-target="#substances-can-cross-membranes-by-passive-processes">6.3 Substances Can Cross Membranes by Passive Processes</a>
-  <ul class="collapse">
-  <li><a href="#diffusion" id="toc-diffusion" class="nav-link" data-scroll-target="#diffusion">Diffusion</a></li>
-  <li><a href="#simple-diffusion" id="toc-simple-diffusion" class="nav-link" data-scroll-target="#simple-diffusion">Simple Diffusion</a></li>
-  <li><a href="#osmosis" id="toc-osmosis" class="nav-link" data-scroll-target="#osmosis">Osmosis</a></li>
-  <li><a href="#facilitated-diffusion" id="toc-facilitated-diffusion" class="nav-link" data-scroll-target="#facilitated-diffusion">Facilitated Diffusion</a></li>
-  </ul></li>
-  <li><a href="#active-transport-across-membranes-requires-energy" id="toc-active-transport-across-membranes-requires-energy" class="nav-link" data-scroll-target="#active-transport-across-membranes-requires-energy">6.4 Active Transport across Membranes Requires Energy</a>
-  <ul class="collapse">
-  <li><a href="#general-features" id="toc-general-features" class="nav-link" data-scroll-target="#general-features">General Features</a></li>
-  <li><a href="#types-of-transport-proteins" id="toc-types-of-transport-proteins" class="nav-link" data-scroll-target="#types-of-transport-proteins">Types of Transport Proteins</a></li>
-  <li><a href="#primary-active-transport" id="toc-primary-active-transport" class="nav-link" data-scroll-target="#primary-active-transport">Primary Active Transport</a></li>
-  <li><a href="#secondary-active-transport-co-trnasport" id="toc-secondary-active-transport-co-trnasport" class="nav-link" data-scroll-target="#secondary-active-transport-co-trnasport">Secondary Active Transport (Co-trnasport)</a></li>
-  </ul></li>
-  <li><a href="#large-molecules-enter-and-leave-a-cell-through-vesicles" id="toc-large-molecules-enter-and-leave-a-cell-through-vesicles" class="nav-link" data-scroll-target="#large-molecules-enter-and-leave-a-cell-through-vesicles">6.5 Large Molecules Enter and Leave a Cell through Vesicles</a>
-  <ul class="collapse">
-  <li><a href="#endocytosis-into-the-cell" id="toc-endocytosis-into-the-cell" class="nav-link" data-scroll-target="#endocytosis-into-the-cell">Endocytosis (into the cell)</a></li>
-  <li><a href="#exocytosis-out-of-the-cell" id="toc-exocytosis-out-of-the-cell" class="nav-link" data-scroll-target="#exocytosis-out-of-the-cell">Exocytosis (out of the cell)</a></li>
+  <li><a href="#ligand-配体" id="toc-ligand-配体" class="nav-link" data-scroll-target="#ligand-配体">Ligand 配体</a></li>
   </ul></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Chapter-5.html">Part 1: Science of Life</a></li><li class="breadcrumb-item"><a href="../chapters/Chapter-6-key-concept.html">Chapter 6: Cell Membranes</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chapter-7</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="chapter-6-cell-membranes" class="level1">
-<h1>Chapter 6: Cell Membranes</h1>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="chapter-7-cell-communication-and-multicellularity" class="level1">
+<h1>Chapter 7: Cell Communication and Multicellularity</h1>
 <hr>
-<section id="key-concepts" class="level2">
-<h2 class="anchored" data-anchor-id="key-concepts">Key Concepts</h2>
-<ol type="1">
-<li><p>Biological membranes are <u>lipid-protein bilayers</u>.</p></li>
-<li><p>The cell membrane is important in <u>cell adhesion and recognition</u>.</p></li>
-<li><p>Substances can cross membranes by <u>passive</u> processes.</p></li>
-<li><p>Active transport across membranes requires <u>energy</u>.</p></li>
-<li><p>Large molecules enter and leave a cell through <u>vesicles</u>.</p></li>
-</ol>
-<hr>
-</section>
-<section id="biological-membranes-are-lipid-protein-bilayers" class="level2">
-<h2 class="anchored" data-anchor-id="biological-membranes-are-lipid-protein-bilayers">6.1 Biological Membranes Are Lipid-Protein Bilayers</h2>
-<section id="membrane-composition-structure" class="level3">
-<h3 class="anchored" data-anchor-id="membrane-composition-structure">Membrane Composition &amp; Structure</h3>
+<section id="signal-transduction-pathway-信号转导通路" class="level2">
+<h2 class="anchored" data-anchor-id="signal-transduction-pathway-信号转导通路">Signal Transduction Pathway 信号转导通路</h2>
 <ul>
-<li><p><span class="highlight">phospholipid bilayer</span>: hydrophilic heads face outward, hydrophobic tails face inward.</p></li>
-<li><p><span class="highlight">fluid mosaic model</span>: proteins float in or on the lipid bilayer.</p></li>
-</ul>
-</section>
-<section id="lipid-properties" class="level3">
-<h3 class="anchored" data-anchor-id="lipid-properties">Lipid Properties</h3>
+<li><p>a sequence of molecular events and chemical reactions that lead to a cell’s response to a signal</p></li>
+<li><p>every pathway involves three elements</p>
 <ul>
-<li><p>Phospholipids vary in chain length, saturation, and polar groups.</p></li>
-<li><p>Cholesterol modulates membrane fluidity and stability.</p></li>
-<li><p>Fluidity affected by:</p>
-<ul>
-<li><p>Lipid composition (saturated vs unsaturated fatty acids)</p>
-<ul>
-<li><p>saturated = <span class="math inline">\(\Downarrow\)</span> fluidity</p></li>
-<li><p>unsaturated = <span class="math inline">\(\Uparrow\)</span> fluidity</p></li>
-</ul></li>
-<li><p>Temperature</p>
-<ul>
-<li><p><span class="math inline">\(\Downarrow\)</span> T = <span class="math inline">\(\Downarrow\)</span> fluidity</p></li>
-<li><p><span class="math inline">\(\Uparrow\)</span> T = <span class="math inline">\(\Uparrow\)</span> fluidity</p></li>
-</ul></li>
+<li><p>signal 信号</p></li>
+<li><p>receptor 受体</p></li>
+<li><p>response 响应</p></li>
 </ul></li>
 </ul>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>顺式双键（cis）才会造成”折弯”, 反式脂肪酸（trans）虽然是”不饱和”, 但结构接近直链, 实际上会降低流动性。</p>
-</div>
-</div>
+<section id="types-of-chemical-signals-化学信号类型" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-chemical-signals-化学信号类型">Types of Chemical Signals 化学信号类型</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Signal Type</th>
+<th>Mode of Action</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="highlight">autocrine</span> 自分泌</td>
+<td>diffuse to and affect the cells that produce them</td>
+<td>tumor cells that make and respond to signals stimulating cell division</td>
+</tr>
+<tr class="even">
+<td><span class="highlight">juxtacrine</span> 领分泌/接触依赖</td>
+<td>affect only cells right next to and in contact with the signal-producing cell</td>
+<td>common during development when cells are differentiating</td>
+</tr>
+<tr class="odd">
+<td><span class="highlight">paracrine</span> 旁分泌</td>
+<td>diffuse to and affect nearby cells</td>
+<td>inflammation signals from skin cells to nearby blood cells during healing</td>
+</tr>
+<tr class="even">
+<td><span class="highlight">hormones</span> 激素</td>
+<td>travel through circulatory systems of animals or vascular system of plants</td>
+<td>signals that act on distant cells</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="types-of-membrane-proteins" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-membrane-proteins">Types of Membrane Proteins</h3>
+<section id="specificity-特异性" class="level3">
+<h3 class="anchored" data-anchor-id="specificity-特异性">Specificity 特异性</h3>
 <ul>
-<li><p><span class="highlight">integral proteins</span>: embedded in bilayer, have hydrophilic and hydrophobic domains</p></li>
-<li><p><span class="highlight">peripheral proteins</span>: bound to membrane surface, no hydrophobic domains</p></li>
-<li><p><span class="highlight">anchored proteins</span>: covalently attached to lipid groups in the bilayer</p></li>
+<li><p>All cells may be <u>exposed to a signal</u>, but only cells with the <u>appropriate receptors</u> can respond.</p></li>
+<li><p>Specificity depends on whether the target cell expresses the <u>specific receptor</u> for that signal.</p></li>
 </ul>
 </section>
-<section id="protein-distribution-mobility" class="level3">
-<h3 class="anchored" data-anchor-id="protein-distribution-mobility">Protein Distribution &amp; Mobility</h3>
+<section id="crosstalk-交叉对话" class="level3">
+<h3 class="anchored" data-anchor-id="crosstalk-交叉对话">Crosstalk 交叉对话</h3>
 <ul>
-<li><p>Proteins are <u>asymmetrically 不对称地 distributed</u>.</p></li>
-<li><p><span class="highlight">Cell fusion experiments</span> show proteins can diffuse laterally.</p></li>
-<li><p><span class="highlight">Cytoskeleton</span> can <u>restrict protein movement</u>.</p></li>
-</ul>
-</section>
-<section id="membrane-dynamics" class="level3">
-<h3 class="anchored" data-anchor-id="membrane-dynamics">Membrane Dynamics</h3>
-<ul>
-<li><p>Membranes are constantly forming, fusing, and recycling via vesicles.</p></li>
-<li><p>Different organelles have different membrane compositions.</p></li>
-</ul>
-</section>
-<section id="membrane-carbohydrates" class="level3">
-<h3 class="anchored" data-anchor-id="membrane-carbohydrates">Membrane Carbohydrates</h3>
-<ul>
-<li><p><span class="highlight">Glycolipids</span>, <span class="highlight">glycoproteins</span>, and <span class="highlight">proteoglycans</span> are involved in <u>recognition and adhesion</u>.</p></li>
-<li><p>Carbohydrate structures provide diverse recognition signals.</p></li>
+<li><p>Interactions between different signal transduction 传导 pathways.</p></li>
+<li><p>Multiple pathways may <u>converge</u> on a single transcription factor, allowing a single gene to be <u>regulated by multiple signals</u>.</p></li>
+<li><p>Activation of one pathway may inhibit another.</p></li>
+<li><p>Biologists often refer to <u>“signaling networks</u> 信号网络” rather than pathways due to this complexity.</p></li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="the-cell-membrane-is-important-in-cell-adhesion-and-recognition" class="level2">
-<h2 class="anchored" data-anchor-id="the-cell-membrane-is-important-in-cell-adhesion-and-recognition">6.2 The Cell Membrane Is Important in Cell Adhesion and Recognition</h2>
-<section id="cell-recognition-adhesion" class="level3">
-<h3 class="anchored" data-anchor-id="cell-recognition-adhesion">Cell Recognition &amp; Adhesion</h3>
+<section id="receptors-bind-signals-to-initiate-a-cellular-response" class="level2">
+<h2 class="anchored" data-anchor-id="receptors-bind-signals-to-initiate-a-cellular-response">7.2 Receptors Bind Signals to Initiate a Cellular Response</h2>
+<section id="ligand-配体" class="level3">
+<h3 class="anchored" data-anchor-id="ligand-配体">Ligand 配体</h3>
 <ul>
-<li><p>Mediated by membrane proteins and carbohydrates.</p></li>
-<li><p><span class="highlight">Sponge cell experiments</span> show species-specific recognition.</p></li>
+<li><p>A specific <u>chemical signal molecule</u> that fits into a 3-D site on its protein receptor.</p></li>
+<li><p>Ligand binding causes the receptor protein to undergo a conformational change 构想变化, initiating a cellular response.</p></li>
+<li><p>The ligand itself is usually not changed; its role is purely to “knock on the door” 触发信号.</p></li>
 </ul>
-</section>
-<section id="adhesion-molecules" class="level3">
-<h3 class="anchored" data-anchor-id="adhesion-molecules">Adhesion Molecules</h3>
-<ul>
-<li><p><span class="highlight">Proteoglycans</span> with sulfated polysaccharides mediate recognition and binding.</p></li>
-<li><p>Adhesion can be <span class="highlight">homotypic</span> (same molecule) or <span class="highlight">heterotypic</span> (different molecules).</p></li>
-</ul>
-</section>
-<section id="types-of-cell-junctions-animals" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-cell-junctions-animals">Types of Cell Junctions (Animals)</h3>
-<ul>
-<li><p><span class="highlight">tight junction</span> 紧密连接: seal intercellular spaces</p></li>
-<li><p><span class="highlight">desmosome</span> 细胞桥粒: provide mechanical strength</p></li>
-<li><p><span class="highlight">gap junction</span> 间隙连接: allow communication via channels</p></li>
-</ul>
-</section>
-<section id="cell-extracellular-matrix-adhesion" class="level3">
-<h3 class="anchored" data-anchor-id="cell-extracellular-matrix-adhesion">Cell-Extracellular Matrix Adhesion</h3>
-<ul>
-<li><span class="highlight">integrin</span>s 整联蛋白 connect ECM to cytoskeleton and enable cell movement</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="substances-can-cross-membranes-by-passive-processes" class="level2">
-<h2 class="anchored" data-anchor-id="substances-can-cross-membranes-by-passive-processes">6.3 Substances Can Cross Membranes by Passive Processes</h2>
-<section id="diffusion" class="level3">
-<h3 class="anchored" data-anchor-id="diffusion">Diffusion</h3>
-<ul>
-<li><p>Net movememnt from high to low concentration</p></li>
-<li><p>rate depends on</p>
-<ul>
-<li><p>molecular size / mass (<span class="math inline">\(\mathrm{m}\)</span>)</p></li>
-<li><p>temperature (<span class="math inline">\(\mathrm{T}\)</span>)</p></li>
-<li><p>solution density (<span class="math inline">\(\rho\)</span>)</p></li>
-<li><p>concentration gradient (<span class="math inline">\(\frac{\mathrm{d}c}{\mathrm{d}x}\)</span>)</p></li>
-<li><p>surface area and distance (<span class="math inline">\(\mathrm{A}\)</span> and <span class="math inline">\(\mathrm{d}\)</span>)</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="simple-diffusion" class="level3">
-<h3 class="anchored" data-anchor-id="simple-diffusion">Simple Diffusion</h3>
-<div class="brace-left">
-<ul>
-<li><p>Small, hydrophobic molecules pass directly through the bilayer.</p></li>
-<li><p>Polar/charged molecules diffuse poorly.</p></li>
-</ul>
-</div>
-</section>
-<section id="osmosis" class="level3">
-<h3 class="anchored" data-anchor-id="osmosis">Osmosis</h3>
-<ul>
-<li><p>Water moves toward <u>higher solute concentration</u>.</p></li>
-<li><p>Terms:</p>
-<ul>
-<li><p><span class="highlight">isotonic</span> 等渗的: equal solute concentrations</p></li>
-<li><p><span class="highlight">hypotonic</span> 低渗的: lower solute outside <span class="math inline">\(\Longrightarrow\)</span> water enters cell</p></li>
-<li><p><span class="highlight">hypertonic</span> 高渗的: higher solute outside <span class="math inline">\(\Longrightarrow\)</span> water leaves cell</p></li>
-</ul></li>
-<li><p>Plant cells use <span class="highlight">turgor pressure</span> 渗透压 to maintain structure.</p>
-<ul>
-<li>渗透压: 植物细胞内液体由于渗入作用而产生的实际压力, 与具有相同浓度的液体在理论上可能产生的最大压力相对比。</li>
-</ul></li>
-</ul>
-</section>
-<section id="facilitated-diffusion" class="level3">
-<h3 class="anchored" data-anchor-id="facilitated-diffusion">Facilitated Diffusion</h3>
-<ul>
-<li><p><span class="highlight">channel protein</span>s 离子通道蛋白 form hydrophilic pores</p>
-<ul>
-<li><p>离子通道蛋白: 一种成孔蛋白, 通过允许特定类型的离子穿过通道来帮助细胞建立和控制质膜间的微弱电压差</p></li>
-<li><p>e.g., ion channels, aquaporins 水通道蛋白, 水孔蛋白</p></li>
-</ul></li>
-<li><p><span class="highlight">carrier protein</span>s 载体蛋白 bind substances and change shape</p>
-<ul>
-<li><p>载体蛋白: 一种功能是通过生物膜运输小分子(或其他蛋白质)的蛋白质</p></li>
-<li><p>e.g., glucose transporter</p></li>
-</ul></li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="active-transport-across-membranes-requires-energy" class="level2">
-<h2 class="anchored" data-anchor-id="active-transport-across-membranes-requires-energy">6.4 Active Transport across Membranes Requires Energy</h2>
-<section id="general-features" class="level3">
-<h3 class="anchored" data-anchor-id="general-features">General Features</h3>
-<ul>
-<li><p>moves substances <u>against</u> concentration / electrical gradients</p></li>
-<li><p>requries <u>energy</u> (usually <u>ATP</u>)</p></li>
-</ul>
-</section>
-<section id="types-of-transport-proteins" class="level3">
-<h3 class="anchored" data-anchor-id="types-of-transport-proteins">Types of Transport Proteins</h3>
-<ul>
-<li><p><span class="highlight">uniporter</span> 单向传递体: moves one substance one way</p></li>
-<li><p><span class="highlight">symporter</span> 协同载体: moves two substances same direction</p></li>
-<li><p><span class="highlight">antiporter</span> 反向转运体: moves two substances opposite directions</p></li>
-</ul>
-</section>
-<section id="primary-active-transport" class="level3">
-<h3 class="anchored" data-anchor-id="primary-active-transport">Primary Active Transport</h3>
-<ul>
-<li><p>direct use of ATP</p></li>
-<li><p>e.g., <span class="math inline">\(\ce{Na+ - K+}\)</span> pump</p>
-<ul>
-<li><p>3 <span class="math inline">\(\ce{Na+}\)</span> out, 2 <span class="math inline">\(\ce{K+}\)</span> in</p></li>
-<li><p><span class="math inline">\(\ce{ATP -&gt; ADP + P_i}\)</span></p></li>
-</ul></li>
-</ul>
-</section>
-<section id="secondary-active-transport-co-trnasport" class="level3">
-<h3 class="anchored" data-anchor-id="secondary-active-transport-co-trnasport">Secondary Active Transport (Co-trnasport)</h3>
-<ul>
-<li><p>Uses energy from ion gradient (established by primary transport)</p></li>
-<li><p>e.g., <span class="math inline">\(\ce{Na+ - glucose}\)</span> symporter in intestinal cells 肠道细胞</p></li>
-<li><p>applied in <span class="highlight">oral rehydration therapy</span> (ORT) 口服补液疗法</p></li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="large-molecules-enter-and-leave-a-cell-through-vesicles" class="level2">
-<h2 class="anchored" data-anchor-id="large-molecules-enter-and-leave-a-cell-through-vesicles">6.5 Large Molecules Enter and Leave a Cell through Vesicles</h2>
-<section id="endocytosis-into-the-cell" class="level3">
-<h3 class="anchored" data-anchor-id="endocytosis-into-the-cell">Endocytosis (into the cell)</h3>
-<ul>
-<li><p><span class="highlight">phagocytosis</span> 吞噬作用 (“cell eating”): large particles or cells</p></li>
-<li><p><span class="highlight">pinocytosis</span> 胞饮作用 (“cell drinking”): fluids and dissolved substances</p></li>
-<li><p><span class="highlight">receptor-mediated endocytosis</span> 受体介导的内吞作用: specific uptake via receptor proteins in coated pits</p>
-<ul>
-<li><p>一种细胞摄取特定物质的过程, 通过特定的受体与物质结合, 然后将受体与物质一起内化到细胞内部</p></li>
-<li><p>e.g., LDL cholesterol 低密度脂蛋白胆固醇 uptake</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="exocytosis-out-of-the-cell" class="level3">
-<h3 class="anchored" data-anchor-id="exocytosis-out-of-the-cell">Exocytosis (out of the cell)</h3>
-<ul>
-<li><p>vesicles fuse with cell membrane to release contents</p></li>
-<li><p>e.g., neurotransmitter release 神经递质释放</p>
-<ul>
-<li>神经元通过释放神经递质来传递信号的过程</li>
-</ul></li>
-<li><p>e.g., sweat secretion</p></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Investigating Life - Aquaporins 水孔蛋白
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>water channels that allow rapid, selective water movement</p></li>
-<li><p>important in kidneys, plant roots, and vacuoles</p></li>
-<li><p>can be regulated (gated) in response to environmental conditions</p></li>
-<li><p>potential applications: water purification, desalination 海水淡化, cosmetics</p></li>
-</ul>
-</div>
-</div>
 
 
 </section>

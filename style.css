@@ -46,6 +46,7 @@
   --background-color: #FFFFFF;
   --title-color: #517035;
   --rt-color: #8D9D93;
+  --hr-color: #517035;
   
   /* practice box theme */
   --practice-border-color: #FFDB58;
@@ -106,6 +107,19 @@ body, h1, h2, h3, h4, h5, h6 {
   
   /* Victorian aristocrat writing a suspicious letter */
   /* font-family: "Pinyon Script", cursive; */
+}
+
+hr {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right,
+    transparent 0%,
+    var(--hr-color) 30%,
+    var(--hr-color) 70%,
+    transparent 100%
+  );
+  margin: 2em 0;
+  border-radius: 2px;
 }
 
 

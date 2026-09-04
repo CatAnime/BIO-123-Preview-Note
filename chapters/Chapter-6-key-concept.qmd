@@ -5,6 +5,8 @@ toc: true
 
 # Chapter 6: Cell Membranes
 
+---
+
 ## Key Concepts
 
 1. Biological membranes are [lipid-protein bilayers]{.underline}.

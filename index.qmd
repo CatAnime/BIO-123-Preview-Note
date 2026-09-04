@@ -3,3 +3,5 @@
 - [Chapter 5 Cells: The Working Units of Life](chapters/Chapter-5.qmd)
 
 - [Chapter 6 Cell Membranes](chapters/Chapter-6.qmd)
+
+- [Chapter 6 Cell Membranes Key Concept](chapters/Chapter-6-key-concept.qmd)

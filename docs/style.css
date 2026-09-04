@@ -12,6 +12,11 @@
 
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css');
 
+@font-face {
+  font-family: "ELEYANG-Campus-Regular";
+  src: url("fonts/ELEYANG-Campus-Regular.ttf") format ("truetype");
+}
+
 
 /* ========================================
    Variables
@@ -31,12 +36,16 @@
   --text-5xl: 34px;   /* 61.04px - H1 */
   
   /* colors */
-  --main-font-color: #86A4B7;
-  --highlight-color: #AF999B4D;
+  #517035
+  #606060
+  #D5D99E
+  #8D9D93
+  --main-font-color: #606060;
+  --highlight-color: #D5D99E;
   --underline-color: #AF999B;
   --background-color: #FFFFFF;
-  --title-color: #966327;
-  --rt-color: #666;
+  --title-color: #517035;
+  --rt-color: #8D9D93;
   
   /* practice box theme */
   --practice-border-color: #FFDB58;
@@ -87,7 +96,7 @@ body, h1, h2, h3, h4, h5, h6 {
   /* font-family: "Dancing Script"; */
   
   /* LXGW */
-  font-family: "LXGW WenKai Screen";
+  font-family: "ELEYANG-Campus-Regular", "LXGW WenKai Screen";
   
   /* Elegant */
   /* font-family: "Allura", cursive; */

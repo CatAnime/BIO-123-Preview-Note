@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BIO 123 Notes</title>
+<title>chapter-6-key-concept – BIO 123 Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,11 +67,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="nav-sidebar docked fullcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,7 +109,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Part 1 The Science of Life and Its Chemical Basis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      BIO 123 Notes
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -95,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">BIO 123 Notes</a> 
+      <a href="../">BIO 123 Notes</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -107,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Part 1 The Science of Life and Its Chemical Basis</span></a>
   </div>
 </li>
@@ -122,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Chapter-5.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Chapter-5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chapter 5 Cells: The Working Units of Life</span></a>
   </div>
 </li>
@@ -133,22 +164,234 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chapter-6-cell-membranes" id="toc-chapter-6-cell-membranes" class="nav-link active" data-scroll-target="#chapter-6-cell-membranes">Chapter 6: Cell Membranes</a>
+  <ul class="collapse">
+  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts">Key Concepts</a></li>
+  <li><a href="#biological-membranes-are-lipid-protein-bilayers" id="toc-biological-membranes-are-lipid-protein-bilayers" class="nav-link" data-scroll-target="#biological-membranes-are-lipid-protein-bilayers">6.1 Biological Membranes Are Lipid-Protein Bilayers</a>
+  <ul class="collapse">
+  <li><a href="#membrane-composition-structure" id="toc-membrane-composition-structure" class="nav-link" data-scroll-target="#membrane-composition-structure">Membrane Composition &amp; Structure</a></li>
+  <li><a href="#lipid-properties" id="toc-lipid-properties" class="nav-link" data-scroll-target="#lipid-properties">Lipid Properties</a></li>
+  <li><a href="#types-of-membrane-proteins" id="toc-types-of-membrane-proteins" class="nav-link" data-scroll-target="#types-of-membrane-proteins">Types of Membrane Proteins</a></li>
+  <li><a href="#protein-distribution-mobility" id="toc-protein-distribution-mobility" class="nav-link" data-scroll-target="#protein-distribution-mobility">Protein Distribution &amp; Mobility</a></li>
+  <li><a href="#membrane-dynamics" id="toc-membrane-dynamics" class="nav-link" data-scroll-target="#membrane-dynamics">Membrane Dynamics</a></li>
+  <li><a href="#membrane-carbohydrates" id="toc-membrane-carbohydrates" class="nav-link" data-scroll-target="#membrane-carbohydrates">Membrane Carbohydrates</a></li>
+  </ul></li>
+  <li><a href="#the-cell-membrane-is-important-in-cell-adhesion-and-recognition" id="toc-the-cell-membrane-is-important-in-cell-adhesion-and-recognition" class="nav-link" data-scroll-target="#the-cell-membrane-is-important-in-cell-adhesion-and-recognition">6.2 The Cell Membrane Is Important in Cell Adhesion and Recognition</a>
+  <ul class="collapse">
+  <li><a href="#cell-recognition-adhesion" id="toc-cell-recognition-adhesion" class="nav-link" data-scroll-target="#cell-recognition-adhesion">Cell Recognition &amp; Adhesion</a></li>
+  <li><a href="#adhesion-molecules" id="toc-adhesion-molecules" class="nav-link" data-scroll-target="#adhesion-molecules">Adhesion Molecules</a></li>
+  <li><a href="#types-of-cell-junctions-animals" id="toc-types-of-cell-junctions-animals" class="nav-link" data-scroll-target="#types-of-cell-junctions-animals">Types of Cell Junctions (Animals)</a></li>
+  <li><a href="#cell-extracellular-matrix-adhesion" id="toc-cell-extracellular-matrix-adhesion" class="nav-link" data-scroll-target="#cell-extracellular-matrix-adhesion">Cell-Extracellular Matrix Adhesion</a></li>
+  </ul></li>
+  <li><a href="#substances-can-cross-membranes-by-passive-processes" id="toc-substances-can-cross-membranes-by-passive-processes" class="nav-link" data-scroll-target="#substances-can-cross-membranes-by-passive-processes">6.3 Substances Can Cross Membranes by Passive Processes</a>
+  <ul class="collapse">
+  <li><a href="#diffusion" id="toc-diffusion" class="nav-link" data-scroll-target="#diffusion">Diffusion</a></li>
+  <li><a href="#simple-diffusion" id="toc-simple-diffusion" class="nav-link" data-scroll-target="#simple-diffusion">Simple Diffusion</a></li>
+  <li><a href="#osmosis" id="toc-osmosis" class="nav-link" data-scroll-target="#osmosis">Osmosis</a></li>
+  <li><a href="#facilitated-diffusion" id="toc-facilitated-diffusion" class="nav-link" data-scroll-target="#facilitated-diffusion">Facilitated Diffusion</a></li>
+  </ul></li>
+  <li><a href="#active-transport-across-membranes-requires-energy" id="toc-active-transport-across-membranes-requires-energy" class="nav-link" data-scroll-target="#active-transport-across-membranes-requires-energy">6.4 Active Transport across Membranes Requires Energy</a>
+  <ul class="collapse">
+  <li><a href="#general-features" id="toc-general-features" class="nav-link" data-scroll-target="#general-features">General Features</a></li>
+  <li><a href="#types-of-transport-proteins" id="toc-types-of-transport-proteins" class="nav-link" data-scroll-target="#types-of-transport-proteins">Types of Transport Proteins</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="part-1-the-science-of-life-and-its-chemical-basis" class="level1">
-<h1>Part 1 The Science of Life and Its Chemical Basis</h1>
+<section id="chapter-6-cell-membranes" class="level1">
+<h1>Chapter 6: Cell Membranes</h1>
+<section id="key-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="key-concepts">Key Concepts</h2>
+<ol type="1">
+<li><p>Biological membranes are <u>lipid-protein bilayers</u>.</p></li>
+<li><p>The cell membrane is important in <u>cell adhesion and recognition</u>.</p></li>
+<li><p>Substances can cross membranes by <u>passive</u> processes.</p></li>
+<li><p>Active transport across membranes requires <u>energy</u>.</p></li>
+<li><p>Large molecules enter and leave a cell through <u>vesicles</u>.</p></li>
+</ol>
+<hr>
+</section>
+<section id="biological-membranes-are-lipid-protein-bilayers" class="level2">
+<h2 class="anchored" data-anchor-id="biological-membranes-are-lipid-protein-bilayers">6.1 Biological Membranes Are Lipid-Protein Bilayers</h2>
+<section id="membrane-composition-structure" class="level3">
+<h3 class="anchored" data-anchor-id="membrane-composition-structure">Membrane Composition &amp; Structure</h3>
 <ul>
-<li><p><a href="./chapters/Chapter-5.html">Chapter 5 Cells: The Working Units of Life</a></p></li>
-<li><p><a href="./chapters/Chapter-6.html">Chapter 6 Cell Membranes</a></p></li>
-<li><p><a href="./chapters/Chapter-6-key-concept.html">Chapter 6 Cell Membranes Key Concept</a></p></li>
+<li><p><span class="highlight">phospholipid bilayer</span>: hydrophilic heads face outward, hydrophobic tails face inward.</p></li>
+<li><p><span class="highlight">fluid mosaic model</span>: proteins float in or on the lipid bilayer.</p></li>
+</ul>
+</section>
+<section id="lipid-properties" class="level3">
+<h3 class="anchored" data-anchor-id="lipid-properties">Lipid Properties</h3>
+<ul>
+<li><p>Phospholipids vary in chain length, saturation, and polar groups.</p></li>
+<li><p>Cholesterol modulates membrane fluidity and stability.</p></li>
+<li><p>Fluidity affected by:</p>
+<ul>
+<li><p>Lipid composition (saturated vs unsaturated fatty acids)</p>
+<ul>
+<li><p>saturated = <span class="math inline">\(\Downarrow\)</span> fluidity</p></li>
+<li><p>unsaturated = <span class="math inline">\(\Uparrow\)</span> fluidity</p></li>
+</ul></li>
+<li><p>Temperature</p>
+<ul>
+<li><p><span class="math inline">\(\Downarrow\)</span> T = <span class="math inline">\(\Downarrow\)</span> fluidity</p></li>
+<li><p><span class="math inline">\(\Uparrow\)</span> T = <span class="math inline">\(\Uparrow\)</span> fluidity</p></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="types-of-membrane-proteins" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-membrane-proteins">Types of Membrane Proteins</h3>
+<ul>
+<li><p><span class="highlight">integral proteins</span>: embedded in bilayer, have hydrophilic and hydrophobic domains</p></li>
+<li><p><span class="highlight">peripheral proteins</span>: bound to membrane surface, no hydrophobic domains</p></li>
+<li><p><span class="highlight">anchored proteins</span>: covalently attached to lipid groups in the bilayer</p></li>
+</ul>
+</section>
+<section id="protein-distribution-mobility" class="level3">
+<h3 class="anchored" data-anchor-id="protein-distribution-mobility">Protein Distribution &amp; Mobility</h3>
+<ul>
+<li><p>Proteins are <u>asymmetrically 不对称地 distributed</u>.</p></li>
+<li><p><span class="highlight">Cell fusion experiments</span> show proteins can diffuse laterally.</p></li>
+<li><p><span class="highlight">Cytoskeleton</span> can <u>restrict protein movement</u>.</p></li>
+</ul>
+</section>
+<section id="membrane-dynamics" class="level3">
+<h3 class="anchored" data-anchor-id="membrane-dynamics">Membrane Dynamics</h3>
+<ul>
+<li><p>Membranes are constantly forming, fusing, and recycling via vesicles.</p></li>
+<li><p>Different organelles have different membrane compositions.</p></li>
+</ul>
+</section>
+<section id="membrane-carbohydrates" class="level3">
+<h3 class="anchored" data-anchor-id="membrane-carbohydrates">Membrane Carbohydrates</h3>
+<ul>
+<li><p><span class="highlight">Glycolipids</span>, <span class="highlight">glycoproteins</span>, and <span class="highlight">proteoglycans</span> are involved in <u>recognition and adhesion</u>.</p></li>
+<li><p>Carbohydrate structures provide diverse recognition signals.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-cell-membrane-is-important-in-cell-adhesion-and-recognition" class="level2">
+<h2 class="anchored" data-anchor-id="the-cell-membrane-is-important-in-cell-adhesion-and-recognition">6.2 The Cell Membrane Is Important in Cell Adhesion and Recognition</h2>
+<section id="cell-recognition-adhesion" class="level3">
+<h3 class="anchored" data-anchor-id="cell-recognition-adhesion">Cell Recognition &amp; Adhesion</h3>
+<ul>
+<li><p>Mediated by membrane proteins and carbohydrates.</p></li>
+<li><p><span class="highlight">Sponge cell experiments</span> show species-specific recognition.</p></li>
+</ul>
+</section>
+<section id="adhesion-molecules" class="level3">
+<h3 class="anchored" data-anchor-id="adhesion-molecules">Adhesion Molecules</h3>
+<ul>
+<li><p><span class="highlight">Proteoglycans</span> with sulfated polysaccharides mediate recognition and binding.</p></li>
+<li><p>Adhesion can be <span class="highlight">homotypic</span> (same molecule) or <span class="highlight">heterotypic</span> (different molecules).</p></li>
+</ul>
+</section>
+<section id="types-of-cell-junctions-animals" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-cell-junctions-animals">Types of Cell Junctions (Animals)</h3>
+<ul>
+<li><p><span class="highlight">tight junction</span> 紧密连接: seal intercellular spaces</p></li>
+<li><p><span class="highlight">desmosome</span> 细胞桥粒: provide mechanical strength</p></li>
+<li><p><span class="highlight">gap junction</span> 间隙连接: allow communication via channels</p></li>
+</ul>
+</section>
+<section id="cell-extracellular-matrix-adhesion" class="level3">
+<h3 class="anchored" data-anchor-id="cell-extracellular-matrix-adhesion">Cell-Extracellular Matrix Adhesion</h3>
+<ul>
+<li><span class="highlight">integrin</span>s 整联蛋白 connect ECM to cytoskeleton and enable cell movement</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="substances-can-cross-membranes-by-passive-processes" class="level2">
+<h2 class="anchored" data-anchor-id="substances-can-cross-membranes-by-passive-processes">6.3 Substances Can Cross Membranes by Passive Processes</h2>
+<section id="diffusion" class="level3">
+<h3 class="anchored" data-anchor-id="diffusion">Diffusion</h3>
+<ul>
+<li><p>Net movememnt from high to low concentration</p></li>
+<li><p>rate depends on</p>
+<ul>
+<li><p>molecular size / mass (<span class="math inline">\(\mathrm{m}\)</span>)</p></li>
+<li><p>temperature (<span class="math inline">\(\mathrm{T}\)</span>)</p></li>
+<li><p>solution density (<span class="math inline">\(\rho\)</span>)</p></li>
+<li><p>concentration gradient (<span class="math inline">\(\frac{\mathrm{d}c}{\mathrm{d}x}\)</span>)</p></li>
+<li><p>surface area and distance (<span class="math inline">\(\mathrm{A}\)</span> and <span class="math inline">\(\mathrm{d}\)</span>)</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="simple-diffusion" class="level3">
+<h3 class="anchored" data-anchor-id="simple-diffusion">Simple Diffusion</h3>
+<div class="brace-left">
+<ul>
+<li><p>Small, hydrophobic molecules pass directly through the bilayer.</p></li>
+<li><p>Polar/charged molecules diffuse poorly.</p></li>
+</ul>
+</div>
+</section>
+<section id="osmosis" class="level3">
+<h3 class="anchored" data-anchor-id="osmosis">Osmosis</h3>
+<ul>
+<li><p>Water moves toward <u>higher solute concentration</u>.</p></li>
+<li><p>Terms:</p>
+<ul>
+<li><p><span class="highlight">isotonic</span> 等渗的: equal solute concentrations</p></li>
+<li><p><span class="highlight">hypotonic</span> 低渗的: lower solute outside <span class="math inline">\(\Longrightarrow\)</span> water enters cell</p></li>
+<li><p><span class="highlight">hypertonic</span> 高渗的: higher solute outside <span class="math inline">\(\Longrightarrow\)</span> water leaves cell</p></li>
+</ul></li>
+<li><p>Plant cells use <span class="highlight">turgor pressure</span> 渗透压 to maintain structure.</p>
+<ul>
+<li>渗透压: 植物细胞内液体由于渗入作用而产生的实际压力, 与具有相同浓度的液体在理论上可能产生的最大压力相对比。</li>
+</ul></li>
+</ul>
+</section>
+<section id="facilitated-diffusion" class="level3">
+<h3 class="anchored" data-anchor-id="facilitated-diffusion">Facilitated Diffusion</h3>
+<ul>
+<li><p><span class="highlight">channel protein</span>s 离子通道蛋白 form hydrophilic pores</p>
+<ul>
+<li><p>离子通道蛋白: 一种成孔蛋白, 通过允许特定类型的离子穿过通道来帮助细胞建立和控制质膜间的微弱电压差</p></li>
+<li><p>e.g., ion channels, aquaporins 水通道蛋白, 水孔蛋白</p></li>
+</ul></li>
+<li><p><span class="highlight">carrier protein</span>s 载体蛋白 bind substances and change shape</p>
+<ul>
+<li><p>载体蛋白: 一种功能是通过生物膜运输小分子(或其他蛋白质)的蛋白质</p></li>
+<li><p>e.g., glucose transporter</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="active-transport-across-membranes-requires-energy" class="level2">
+<h2 class="anchored" data-anchor-id="active-transport-across-membranes-requires-energy">6.4 Active Transport across Membranes Requires Energy</h2>
+<section id="general-features" class="level3">
+<h3 class="anchored" data-anchor-id="general-features">General Features</h3>
+<ul>
+<li><p>moves substances <u>against</u> concentration / electrical gradients</p></li>
+<li><p>requries <u>energy</u> (usually <u>ATP</u>)</p></li>
+</ul>
+</section>
+<section id="types-of-transport-proteins" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-transport-proteins">Types of Transport Proteins</h3>
+<ul>
+<li>uniporter: moves one substance one way</li>
 </ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

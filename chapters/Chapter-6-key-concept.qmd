@@ -1,0 +1,177 @@
+---
+format: html
+toc: true
+---
+
+# Chapter 6: Cell Membranes
+
+## Key Concepts
+
+1. Biological membranes are [lipid-protein bilayers]{.underline}.
+
+2. The cell membrane is important in [cell adhesion and recognition]{.underline}.
+
+3. Substances can cross membranes by [passive]{.underline} processes.
+
+4. Active transport across membranes requires [energy]{.underline}.
+
+5. Large molecules enter and leave a cell through [vesicles]{.underline}.
+
+---
+
+## 6.1 Biological Membranes Are Lipid-Protein Bilayers
+
+### Membrane Composition & Structure
+
+- [phospholipid bilayer]{.highlight}: hydrophilic heads face outward, hydrophobic tails face inward.
+
+- [fluid mosaic model]{.highlight}: proteins float in or on the lipid bilayer.
+
+### Lipid Properties
+
+- Phospholipids vary in chain length, saturation, and polar groups.
+
+- Cholesterol modulates membrane fluidity and stability.
+
+- Fluidity affected by:
+  
+  - Lipid composition (saturated vs unsaturated fatty acids)
+    
+    - saturated = $\Downarrow$ fluidity
+    
+    - unsaturated = $\Uparrow$ fluidity
+  
+  - Temperature
+    
+    - $\Downarrow$ T = $\Downarrow$ fluidity
+    
+    - $\Uparrow$ T = $\Uparrow$ fluidity
+
+### Types of Membrane Proteins
+
+- [integral proteins]{.highlight}: embedded in bilayer, have hydrophilic and hydrophobic domains
+
+- [peripheral proteins]{.highlight}: bound to membrane surface, no hydrophobic domains
+
+- [anchored proteins]{.highlight}: covalently attached to lipid groups in the bilayer
+
+### Protein Distribution & Mobility
+
+- Proteins are [asymmetrically 不对称地 distributed]{.underline}.
+
+- [Cell fusion experiments]{.highlight} show proteins can diffuse laterally.
+
+- [Cytoskeleton]{.highlight} can [restrict protein movement]{.underline}.
+
+### Membrane Dynamics
+
+- Membranes are constantly forming, fusing, and recycling via vesicles.
+
+- Different organelles have different membrane compositions.
+
+### Membrane Carbohydrates
+
+- [Glycolipids]{.highlight}, [glycoproteins]{.highlight}, and [proteoglycans]{.highlight} are involved in [recognition and adhesion]{.underline}.
+
+- Carbohydrate structures provide diverse recognition signals.
+
+---
+
+## 6.2 The Cell Membrane Is Important in Cell Adhesion and Recognition
+
+### Cell Recognition & Adhesion
+
+- Mediated by membrane proteins and carbohydrates.
+
+- [Sponge cell experiments]{.highlight} show species-specific recognition.
+
+### Adhesion Molecules
+
+- [Proteoglycans]{.highlight} with sulfated polysaccharides mediate recognition and binding.
+
+- Adhesion can be [homotypic]{.highlight} (same molecule) or [heterotypic]{.highlight} (different molecules).
+
+### Types of Cell Junctions (Animals)
+
+- [tight junction]{.highlight} 紧密连接: seal intercellular spaces
+
+- [desmosome]{.highlight} 细胞桥粒: provide mechanical strength
+
+- [gap junction]{.highlight} 间隙连接: allow communication via channels
+
+### Cell-Extracellular Matrix Adhesion
+
+- [integrin]{.highlight}s 整联蛋白 connect ECM to cytoskeleton and enable cell movement
+
+---
+
+## 6.3 Substances Can Cross Membranes by Passive Processes
+
+### Diffusion
+
+- Net movememnt from high to low concentration
+
+- rate depends on
+  
+  - molecular size / mass ($\mathrm{m}$)
+  
+  - temperature ($\mathrm{T}$)
+  
+  - solution density ($\rho$)
+  
+  - concentration gradient ($\frac{\mathrm{d}c}{\mathrm{d}x}$)
+  
+  - surface area and distance ($\mathrm{A}$ and $\mathrm{d}$)
+
+### Simple Diffusion
+
+::: {.brace-left}
+- Small, hydrophobic molecules pass directly through the bilayer.
+
+- Polar/charged molecules diffuse poorly.
+:::
+
+### Osmosis
+
+- Water moves toward [higher solute concentration]{.underline}.
+
+- Terms:
+  
+  - [isotonic]{.highlight} 等渗的: equal solute concentrations
+  
+  - [hypotonic]{.highlight} 低渗的: lower solute outside $\Longrightarrow$ water enters cell
+  
+  - [hypertonic]{.highlight} 高渗的: higher solute outside $\Longrightarrow$ water leaves cell
+
+- Plant cells use [turgor pressure]{.highlight} 渗透压 to maintain structure.
+  
+  - 渗透压: 植物细胞内液体由于渗入作用而产生的实际压力, 与具有相同浓度的液体在理论上可能产生的最大压力相对比。
+
+### Facilitated Diffusion
+
+- [channel protein]{.highlight}s 离子通道蛋白 form hydrophilic pores
+  
+  - 离子通道蛋白: 一种成孔蛋白, 通过允许特定类型的离子穿过通道来帮助细胞建立和控制质膜间的微弱电压差
+  
+  - e.g., ion channels, aquaporins 水通道蛋白, 水孔蛋白
+
+- [carrier protein]{.highlight}s 载体蛋白 bind substances and change shape
+  
+  - 载体蛋白: 一种功能是通过生物膜运输小分子(或其他蛋白质)的蛋白质
+  
+  - e.g., glucose transporter
+
+---
+
+## 6.4 Active Transport across Membranes Requires Energy
+
+### General Features
+
+- moves substances [against]{.underline} concentration / electrical gradients
+
+- requries [energy]{.underline} (usually [ATP]{.underline})
+
+### Types of Transport Proteins
+
+- uniporter: moves one substance one way
+  

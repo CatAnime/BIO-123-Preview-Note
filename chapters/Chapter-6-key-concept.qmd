@@ -173,5 +173,64 @@ toc: true
 
 ### Types of Transport Proteins
 
-- uniporter: moves one substance one way
+- [uniporter]{.highlight} 单向传递体: moves one substance one way
+
+- [symporter]{.highlight} 协同载体: moves two substances same direction
+
+- [antiporter]{.highlight} 反向转运体: moves two substances opposite directions
+
+### Primary Active Transport
+
+- direct use of ATP
+
+- e.g., $\ce{Na+ - K+}$ pump
   
+  - 3 $\ce{Na+}$ out, 2 $\ce{K+}$ in
+  
+  - $\ce{ATP -> ADP + P_i}$
+
+### Secondary Active Transport (Co-trnasport)
+
+- Uses energy from ion gradient (established by primary transport)
+
+- e.g., $\ce{Na+ - glucose}$ symporter in intestinal cells 肠道细胞
+
+- applied in [oral rehydration therapy]{.highlight} (ORT) 口服补液疗法
+
+---
+
+## 6.5 Large Molecules Enter and Leave a Cell through Vesicles
+
+### Endocytosis (into the cell)
+
+- [phagocytosis]{.highlight} 吞噬作用 ("cell eating"): large particles or cells
+
+- [pinocytosis]{.highlight} 胞饮作用 ("cell drinking"): fluids and dissolved substances
+
+- [receptor-mediated endocytosis]{.highlight} 受体介导的内吞作用: specific uptake via receptor proteins in coated pits
+  
+  - 一种细胞摄取特定物质的过程, 通过特定的受体与物质结合, 然后将受体与物质一起内化到细胞内部
+  
+  - e.g., LDL cholesterol 低密度脂蛋白胆固醇 uptake
+
+### Exocytosis (out of the cell)
+
+- vesicles fuse with cell membrane to release contents
+
+- e.g., neurotransmitter release 神经递质释放
+  
+  - 神经元通过释放神经递质来传递信号的过程
+
+- e.g., sweat secretion
+
+:::{.callout-note}
+### Investigating Life - Aquaporins 水孔蛋白
+
+- water channels that allow rapid, selective water movement
+
+- important in kidneys, plant roots, and vacuoles
+
+- can be regulated (gated) in response to environmental conditions
+
+- potential applications: water purification, desalination 海水淡化, cosmetics
+:::

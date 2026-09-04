@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "ELEYANG-Campus-Regular";
-  src: url("fonts/ELEYANG-Campus-Regular.ttf") format ("truetype");
+  src: url("fonts/ELEYANG-Campus-Regular.ttf") format("truetype");
 }
 
 
@@ -53,8 +53,8 @@
   --practice-title-color: #CC7722;
   
   /* left margin */
-  --left-brace-color: #85a9c1;
-  --up-arrow-color: #ff5050;
+  --left-brace-color: #8D9D93;
+  --up-arrow-color: #517035;
 }
 
 

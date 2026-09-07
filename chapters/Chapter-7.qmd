@@ -55,3 +55,116 @@ toc: true
 - Ligand binding causes the receptor protein to undergo a conformational change 构想变化, initiating a cellular response.
 
 - The ligand itself is usually not changed; its role is purely to "knock on the door" 触发信号.
+
+### Receptor-Ligand Binding Kinetics 受体-配体结合动力学
+
+- binding is reversible:
+
+$$
+\ce{R + L <=> RL}
+$$
+
+- rate of binding
+
+$$
+\ce{k_1[R][L]}
+$$
+
+- rate of dissociation
+
+$$
+\ce{k_2[RL]}
+$$
+
+- at equilibrium:
+
+$$
+\ce{k_1[R][L]} = \ce{k_2[RL]}
+$$
+
+- [Dissociation Constant]{.highlight} 解离常数, $\ce{K_D}$
+  
+  - $$
+  \ce{K_D} = \frac{k_2}{k_1} = \frac{\ce{[R][L]}}{\ce{[RL]}} 
+  $$
+
+  - Lower $\mathrm{K_D}$ = higher affinity 亲和力高 of ligand for receptor
+  
+  - Higher $\mathrm{K_D}$ = lower affinity 亲和力低, more ligand needed to trigger signal transduction
+
+### Agonists 激动剂 and Antagonists 拮抗剂
+
+- [agonists]{.highlight} 激动剂: chemicals that bind to the receptor and set it into signal transduction mode, just like the ligand
+
+- [antagonist]{.highlight} 拮抗剂: inhibitors that bind to the receptor and "freeze" it in place, preventing the real ligand from binding, but do not trigger signal transduction
+
+:::{.example title = "Caffeine 咖啡因"}
+- Caffeine has a structure similar to adenosine 腺苷
+
+- acts as an antagonist at adenosine receptors
+
+- preventing adenosine binding and allowing continued nerve cell activity.
+:::
+
+### Receptor Types by Locations
+
+| Receptor Type | Location | Signals Detected | Example |
+| ------ | ------ | ------ | ------ |
+| membrane receptors 膜受体 | cell membrane | large or polar ligands that cannot cross the lipid bilayer | insulin receptor 胰岛素受体 |
+| intracellular receptors 胞内受体 | cytoplasm or nucleus | small or nonpolar ligands that can diffuse across the membrane |estrogen receptor 雌激素受体<br>cortisol receptor 皮质醇受体 |
+
+### 3 Categories of Cell Membrane Receptors
+
+1. [Ion Channel]{.highlight}s 离子通道受体
+
+  - Ligand binding causes conformational change in the channel protein, opening the gate, allowing ions ($\ce{Na+}$, $\ce{K+}$, $\ce{Ca^2+}$, $\ce{Cl-}$) to enter or leave the cell.
+  
+:::{.example title = "Acetylcholine Receptor 乙酰胆碱受体, AChR"}
+- [acetylcholine receptor]{.highlight}:
+
+  - a ligand-gated $\ce{Na+}$ channel located in the cell membrane of skeletal muscle cells
+  
+  - composed of 5 polypeptide subunits
+  
+  - when acetylcholine binds to 2 of the subunits, the gate opens and $\ce{Na+}$ flows into the cell, initiating muscle contraction
+:::
+
+2. [Protein Kinase Receptor]{.highlight}s 蛋白激酶受体
+
+- catalyze the phosphorylation 磷酸化 of themselves or other proteins, changing their shape and function
+
+- 3 amino acids can be [phosphorylated]{.underline}: [serine]{.highlight} 丝氨酸, [threonine]{.highlight} 苏氨酸, [tyrosine]{.highlight} 酪氨酸
+
+- over 500 genes encode protein kinases in humans
+
+:::{.example title = "Insulin Receptor 胰岛素受体"}
+- insuline receptor:
+
+  - has 2 copies of $\alpha$ subunits and 2 copies of $\beta$ subunits
+  
+  - when insulin binds, the receptor becomes activated and phosphorylates itself and insulin-response substrates
+  
+  - the ultimately leads to insertion of glucose transporters 葡萄糖转运蛋白 into the cell membrane
+:::
+
+3. [G Protein-Coupled Receptors]{.highlight} G蛋白偶联受体, GPCR
+
+  - many roles
+    
+    - light detection [(photoreceptors]{.highlight} 光感受器)
+    
+    - odor detection [(olfactory receptors]{.highlight} 嗅觉受体)
+    
+    - regulation of mood and behavior (e.g., mating in voles)
+  
+  - the receptors for [oxytocin]{.highlight} 催产素 and [vasopressin]{.highlight} 加压素 are G protein-coupled receptors
+  
+  - structure: 3 polypeptide subunits ($\alpha$, $\beta$, $\gamma$); can bind receptor, GDP/GTP, and effector protein
+  
+  - mechanisms of aciton:
+    
+    1. Ligand binds to extracellular side of receptor $\Longrightarrow$ receptor changes shape
+    
+    2. Cytoplasmic region exposes a site that binds to a G protein
+  
+  

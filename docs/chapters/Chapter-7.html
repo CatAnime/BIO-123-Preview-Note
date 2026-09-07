@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../style.css">
 </head>
@@ -151,6 +180,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#receptors-bind-signals-to-initiate-a-cellular-response" id="toc-receptors-bind-signals-to-initiate-a-cellular-response" class="nav-link" data-scroll-target="#receptors-bind-signals-to-initiate-a-cellular-response">7.2 Receptors Bind Signals to Initiate a Cellular Response</a>
   <ul class="collapse">
   <li><a href="#ligand-配体" id="toc-ligand-配体" class="nav-link" data-scroll-target="#ligand-配体">Ligand 配体</a></li>
+  <li><a href="#receptor-ligand-binding-kinetics-受体-配体结合动力学" id="toc-receptor-ligand-binding-kinetics-受体-配体结合动力学" class="nav-link" data-scroll-target="#receptor-ligand-binding-kinetics-受体-配体结合动力学">Receptor-Ligand Binding Kinetics 受体-配体结合动力学</a></li>
+  <li><a href="#agonists-激动剂-and-antagonists-拮抗剂" id="toc-agonists-激动剂-and-antagonists-拮抗剂" class="nav-link" data-scroll-target="#agonists-激动剂-and-antagonists-拮抗剂">Agonists 激动剂 and Antagonists 拮抗剂</a></li>
+  <li><a href="#receptor-types-by-locations" id="toc-receptor-types-by-locations" class="nav-link" data-scroll-target="#receptor-types-by-locations">Receptor Types by Locations</a></li>
+  <li><a href="#categories-of-cell-membrane-receptors" id="toc-categories-of-cell-membrane-receptors" class="nav-link" data-scroll-target="#categories-of-cell-membrane-receptors">3 Categories of Cell Membrane Receptors</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -258,6 +291,127 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Ligand binding causes the receptor protein to undergo a conformational change 构想变化, initiating a cellular response.</p></li>
 <li><p>The ligand itself is usually not changed; its role is purely to “knock on the door” 触发信号.</p></li>
 </ul>
+</section>
+<section id="receptor-ligand-binding-kinetics-受体-配体结合动力学" class="level3">
+<h3 class="anchored" data-anchor-id="receptor-ligand-binding-kinetics-受体-配体结合动力学">Receptor-Ligand Binding Kinetics 受体-配体结合动力学</h3>
+<ul>
+<li>binding is reversible:</li>
+</ul>
+<p><span class="math display">\[
+\ce{R + L &lt;=&gt; RL}
+\]</span></p>
+<ul>
+<li>rate of binding</li>
+</ul>
+<p><span class="math display">\[
+\ce{k_1[R][L]}
+\]</span></p>
+<ul>
+<li>rate of dissociation</li>
+</ul>
+<p><span class="math display">\[
+\ce{k_2[RL]}
+\]</span></p>
+<ul>
+<li>at equilibrium:</li>
+</ul>
+<p><span class="math display">\[
+\ce{k_1[R][L]} = \ce{k_2[RL]}
+\]</span></p>
+<ul>
+<li><p><span class="highlight">Dissociation Constant</span> 解离常数, <span class="math inline">\(\ce{K_D}\)</span></p>
+<ul>
+<li><p><span class="math display">\[
+\ce{K_D} = \frac{k_2}{k_1} = \frac{\ce{[R][L]}}{\ce{[RL]}}
+\]</span></p></li>
+<li><p>Lower <span class="math inline">\(\mathrm{K_D}\)</span> = higher affinity 亲和力高 of ligand for receptor</p></li>
+<li><p>Higher <span class="math inline">\(\mathrm{K_D}\)</span> = lower affinity 亲和力低, more ligand needed to trigger signal transduction</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="agonists-激动剂-and-antagonists-拮抗剂" class="level3">
+<h3 class="anchored" data-anchor-id="agonists-激动剂-and-antagonists-拮抗剂">Agonists 激动剂 and Antagonists 拮抗剂</h3>
+<ul>
+<li><p><span class="highlight">agonists</span> 激动剂: chemicals that bind to the receptor and set it into signal transduction mode, just like the ligand</p></li>
+<li><p><span class="highlight">antagonist</span> 拮抗剂: inhibitors that bind to the receptor and “freeze” it in place, preventing the real ligand from binding, but do not trigger signal transduction</p></li>
+</ul>
+<div class="example" title="Caffeine 咖啡因">
+<ul>
+<li><p>Caffeine has a structure similar to adenosine 腺苷</p></li>
+<li><p>acts as an antagonist at adenosine receptors</p></li>
+<li><p>preventing adenosine binding and allowing continued nerve cell activity.</p></li>
+</ul>
+</div>
+</section>
+<section id="receptor-types-by-locations" class="level3">
+<h3 class="anchored" data-anchor-id="receptor-types-by-locations">Receptor Types by Locations</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Receptor Type</th>
+<th>Location</th>
+<th>Signals Detected</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>membrane receptors 膜受体</td>
+<td>cell membrane</td>
+<td>large or polar ligands that cannot cross the lipid bilayer</td>
+<td>insulin receptor 胰岛素受体</td>
+</tr>
+<tr class="even">
+<td>intracellular receptors 胞内受体</td>
+<td>cytoplasm or nucleus</td>
+<td>small or nonpolar ligands that can diffuse across the membrane</td>
+<td>estrogen receptor 雌激素受体<br>cortisol receptor 皮质醇受体</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="categories-of-cell-membrane-receptors" class="level3">
+<h3 class="anchored" data-anchor-id="categories-of-cell-membrane-receptors">3 Categories of Cell Membrane Receptors</h3>
+<ol type="1">
+<li><span class="highlight">Ion Channel</span>s 离子通道受体</li>
+</ol>
+<ul>
+<li>Ligand binding causes conformational change in the channel protein, opening the gate, allowing ions (<span class="math inline">\(\ce{Na+}\)</span>, <span class="math inline">\(\ce{K+}\)</span>, <span class="math inline">\(\ce{Ca^2+}\)</span>, <span class="math inline">\(\ce{Cl-}\)</span>) to enter or leave the cell.</li>
+</ul>
+<div class="example" title="Acetylcholine Receptor 乙酰胆碱受体, AChR">
+<ul>
+<li><p><span class="highlight">acetylcholine receptor</span>:</p>
+<ul>
+<li><p>a ligand-gated <span class="math inline">\(\ce{Na+}\)</span> channel located in the cell membrane of skeletal muscle cells</p></li>
+<li><p>composed of 5 polypeptide subunits</p></li>
+<li><p>when acetylcholine binds to 2 of the subunits, the gate opens and <span class="math inline">\(\ce{Na+}\)</span> flows into the cell, initiating muscle contraction</p></li>
+</ul></li>
+</ul>
+</div>
+<ol start="2" type="1">
+<li><span class="highlight">Protein Kinase Receptor</span>s 蛋白激酶受体</li>
+</ol>
+<ul>
+<li><p>catalyze the phosphorylation 磷酸化 of themselves or other proteins, changing their shape and function</p></li>
+<li><p>3 amino acids can be <u>phosphorylated</u>: <span class="highlight">serine</span> 丝氨酸, <span class="highlight">threonine</span> 苏氨酸, <span class="highlight">tyrosine</span> 酪氨酸</p></li>
+<li><p>over 500 genes encode protein kinases in humans</p></li>
+</ul>
+<div class="example" title="Insulin Receptor 胰岛素受体">
+<ul>
+<li><p>insuline receptor:</p>
+<ul>
+<li><p>has 2 copies of <span class="math inline">\(\alpha\)</span> subunits and 2 copies of <span class="math inline">\(\beta\)</span> subunits</p></li>
+<li><p>when insulin binds, the receptor becomes activated and phosphorylates itself and insulin-response substrates</p></li>
+<li><p>the ultimately leads to insertion of glucose transporters 葡萄糖转运蛋白 into the cell membrane</p></li>
+</ul></li>
+</ul>
+</div>
 
 
 </section>

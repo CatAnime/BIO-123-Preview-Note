@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BIO 123 Notes</title>
+<title>chapter-8 – BIO 123 Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-49c8c4e9abc5c85f6ef827bc95f3ef76.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,8 +67,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body class="nav-sidebar docked fullcontent">
@@ -80,9 +109,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      BIO 123 Notes
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Chapter-8.html">Part 3 Cells and Energies</a></li><li class="breadcrumb-item"><a href="../chapters/Chapter-8.html">Chapter 8: Energy, Enzymes, and Metabolism</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -97,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">BIO 123 Notes</a> 
+      <a href="../">BIO 123 Notes</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -122,19 +149,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Chapter-5.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Chapter-5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chapter 5 Cells: The Working Units of Life</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Chapter-6-key-concept.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Chapter-6-key-concept.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chapter 6: Cell Membranes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Chapter-7.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Chapter-7.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Chapter 7: Cell Communication and Multicellularity</span></a>
   </div>
 </li>
@@ -151,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapters/Chapter-8.html" class="sidebar-item-text sidebar-link">
+  <a href="../chapters/Chapter-8.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Chapter 8: Energy, Enzymes, and Metabolism</span></a>
   </div>
 </li>
@@ -164,29 +191,353 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/Chapter-8.html">Part 3 Cells and Energies</a></li><li class="breadcrumb-item"><a href="../chapters/Chapter-8.html">Chapter 8: Energy, Enzymes, and Metabolism</a></li></ol></nav></header>
 
 
 
 
-<section id="part-1-the-science-of-life-and-its-chemical-basis" class="level1">
-<h1>Part 1 The Science of Life and Its Chemical Basis</h1>
-</section>
-<section id="part-2-cells" class="level1">
-<h1>Part 2 Cells</h1>
+<section id="chapter-8-energy-enzymes-and-metabolism" class="level1">
+<h1>Chapter 8: Energy, Enzymes, and Metabolism</h1>
+<hr>
+<section id="chemical-transformations-involve-energy-and-energy-transfers" class="level2">
+<h2 class="anchored" data-anchor-id="chemical-transformations-involve-energy-and-energy-transfers">8.1 Chemical Transformations Involve Energy and Energy Transfers</h2>
 <ul>
-<li><p><a href="./chapters/Chapter-5.html">Chapter 5 Cells: The Working Units of Life</a></p></li>
-<li><p><a href="./chapters/Chapter-6-key-concept.html">Chapter 6 Cell Membranes Key Concept</a></p></li>
-<li><p><a href="./chapters/Chapter-7.html">Chapter 7: Cell Communication and Multicellularity</a></p></li>
+<li><p>types of energy</p>
+<ul>
+<li><p><span class="highlight">potential energy</span>:</p>
+<ul>
+<li><p>stored energy</p></li>
+<li><p>e.g., in covalent bonds</p></li>
+<li><p>e.g., concentration gradients</p></li>
+</ul></li>
+<li><p><span class="highlight">kinetic energy</span>:</p>
+<ul>
+<li><p>energy of movememt</p></li>
+<li><p>does work</p></li>
+</ul></li>
+</ul></li>
+<li><p><span class="highlight">metabolism</span> 新陈代谢</p>
+<ul>
+<li><p>anabolism 合成代谢:</p>
+<ul>
+<li><p>builds larger molecules</p></li>
+<li><p>requires energy</p></li>
+<li><p>endergonic 吸能的, <span class="math inline">\(+ \Delta \mathrm{G}\)</span></p></li>
+</ul></li>
+<li><p><span class="highlight">catabolism</span> 分解代谢</p>
+<ul>
+<li><p>breaks down larger molecules</p></li>
+<li><p>releases energy</p></li>
+<li><p>exergonic 放能的, <span class="math inline">\(- \Delta \mathrm{G}\)</span></p></li>
+</ul></li>
+</ul></li>
+<li><p>Laws of Thermodynamics 热力学定律</p>
+<ul>
+<li><p><span class="highlight">First Law of Thermodynamics</span></p>
+<ul>
+<li>Energy is neither created nor destroyed 能量守恒, only converted</li>
+</ul></li>
+<li><p><span class="highlight">Second Law of Thermodynamics</span></p>
+<ul>
+<li><p>Energy conversions increase <span class="highlight">entropy</span> 熵 (S) 无序度增加</p></li>
+<li><p>some energy becomes unusable</p></li>
+</ul></li>
+</ul></li>
+<li><p><span class="highlight">Free Energy</span> (G) 自由能</p>
+<ul>
+<li><p><span class="math display">\[ \Delta \mathrm{G} = \Delta \mathrm{H} - \mathrm{T} \Delta \mathrm{S}\]</span></p></li>
+<li><p><span class="math inline">\(\Delta \mathrm{G} &lt; 0\)</span>: <span class="highlight">exergonic</span> 放能</p>
+<ul>
+<li>releases energy, spontaneous</li>
+</ul></li>
+<li><p><span class="math inline">\(\Delta \mathrm{G} &gt; 0\)</span>: <span class="highlight">endergonic</span> 吸能</p>
+<ul>
+<li>requires energy input</li>
+</ul></li>
+<li><p><span class="math inline">\(\Delta \mathrm{G} = 0\)</span>: at equilibrium</p>
+<ul>
+<li>no net change</li>
+</ul></li>
+</ul></li>
+<li><p>Equilibrium 平衡</p>
+<ul>
+<li><p>forward and reverse reactions occur at same rate</p></li>
+<li><p>product-to-reactant ratio is fixed</p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="atp-plays-a-key-role-in-biochemical-energetics" class="level2">
+<h2 class="anchored" data-anchor-id="atp-plays-a-key-role-in-biochemical-energetics">8.2 ATP Plays a Key Role in Biochemical Energetics</h2>
+<ul>
+<li><p>Adenosine Triphosphate (ATP) 三磷酸腺苷</p>
+<ul>
+<li><p>energy currency of the cell</p></li>
+<li><p>structure:<span class="math display">\[\text{adenine 腺嘌呤} + \text{ribose 核糖} + 3 \text{phosphate groups 磷酸基团}\]</span></p></li>
+</ul></li>
+<li><p>ATP Hydrolysis ATP 水解</p>
+<ul>
+<li><p><span class="math display">\[\ce{ATP + H2O -&gt; ADP + P_i + free energy}\]</span></p></li>
+<li><p><span class="math inline">\(\Delta \mathrm{G} \approx \pu{-7.3kcal/mol}\)</span> <span class="math inline">\((\pu{-30kJ/mol})\)</span>, highly exergonic</p></li>
+<li><p>Why so much energy?</p>
+<ol type="1">
+<li><p>Negative charges repel - bond is high-energy</p></li>
+<li><p>Products (<span class="math inline">\(\ce{ADP + P_i}\)</span>) are more stable</p></li>
+</ol></li>
+</ul></li>
+<li><p>Energy Coupling 能量偶联</p>
+<ul>
+<li><p>ATP hydrolysis drives endergonic reactions</p></li>
+<li><p>e.g.,<span class="math display">\[\ce{Glucose + ATP -&gt; Glucose-6-phosphate +ADP}\]</span> 葡萄糖磷酸化</p></li>
+<li><p>Cycle:<span class="math display">\[\ce{Exergonic reactions -&gt; make ATP}\]</span><span class="math display">\[\ce{ATP -&gt; fuels endergonic reactions}\]</span></p></li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="enzymes-speed-up-biochemical-transformations" class="level2">
+<h2 class="anchored" data-anchor-id="enzymes-speed-up-biochemical-transformations">8.3 Enzymes Speed Up Biochemical Transformations</h2>
+<ul>
+<li><p><span class="highlight">catalyst</span></p>
+<ul>
+<li><p>speeds up reaction without being permanently changed</p></li>
+<li><p>加速反应, 自身不被永久改变</p></li>
+</ul></li>
+<li><p><span class="highlight">enzyme</span>s</p>
+<ul>
+<li><p>mostly proteins</p></li>
+<li><p>highly specific</p>
+<ul>
+<li>each enzyme binds specific <span class="highlight">substrate</span>(s) 底物</li>
+</ul></li>
+<li><p><span class="highlight">active site</span></p>
+<ul>
+<li>where substrate binds and reaction occurs</li>
+</ul></li>
+</ul></li>
+<li><p><span class="highlight">activation energy</span> 活化能, <span class="math inline">\(\mathrm{E_a}\)</span>:</p>
+<ul>
+<li><p>energy needed to reach <span class="highlight">transition state</span> 过渡态</p></li>
+<li><p>enzymes lower <span class="math inline">\(\mathrm{E_a}\)</span></p>
+<ul>
+<li>speed up reaction</li>
+</ul></li>
+<li><p>important: enzymes do NOT change <span class="math inline">\(\Delta \mathrm{G}\)</span> or equilibrium</p></li>
+</ul></li>
+<li><p><span class="highlight">enzyme-substrate complex</span> (ES) 酶-底物复合物:</p>
+<ul>
+<li><span class="math display">\[\ce{E +S &lt;=&gt; ES -&gt; E + P}\]</span></li>
+</ul></li>
+<li><p>enzyme classes:</p></li>
+</ul>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Functions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>oxidoreductases 氧化还原酶</td>
+<td>transfer electrons</td>
+</tr>
+<tr class="even">
+<td>transferases 转移酶</td>
+<td>transfer funcitonal groups 转移功能基团</td>
+</tr>
+<tr class="odd">
+<td>hydrolases 水解酶</td>
+<td>add water to break bonds 加水断键</td>
+</tr>
+<tr class="even">
+<td>lyases 裂解酶</td>
+<td>non-hydrolytic bond breakage 非水解性断键</td>
+</tr>
+<tr class="odd">
+<td>isomerases 异构酶</td>
+<td>rearrange atoms within molecule 分子内重排</td>
+</tr>
+<tr class="even">
+<td>ligases 连接酶</td>
+<td>join molecules together</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="enzymes-bring-substrates-together-so-reactions-readily-occur-酶将底物聚在一区-使反应易于进行" class="level2">
+<h2 class="anchored" data-anchor-id="enzymes-bring-substrates-together-so-reactions-readily-occur-酶将底物聚在一区-使反应易于进行">8.4 Enzymes Bring Substrates Together so Reactions Readily Occur<br>酶将底物聚在一区, 使反应易于进行</h2>
+<section id="how-enzymes-lower-cee_a" class="level3">
+<h3 class="anchored" data-anchor-id="how-enzymes-lower-cee_a">How Enzymes Lower <span class="math inline">\(\ce{E_a}\)</span></h3>
+<ol type="1">
+<li>orientation 定向</li>
+</ol>
+<ul>
+<li>holds substrates in correct position</li>
+</ul>
+<ol start="2" type="1">
+<li>inducing strain 诱导应变</li>
+</ol>
+<ul>
+<li>stretches bonds to make them unstable</li>
+</ul>
+<ol start="3" type="1">
+<li>chemical catalysis</li>
+</ol>
+<ul>
+<li><p>acid-base catalysis 酸碱催化</p>
+<ul>
+<li>tranfer <span class="math inline">\(\ce{H+}\)</span></li>
+</ul></li>
+<li><p>covalent catalysis 共价催化</p>
+<ul>
+<li>forms temporary covalent bond</li>
+</ul></li>
+<li><p>metal ion catalysis 金属离子催化</p>
+<ul>
+<li>use cofactors like <span class="math inline">\(\ce{Fe^2+}\)</span>, <span class="math inline">\(\ce{Zn^2+}\)</span></li>
+</ul></li>
 </ul>
 </section>
-<section id="part-3-cells-and-energy" class="level1">
-<h1>Part 3 Cells and Energy</h1>
+<section id="induced-fit-诱导契合" class="level3">
+<h3 class="anchored" data-anchor-id="induced-fit-诱导契合">Induced Fit 诱导契合</h3>
 <ul>
-<li><a href="./chapters/Chapter-8.html">Chapter 8: Energy, Enzymes, and Metabolism</a></li>
+<li><p>enzyme changes shape upon substrate binding</p></li>
+<li><p>e.g., <span class="highlight">hexokinase</span> 已糖激酶 changes shape to exclude water 排除水分子</p></li>
+</ul>
+</section>
+<section id="non-protein-helpers-非蛋白辅助因子" class="level3">
+<h3 class="anchored" data-anchor-id="non-protein-helpers-非蛋白辅助因子">Non-protein Helpers 非蛋白辅助因子</h3>
+<ul>
+<li><p><span class="highlight">prosthetic group</span>s 辅基</p>
+<ul>
+<li><p>permanently bound</p></li>
+<li><p>e.g., heme 血红素</p></li>
+<li><p>e.g., FAD</p></li>
+</ul></li>
+<li><p><span class="highlight">cofactor</span>s 辅因子</p>
+<ul>
+<li><p>inorganic ions</p></li>
+<li><p>e.g., <span class="math inline">\(\ce{Zn^2+}\)</span>, <span class="math inline">\(\ce{Fe^2+}\)</span></p></li>
+</ul></li>
+<li><p><span class="highlight">coenzyme</span>s 辅酶</p>
+<ul>
+<li><p>organic molecules</p></li>
+<li><p>temporarily bind</p></li>
+<li><p>e.g., <span class="math inline">\(\ce{NAD+}\)</span>, <span class="math inline">\(\ce{CoA}\)</span></p></li>
+</ul></li>
+</ul>
+</section>
+<section id="substrate-concentration-effect" class="level3">
+<h3 class="anchored" data-anchor-id="substrate-concentration-effect">Substrate Concentration Effect</h3>
+<ul>
+<li><p>rate increases with [substrate], then <span class="highlight">plateaus</span> 平台期, when enzyme is <span class="highlight">saturated</span></p>
+<ul>
+<li>all active sites occupied 所有活性点位被占据</li>
+</ul></li>
+<li><p><span class="highlight">turnover number</span> 转换数</p>
+<ul>
+<li>max substrates converted per enzyme per second 每个酶每秒最多转化的底物数</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="enzyme-activities-can-be-regulated-酶的活性可以被调控" class="level2">
+<h2 class="anchored" data-anchor-id="enzyme-activities-can-be-regulated-酶的活性可以被调控">8.5 Enzyme Activities Can Be Regulated 酶的活性可以被调控</h2>
+<section id="two-ways-to-regulate-enzyme-activities" class="level3">
+<h3 class="anchored" data-anchor-id="two-ways-to-regulate-enzyme-activities">Two Ways to Regulate Enzyme Activities</h3>
+<ol type="1">
+<li><u>gene expression</u></li>
+</ol>
+<ul>
+<li>make more or less enzyme</li>
+</ul>
+<ol start="2" type="1">
+<li><u>enzyme activity</u></li>
+</ol>
+<ul>
+<li><u>change enzyme shape</u> or <u>block active site</u></li>
+</ul>
+</section>
+<section id="inhibitors-抑制剂" class="level3">
+<h3 class="anchored" data-anchor-id="inhibitors-抑制剂">Inhibitors 抑制剂</h3>
+<ul>
+<li><p>irreversible</p>
+<ul>
+<li><p>covalently binds</p></li>
+<li><p>permanently inactivates</p></li>
+<li><p>e.g., Aspirin 阿司匹林: acetylates COX enzyme 乙酰化COS酶</p></li>
+</ul></li>
+<li><p>reversible</p>
+<ul>
+<li><p><u>competitive</u></p>
+<ul>
+<li>binds active site, competes with substrate</li>
+<li>overcome by more substrate</li>
+</ul></li>
+<li><p><u>uncompetitive</u></p>
+<ul>
+<li>binds only to ES complex</li>
+</ul></li>
+<li><p><u>noncompetitive</u></p>
+<ul>
+<li>binds elsewhere, changes enzyme shape</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="allosteric-regulation-别构调控" class="level3">
+<h3 class="anchored" data-anchor-id="allosteric-regulation-别构调控">Allosteric Regulation 别构调控</h3>
+<ul>
+<li><p>regulator binds <span class="highlight">allosteric site</span> 别构位点 (not active site)</p></li>
+<li><p>stabilizes <u>active</u> or <u>inactive</u> form</p></li>
+<li><p>often enzymes with <span class="highlight">quaternary structure</span> 四级结构</p></li>
+<li><p>sigmoidal curve S形曲线</p>
+<ul>
+<li>sensitive to small changes in substrate 对底物微笑变化敏感</li>
+</ul></li>
+</ul>
+</section>
+<section id="feedback-inhibition-反馈抑制" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-inhibition-反馈抑制">Feedback Inhibition 反馈抑制</h3>
+<ul>
+<li><p><u>end product</u> inhibits the <span class="highlight">commitment step</span> 承诺步骤/第一步骤</p></li>
+<li><p>prevents wasting energy</p></li>
+<li><p>e.g., prine synthesis 嘌呤合成, cholesterol synthesis 胆固醇合成, target of statins 他汀类药物靶点</p></li>
+</ul>
+</section>
+<section id="reversible-phosphorylation-可逆磷酸化" class="level3">
+<h3 class="anchored" data-anchor-id="reversible-phosphorylation-可逆磷酸化">Reversible Phosphorylation 可逆磷酸化</h3>
+<ul>
+<li><p><span class="highlight">protein kinase</span> 蛋白激酶</p>
+<ul>
+<li>adds phosphate - activates</li>
+</ul></li>
+<li><p><span class="highlight">protein phosphatase</span></p>
+<ul>
+<li>removes phosphate - inactivates</li>
+</ul></li>
+</ul>
+</section>
+<section id="environment-effects" class="level3">
+<h3 class="anchored" data-anchor-id="environment-effects">Environment Effects</h3>
+<ul>
+<li><p>pH</p>
+<ul>
+<li><p>each enzyme has <u>optimal pH</u></p></li>
+<li><p>changes in pH alter <u>ionization</u> and <u>shape</u></p></li>
+</ul></li>
+<li><p>temperature</p>
+<ul>
+<li><p>each enzyme has <u>optimal temperature</u></p></li>
+<li><p>too high <span class="highlight">denature</span>s (loses 3D structure)</p></li>
+</ul></li>
 </ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

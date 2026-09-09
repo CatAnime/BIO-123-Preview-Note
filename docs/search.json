@@ -29,7 +29,7 @@
     "href": "index.html",
     "title": "Part 1 The Science of Life and Its Chemical Basis",
     "section": "",
-    "text": "Part 1 The Science of Life and Its Chemical Basis\n\nChapter 5 Cells: The Working Units of Life\nChapter 6 Cell Membranes Key Concept\nChapter 7: Cell Communication and Multicellularity"
+    "text": "Part 1 The Science of Life and Its Chemical Basis\n\n\nPart 2 Cells\n\nChapter 5 Cells: The Working Units of Life\nChapter 6 Cell Membranes Key Concept\nChapter 7: Cell Communication and Multicellularity\n\n\n\nPart 3 Cells and Energy\n\nChapter 8: Energy, Enzymes, and Metabolism"
   },
   {
     "objectID": "index.html#part-1-the-science-of-life-and-its-chemical-basis",
@@ -251,6 +251,72 @@
     "crumbs": [
       "Part 1: Science of Life",
       "Chapter 7: Cell Communication and Multicellularity"
+    ]
+  },
+  {
+    "objectID": "chapters/Chapter-8.html",
+    "href": "chapters/Chapter-8.html",
+    "title": "Chapter 8: Energy, Enzymes, and Metabolism",
+    "section": "",
+    "text": "types of energy\n\npotential energy:\n\nstored energy\ne.g., in covalent bonds\ne.g., concentration gradients\n\nkinetic energy:\n\nenergy of movememt\ndoes work\n\n\nmetabolism 新陈代谢\n\nanabolism 合成代谢:\n\nbuilds larger molecules\nrequires energy\nendergonic 吸能的, \\(+ \\Delta \\mathrm{G}\\)\n\ncatabolism 分解代谢\n\nbreaks down larger molecules\nreleases energy\nexergonic 放能的, \\(- \\Delta \\mathrm{G}\\)\n\n\nLaws of Thermodynamics 热力学定律\n\nFirst Law of Thermodynamics\n\nEnergy is neither created nor destroyed 能量守恒, only converted\n\nSecond Law of Thermodynamics\n\nEnergy conversions increase entropy 熵 (S) 无序度增加\nsome energy becomes unusable\n\n\nFree Energy (G) 自由能\n\n\\[ \\Delta \\mathrm{G} = \\Delta \\mathrm{H} - \\mathrm{T} \\Delta \\mathrm{S}\\]\n\\(\\Delta \\mathrm{G} &lt; 0\\): exergonic 放能\n\nreleases energy, spontaneous\n\n\\(\\Delta \\mathrm{G} &gt; 0\\): endergonic 吸能\n\nrequires energy input\n\n\\(\\Delta \\mathrm{G} = 0\\): at equilibrium\n\nno net change\n\n\nEquilibrium 平衡\n\nforward and reverse reactions occur at same rate\nproduct-to-reactant ratio is fixed\n\n\n\n\n\n\n\nAdenosine Triphosphate (ATP) 三磷酸腺苷\n\nenergy currency of the cell\nstructure:\\[\\text{adenine 腺嘌呤} + \\text{ribose 核糖} + 3 \\text{phosphate groups 磷酸基团}\\]\n\nATP Hydrolysis ATP 水解\n\n\\[\\ce{ATP + H2O -&gt; ADP + P_i + free energy}\\]\n\\(\\Delta \\mathrm{G} \\approx \\pu{-7.3kcal/mol}\\) \\((\\pu{-30kJ/mol})\\), highly exergonic\nWhy so much energy?\n\nNegative charges repel - bond is high-energy\nProducts (\\(\\ce{ADP + P_i}\\)) are more stable\n\n\nEnergy Coupling 能量偶联\n\nATP hydrolysis drives endergonic reactions\ne.g.,\\[\\ce{Glucose + ATP -&gt; Glucose-6-phosphate +ADP}\\] 葡萄糖磷酸化\nCycle:\\[\\ce{Exergonic reactions -&gt; make ATP}\\]\\[\\ce{ATP -&gt; fuels endergonic reactions}\\]\n\n\n\n\n\n\n\ncatalyst\n\nspeeds up reaction without being permanently changed\n加速反应, 自身不被永久改变\n\nenzymes\n\nmostly proteins\nhighly specific\n\neach enzyme binds specific substrate(s) 底物\n\nactive site\n\nwhere substrate binds and reaction occurs\n\n\nactivation energy 活化能, \\(\\mathrm{E_a}\\):\n\nenergy needed to reach transition state 过渡态\nenzymes lower \\(\\mathrm{E_a}\\)\n\nspeed up reaction\n\nimportant: enzymes do NOT change \\(\\Delta \\mathrm{G}\\) or equilibrium\n\nenzyme-substrate complex (ES) 酶-底物复合物:\n\n\\[\\ce{E +S &lt;=&gt; ES -&gt; E + P}\\]\n\nenzyme classes:\n\n\n\n\nName\nFunctions\n\n\n\n\noxidoreductases 氧化还原酶\ntransfer electrons\n\n\ntransferases 转移酶\ntransfer funcitonal groups 转移功能基团\n\n\nhydrolases 水解酶\nadd water to break bonds 加水断键\n\n\nlyases 裂解酶\nnon-hydrolytic bond breakage 非水解性断键\n\n\nisomerases 异构酶\nrearrange atoms within molecule 分子内重排\n\n\nligases 连接酶\njoin molecules together\n\n\n\n\n\n\n\n\n\n\norientation 定向\n\n\nholds substrates in correct position\n\n\ninducing strain 诱导应变\n\n\nstretches bonds to make them unstable\n\n\nchemical catalysis\n\n\nacid-base catalysis 酸碱催化\n\ntranfer \\(\\ce{H+}\\)\n\ncovalent catalysis 共价催化\n\nforms temporary covalent bond\n\nmetal ion catalysis 金属离子催化\n\nuse cofactors like \\(\\ce{Fe^2+}\\), \\(\\ce{Zn^2+}\\)\n\n\n\n\n\n\nenzyme changes shape upon substrate binding\ne.g., hexokinase 已糖激酶 changes shape to exclude water 排除水分子\n\n\n\n\n\nprosthetic groups 辅基\n\npermanently bound\ne.g., heme 血红素\ne.g., FAD\n\ncofactors 辅因子\n\ninorganic ions\ne.g., \\(\\ce{Zn^2+}\\), \\(\\ce{Fe^2+}\\)\n\ncoenzymes 辅酶\n\norganic molecules\ntemporarily bind\ne.g., \\(\\ce{NAD+}\\), \\(\\ce{CoA}\\)\n\n\n\n\n\n\nrate increases with [substrate], then plateaus 平台期, when enzyme is saturated\n\nall active sites occupied 所有活性点位被占据\n\nturnover number 转换数\n\nmax substrates converted per enzyme per second 每个酶每秒最多转化的底物数\n\n\n\n\n\n\n\n\n\n\ngene expression\n\n\nmake more or less enzyme\n\n\nenzyme activity\n\n\nchange enzyme shape or block active site\n\n\n\n\n\nirreversible\n\ncovalently binds\npermanently inactivates\ne.g., Aspirin 阿司匹林: acetylates COX enzyme 乙酰化COS酶\n\nreversible\n\ncompetitive\n\nbinds active site, competes with substrate\novercome by more substrate\n\nuncompetitive\n\nbinds only to ES complex\n\nnoncompetitive\n\nbinds elsewhere, changes enzyme shape\n\n\n\n\n\n\n\nregulator binds allosteric site 别构位点 (not active site)\nstabilizes active or inactive form\noften enzymes with quaternary structure 四级结构\nsigmoidal curve S形曲线\n\nsensitive to small changes in substrate 对底物微笑变化敏感\n\n\n\n\n\n\nend product inhibits the commitment step 承诺步骤/第一步骤\nprevents wasting energy\ne.g., prine synthesis 嘌呤合成, cholesterol synthesis 胆固醇合成, target of statins 他汀类药物靶点\n\n\n\n\n\nprotein kinase 蛋白激酶\n\nadds phosphate - activates\n\nprotein phosphatase\n\nremoves phosphate - inactivates\n\n\n\n\n\n\npH\n\neach enzyme has optimal pH\nchanges in pH alter ionization and shape\n\ntemperature\n\neach enzyme has optimal temperature\ntoo high denatures (loses 3D structure)",
+    "crumbs": [
+      "Part 3 Cells and Energies",
+      "Chapter 8: Energy, Enzymes, and Metabolism"
+    ]
+  },
+  {
+    "objectID": "chapters/Chapter-8.html#chemical-transformations-involve-energy-and-energy-transfers",
+    "href": "chapters/Chapter-8.html#chemical-transformations-involve-energy-and-energy-transfers",
+    "title": "Chapter 8: Energy, Enzymes, and Metabolism",
+    "section": "",
+    "text": "types of energy\n\npotential energy:\n\nstored energy\ne.g., in covalent bonds\ne.g., concentration gradients\n\nkinetic energy:\n\nenergy of movememt\ndoes work\n\n\nmetabolism 新陈代谢\n\nanabolism 合成代谢:\n\nbuilds larger molecules\nrequires energy\nendergonic 吸能的, \\(+ \\Delta \\mathrm{G}\\)\n\ncatabolism 分解代谢\n\nbreaks down larger molecules\nreleases energy\nexergonic 放能的, \\(- \\Delta \\mathrm{G}\\)\n\n\nLaws of Thermodynamics 热力学定律\n\nFirst Law of Thermodynamics\n\nEnergy is neither created nor destroyed 能量守恒, only converted\n\nSecond Law of Thermodynamics\n\nEnergy conversions increase entropy 熵 (S) 无序度增加\nsome energy becomes unusable\n\n\nFree Energy (G) 自由能\n\n\\[ \\Delta \\mathrm{G} = \\Delta \\mathrm{H} - \\mathrm{T} \\Delta \\mathrm{S}\\]\n\\(\\Delta \\mathrm{G} &lt; 0\\): exergonic 放能\n\nreleases energy, spontaneous\n\n\\(\\Delta \\mathrm{G} &gt; 0\\): endergonic 吸能\n\nrequires energy input\n\n\\(\\Delta \\mathrm{G} = 0\\): at equilibrium\n\nno net change\n\n\nEquilibrium 平衡\n\nforward and reverse reactions occur at same rate\nproduct-to-reactant ratio is fixed",
+    "crumbs": [
+      "Part 3 Cells and Energies",
+      "Chapter 8: Energy, Enzymes, and Metabolism"
+    ]
+  },
+  {
+    "objectID": "chapters/Chapter-8.html#atp-plays-a-key-role-in-biochemical-energetics",
+    "href": "chapters/Chapter-8.html#atp-plays-a-key-role-in-biochemical-energetics",
+    "title": "Chapter 8: Energy, Enzymes, and Metabolism",
+    "section": "",
+    "text": "Adenosine Triphosphate (ATP) 三磷酸腺苷\n\nenergy currency of the cell\nstructure:\\[\\text{adenine 腺嘌呤} + \\text{ribose 核糖} + 3 \\text{phosphate groups 磷酸基团}\\]\n\nATP Hydrolysis ATP 水解\n\n\\[\\ce{ATP + H2O -&gt; ADP + P_i + free energy}\\]\n\\(\\Delta \\mathrm{G} \\approx \\pu{-7.3kcal/mol}\\) \\((\\pu{-30kJ/mol})\\), highly exergonic\nWhy so much energy?\n\nNegative charges repel - bond is high-energy\nProducts (\\(\\ce{ADP + P_i}\\)) are more stable\n\n\nEnergy Coupling 能量偶联\n\nATP hydrolysis drives endergonic reactions\ne.g.,\\[\\ce{Glucose + ATP -&gt; Glucose-6-phosphate +ADP}\\] 葡萄糖磷酸化\nCycle:\\[\\ce{Exergonic reactions -&gt; make ATP}\\]\\[\\ce{ATP -&gt; fuels endergonic reactions}\\]",
+    "crumbs": [
+      "Part 3 Cells and Energies",
+      "Chapter 8: Energy, Enzymes, and Metabolism"
+    ]
+  },
+  {
+    "objectID": "chapters/Chapter-8.html#enzymes-speed-up-biochemical-transformations",
+    "href": "chapters/Chapter-8.html#enzymes-speed-up-biochemical-transformations",
+    "title": "Chapter 8: Energy, Enzymes, and Metabolism",
+    "section": "",
+    "text": "catalyst\n\nspeeds up reaction without being permanently changed\n加速反应, 自身不被永久改变\n\nenzymes\n\nmostly proteins\nhighly specific\n\neach enzyme binds specific substrate(s) 底物\n\nactive site\n\nwhere substrate binds and reaction occurs\n\n\nactivation energy 活化能, \\(\\mathrm{E_a}\\):\n\nenergy needed to reach transition state 过渡态\nenzymes lower \\(\\mathrm{E_a}\\)\n\nspeed up reaction\n\nimportant: enzymes do NOT change \\(\\Delta \\mathrm{G}\\) or equilibrium\n\nenzyme-substrate complex (ES) 酶-底物复合物:\n\n\\[\\ce{E +S &lt;=&gt; ES -&gt; E + P}\\]\n\nenzyme classes:\n\n\n\n\nName\nFunctions\n\n\n\n\noxidoreductases 氧化还原酶\ntransfer electrons\n\n\ntransferases 转移酶\ntransfer funcitonal groups 转移功能基团\n\n\nhydrolases 水解酶\nadd water to break bonds 加水断键\n\n\nlyases 裂解酶\nnon-hydrolytic bond breakage 非水解性断键\n\n\nisomerases 异构酶\nrearrange atoms within molecule 分子内重排\n\n\nligases 连接酶\njoin molecules together",
+    "crumbs": [
+      "Part 3 Cells and Energies",
+      "Chapter 8: Energy, Enzymes, and Metabolism"
+    ]
+  },
+  {
+    "objectID": "chapters/Chapter-8.html#enzymes-bring-substrates-together-so-reactions-readily-occur-酶将底物聚在一区-使反应易于进行",
+    "href": "chapters/Chapter-8.html#enzymes-bring-substrates-together-so-reactions-readily-occur-酶将底物聚在一区-使反应易于进行",
+    "title": "Chapter 8: Energy, Enzymes, and Metabolism",
+    "section": "",
+    "text": "orientation 定向\n\n\nholds substrates in correct position\n\n\ninducing strain 诱导应变\n\n\nstretches bonds to make them unstable\n\n\nchemical catalysis\n\n\nacid-base catalysis 酸碱催化\n\ntranfer \\(\\ce{H+}\\)\n\ncovalent catalysis 共价催化\n\nforms temporary covalent bond\n\nmetal ion catalysis 金属离子催化\n\nuse cofactors like \\(\\ce{Fe^2+}\\), \\(\\ce{Zn^2+}\\)\n\n\n\n\n\n\nenzyme changes shape upon substrate binding\ne.g., hexokinase 已糖激酶 changes shape to exclude water 排除水分子\n\n\n\n\n\nprosthetic groups 辅基\n\npermanently bound\ne.g., heme 血红素\ne.g., FAD\n\ncofactors 辅因子\n\ninorganic ions\ne.g., \\(\\ce{Zn^2+}\\), \\(\\ce{Fe^2+}\\)\n\ncoenzymes 辅酶\n\norganic molecules\ntemporarily bind\ne.g., \\(\\ce{NAD+}\\), \\(\\ce{CoA}\\)\n\n\n\n\n\n\nrate increases with [substrate], then plateaus 平台期, when enzyme is saturated\n\nall active sites occupied 所有活性点位被占据\n\nturnover number 转换数\n\nmax substrates converted per enzyme per second 每个酶每秒最多转化的底物数",
+    "crumbs": [
+      "Part 3 Cells and Energies",
+      "Chapter 8: Energy, Enzymes, and Metabolism"
+    ]
+  },
+  {
+    "objectID": "chapters/Chapter-8.html#enzyme-activities-can-be-regulated-酶的活性可以被调控",
+    "href": "chapters/Chapter-8.html#enzyme-activities-can-be-regulated-酶的活性可以被调控",
+    "title": "Chapter 8: Energy, Enzymes, and Metabolism",
+    "section": "",
+    "text": "gene expression\n\n\nmake more or less enzyme\n\n\nenzyme activity\n\n\nchange enzyme shape or block active site\n\n\n\n\n\nirreversible\n\ncovalently binds\npermanently inactivates\ne.g., Aspirin 阿司匹林: acetylates COX enzyme 乙酰化COS酶\n\nreversible\n\ncompetitive\n\nbinds active site, competes with substrate\novercome by more substrate\n\nuncompetitive\n\nbinds only to ES complex\n\nnoncompetitive\n\nbinds elsewhere, changes enzyme shape\n\n\n\n\n\n\n\nregulator binds allosteric site 别构位点 (not active site)\nstabilizes active or inactive form\noften enzymes with quaternary structure 四级结构\nsigmoidal curve S形曲线\n\nsensitive to small changes in substrate 对底物微笑变化敏感\n\n\n\n\n\n\nend product inhibits the commitment step 承诺步骤/第一步骤\nprevents wasting energy\ne.g., prine synthesis 嘌呤合成, cholesterol synthesis 胆固醇合成, target of statins 他汀类药物靶点\n\n\n\n\n\nprotein kinase 蛋白激酶\n\nadds phosphate - activates\n\nprotein phosphatase\n\nremoves phosphate - inactivates\n\n\n\n\n\n\npH\n\neach enzyme has optimal pH\nchanges in pH alter ionization and shape\n\ntemperature\n\neach enzyme has optimal temperature\ntoo high denatures (loses 3D structure)",
+    "crumbs": [
+      "Part 3 Cells and Energies",
+      "Chapter 8: Energy, Enzymes, and Metabolism"
     ]
   }
 ]

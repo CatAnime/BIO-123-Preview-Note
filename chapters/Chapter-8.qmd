@@ -2,9 +2,304 @@
 format: html
 ---
 
-# Chapter 8 Energy, Enzymes, and Metabolism
+# Chapter 8: Energy, Enzymes, and Metabolism
 
 ---
 
-## Chemical Transformations Involve Energy and Energy Transfers
+## 8.1 Chemical Transformations Involve Energy and Energy Transfers
 
+- types of energy
+  
+  - [potential energy]{.highlight}:
+    
+    - stored energy
+    
+    - e.g., in covalent bonds
+    
+    - e.g., concentration gradients
+  
+  - [kinetic energy]{.highlight}:
+    
+    - energy of movememt
+    
+    - does work
+
+- [metabolism]{.highlight} 新陈代谢
+  
+  - anabolism 合成代谢:
+    
+    - builds larger molecules
+    
+    - requires energy
+    
+    - endergonic 吸能的, $+ \Delta \mathrm{G}$
+    
+  - [catabolism]{.highlight} 分解代谢
+    
+    - breaks down larger molecules
+    
+    - releases energy
+    
+    - exergonic 放能的, $- \Delta \mathrm{G}$
+
+- Laws of Thermodynamics 热力学定律
+
+  - [First Law of Thermodynamics]{.highlight}
+    
+    - Energy is neither created nor destroyed 能量守恒, only converted
+    
+  - [Second Law of Thermodynamics]{.highlight}
+    
+    - Energy conversions increase [entropy]{.highlight} 熵 (S) 无序度增加
+    
+    - some energy becomes unusable
+
+- [Free Energy]{.highlight} (G) 自由能
+  
+  - $$ \Delta \mathrm{G} = \Delta \mathrm{H} - \mathrm{T} \Delta \mathrm{S}$$
+  
+  - $\Delta \mathrm{G} < 0$: [exergonic]{.highlight} 放能
+    
+    - releases energy, spontaneous
+  
+  - $\Delta \mathrm{G} > 0$: [endergonic]{.highlight} 吸能
+    
+    - requires energy input
+  
+  - $\Delta \mathrm{G} = 0$: at equilibrium
+    
+    - no net change
+
+- Equilibrium 平衡
+  
+  - forward and reverse reactions occur at same rate
+  
+  - product-to-reactant ratio is fixed
+
+---
+
+## 8.2 ATP Plays a Key Role in Biochemical Energetics
+
+- Adenosine Triphosphate (ATP) 三磷酸腺苷
+
+  - energy currency of the cell
+  
+  - structure:$$\text{adenine 腺嘌呤} + \text{ribose 核糖} + 3 \text{phosphate groups 磷酸基团}$$
+  
+- ATP Hydrolysis ATP 水解
+  
+  - $$\ce{ATP + H2O -> ADP + P_i + free energy}$$
+  
+  - $\Delta \mathrm{G} \approx \pu{-7.3kcal/mol}$ $(\pu{-30kJ/mol})$, highly exergonic
+  
+  - Why so much energy?
+    
+    1. Negative charges repel - bond is high-energy
+    
+    2. Products ($\ce{ADP + P_i}$) are more stable
+
+- Energy Coupling 能量偶联
+
+  - ATP hydrolysis drives endergonic reactions
+  
+  - e.g.,$$\ce{Glucose + ATP -> Glucose-6-phosphate +ADP}$$ 葡萄糖磷酸化
+  
+  - Cycle:$$\ce{Exergonic reactions -> make ATP}$$$$\ce{ATP -> fuels endergonic reactions}$$
+
+---
+
+## 8.3 Enzymes Speed Up Biochemical Transformations
+
+- [catalyst]{.highlight}
+  
+  - speeds up reaction without being permanently changed
+  
+  - 加速反应, 自身不被永久改变
+
+- [enzyme]{.highlight}s
+
+  - mostly proteins
+  
+  - highly specific
+    
+    - each enzyme binds specific [substrate]{.highlight}(s) 底物
+    
+  - [active site]{.highlight}
+    
+    - where substrate binds and reaction occurs
+
+- [activation energy]{.highlight} 活化能, $\mathrm{E_a}$:
+  
+  - energy needed to reach [transition state]{.highlight} 过渡态
+  
+  - enzymes lower $\mathrm{E_a}$
+    
+    - speed up reaction
+  
+  - important: enzymes do NOT change $\Delta \mathrm{G}$ or equilibrium
+
+- [enzyme-substrate complex]{.highlight} (ES) 酶-底物复合物:
+
+  - $$\ce{E +S <=> ES -> E + P}$$
+
+- enzyme classes:
+  
+| Name | Functions |
+| ----- | ----- |
+| oxidoreductases 氧化还原酶 | transfer electrons |
+| transferases 转移酶 | transfer funcitonal groups 转移功能基团 |
+| hydrolases 水解酶 | add water to break bonds 加水断键 |
+| lyases 裂解酶 | non-hydrolytic bond breakage 非水解性断键 |
+| isomerases 异构酶 | rearrange atoms within molecule 分子内重排 |
+| ligases 连接酶 | join molecules together |
+
+---
+
+## 8.4 Enzymes Bring Substrates Together so Reactions Readily Occur<br>酶将底物聚在一区, 使反应易于进行
+
+### How Enzymes Lower $\ce{E_a}$
+
+1. orientation 定向
+  
+  - holds substrates in correct position
+
+2. inducing strain 诱导应变
+  
+  - stretches bonds to make them unstable
+
+3. chemical catalysis
+  
+  - acid-base catalysis 酸碱催化
+    
+    - tranfer $\ce{H+}$
+  
+  - covalent catalysis 共价催化
+    
+    - forms temporary covalent bond
+  
+  - metal ion catalysis 金属离子催化
+    
+    - use cofactors like $\ce{Fe^2+}$, $\ce{Zn^2+}$
+
+### Induced Fit 诱导契合
+
+- enzyme changes shape upon substrate binding
+
+- e.g., [hexokinase]{.highlight} 已糖激酶 changes shape to exclude water 排除水分子
+
+### Non-protein Helpers 非蛋白辅助因子
+
+- [prosthetic group]{.highlight}s 辅基
+  
+  - permanently bound
+  
+  - e.g., heme 血红素
+  
+  - e.g., FAD
+
+- [cofactor]{.highlight}s 辅因子
+  
+  - inorganic ions
+  
+  - e.g., $\ce{Zn^2+}$, $\ce{Fe^2+}$
+
+- [coenzyme]{.highlight}s 辅酶
+  
+  - organic molecules
+  
+  - temporarily bind
+  
+  - e.g., $\ce{NAD+}$, $\ce{CoA}$
+
+### Substrate Concentration Effect
+
+- rate increases with [substrate], then [plateaus]{.highlight} 平台期, when enzyme is [saturated]{.highlight}
+  
+  - all active sites occupied 所有活性点位被占据
+
+- [turnover number]{.highlight} 转换数
+  
+  - max substrates converted per enzyme per second 每个酶每秒最多转化的底物数
+
+---
+
+## 8.5 Enzyme Activities Can Be Regulated 酶的活性可以被调控
+
+### Two Ways to Regulate Enzyme Activities
+
+1. [gene expression]{.underline}
+  
+  - make more or less enzyme
+
+2. [enzyme activity]{.underline}
+  
+  - [change enzyme shape]{.underline} or [block active site]{.underline}
+
+### Inhibitors 抑制剂
+  
+  - irreversible
+    
+    - covalently binds
+    
+    - permanently inactivates
+    
+    - e.g., Aspirin 阿司匹林: acetylates COX enzyme 乙酰化COS酶
+    
+  - reversible
+    
+    - [competitive]{.underline}
+      
+      - binds active site, competes with substrate
+      - overcome by more substrate
+
+    - [uncompetitive]{.underline}
+      
+      - binds only to ES complex
+    
+    - [noncompetitive]{.underline}
+      
+      - binds elsewhere, changes enzyme shape
+
+### Allosteric Regulation 别构调控
+
+- regulator binds [allosteric site]{.highlight} 别构位点 (not active site)
+
+- stabilizes [active]{.underline} or [inactive]{.underline} form
+
+- often enzymes with [quaternary structure]{.highlight} 四级结构
+
+- sigmoidal curve S形曲线
+  
+  - sensitive to small changes in substrate 对底物微笑变化敏感
+
+### Feedback Inhibition 反馈抑制
+
+- [end product]{.underline} inhibits the [commitment step]{.highlight} 承诺步骤/第一步骤
+
+- prevents wasting energy
+
+- e.g., prine synthesis 嘌呤合成, cholesterol synthesis 胆固醇合成, target of statins 他汀类药物靶点
+
+### Reversible Phosphorylation 可逆磷酸化
+
+- [protein kinase]{.highlight} 蛋白激酶
+  
+  - adds phosphate - activates
+  
+- [protein phosphatase]{.highlight}
+  
+  - removes phosphate - inactivates
+
+### Environment Effects
+
+- pH
+  
+  - each enzyme has [optimal pH]{.underline}
+  
+  - changes in pH alter [ionization]{.underline} and [shape]{.underline}
+  
+- temperature
+  
+  - each enzyme has [optimal temperature]{.underline}
+    
+  - too high [denature]{.highlight}s (loses 3D structure)

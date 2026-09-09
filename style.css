@@ -40,6 +40,19 @@
   #606060
   #D5D99E
   #8D9D93
+  /*
+  FF 100
+  DE 87
+  CC 80
+  B3 70
+  99 60
+  80 50
+  66 40
+  4D 30
+  33 20
+  1A 10
+  00 0
+  */
   --main-font-color: #606060;
   --highlight-color: #D5D99E;
   --underline-color: #AF999B;
@@ -47,6 +60,8 @@
   --title-color: #517035;
   --rt-color: #8D9D93;
   --hr-color: #517035;
+  --im-bg-color: #8D9D931A;
+  --dm-bg-color: #8D9D931A;
   
   /* practice box theme */
   --practice-border-color: #FFDB58;
@@ -126,6 +141,22 @@ hr {
 /* ========================================
    Decorative Blocks
    ======================================== */
+ 
+/* inline math block */
+
+span.math.inline {
+  background-color: var(--im-bg-color);
+  padding: 0.1em 0.2em;
+  border-radius: 3px;
+}
+
+/* display math block */
+
+mjx-container[display="true"] {
+  background-color: var(--dm-bg-color);
+  padding: 0.5em;
+  border-radius: 5px;
+}
 
 /* ----- Brace Right ----- */
 

@@ -5,3 +5,5 @@
 - [Chapter 6 Cell Membranes Key Concept](chapters/Chapter-6-key-concept.qmd)
 
 - [Chapter 7: Cell Communication and Multicellularity](chapters/Chapter-7.qmd)
+
+- [Chapter 8: Energy, Enzymes, and Metabolism](chapters/Chapter-8.qmd)

@@ -1,5 +1,4 @@
 ---
-title: "Chapter-7"
 toc: true
 ---
 
@@ -166,5 +165,321 @@ $$
     1. Ligand binds to extracellular side of receptor $\Longrightarrow$ receptor changes shape
     
     2. Cytoplasmic region exposes a site that binds to a G protein
+    
+    3. G protein binds to activated receptor; [GDP]{.underline} is exchanged for [GTP]{.underline}
+    
+    4. GTP-bound $\alpha$ submit separates from the $\beta \gamma$ subunits and diffuses in the membrane
+    
+    5. $\alpha$ submits binds to and activates and [effector protein]{.highlight} 效应蛋白
+    
+    6. GTP is hydrolyzed to GDP $\Longrightarrow$ $\alpha$ subunit becomes inactive and reassembles with $\beta \gamma$ subunits
+
+### Intracellular Receptors 胞内受体
+
+- located in the cytoplasm or nucleus
+
+- respond to [physical signals]{.underline} (e.g., light) or [chemical signals]{.underline} that can cross the cell membrane (e.g., steroid hormones)
+
+- many intracellular receptors are [transcription factors]{.highlight} 转录因子
+
+:::{.example title = "Cortisol Receptor 皮质醇受体"}
+- normally bound to a [chaperone protein]{.highlight} 分子伴侣 that [blocks it from entering the nucleus]{.underline}
+
+- cortisol binding causes the receptor to [change shape]{.underline}, releasing the chaperone 分子伴侣
+
+- the receptor enters the nucleus and binds to DNA, [altering gene transcription]{.underline}
+:::
+
+---
+
+## 7.3 Signal Transduction Spreads the Response to a Signal through the Cell
+
+### Protein Kinase Cascade 蛋白激酶级联反应
+
+- e.g., Ras signaling pathway 肾素-血管紧张素系统（renin-angiotensin system） (Ras is a G protein)
+
+- pathway: growth factor $\Longrightarrow$ receptor tyrosine kinase $\Longrightarrow$ Ras (G protein) $\Longrightarrow$ MAPK cascade $\Longrightarrow$ nucleus $\Longrightarrow$ gene expression $\Longrightarrow$ cell division
+
+- Ras and cancer: In some bladder cancer cells, Ras is permanently bound to GTP and constantly active, causing continuous cell division
+
+### Advantages of Protein Kinase Cascades 级联反应的优势
+
+1. [amplification]{.underline} 信号放大: each activated protein kinase can phosphorylate many target proteins
+
+2. [signal reaches the nucleus]{.underline} 信号传递到细胞核: membrane signals can affect gene expression
+
+3. specificity 特异性: multiple steps provide more regulation levels
+
+4. response diversity 响应多样性: different target proteins at each step can produce different effects
+
+:::{.example title = "Signal Amplifacation Example"}
+1 molecule of [epinephrine]{.highlight} 肾上腺素 binds to receptor on liver cell $\Longrightarrow$
+
+- activates 20 molecuels of cAMP $\Longrightarrow$
+
+- activates 20 molecules of protein kinase A $\Longrightarrow$
+
+- activates 100 molecles of phosphorylase kinase $\Longrightarrow$
+
+- activates 1,000 molecules of glycogen phosphorylase $\Longrightarrow$
+
+- produces 10,000 molecules of glucose-1-phosphate $\Longrightarrow$
+
+- releases 10,000 molecuels of blood glucose
+:::
+
+### Second Messengers 第二信使
+
+1. Cyclic AMP 环磷酸腺苷 cAMP
   
+  - produced from ATP by [adenylyl cyclase]{.highlight} 腺苷酸环化酶
   
+  - broken down by [phosphodiesterase]{.highlight} 磷酸二酯酶
+  
+  - functions: amplifies signal, distributes signal to multiple targets
+  
+  - multiple receptors can use the same cAMP pathway to produce different effects
+
+2. Lipid-Derived Second Messengers 脂质来源的第二信使
+
+  - source: phosphatidyl inositol-bisphosphate 磷脂酰肌醇二磷酸 $\ce{PIP2}$
+  
+  - phospholipase C 磷脂酶 C, hydrolyzes $\ce{PIP2}$ to produce:
+  
+    - $\ce{IP3}$ 肌醇三磷酸, [inositol trisphosphate]{.highlight}: released into the cytoplasm; acts on $\ce{Ca^2+}$ channels in the ER membrane
+    
+    - DAG 二酰甘油, [diacylglycerol]{.highlight}: remains in the cell membrane
+  
+  - $\ce{IP3}$ and DAG work together to activate Protein Kinase C 蛋白激酶 C, PKC
+
+3. Calcium Ions 钙离子 $\ce{Ca^2+}$
+
+  - cytosolic concentration: ~$\pu{0.1 \mu M}$ (very low)
+  
+  - extracellular and ER concentrations: much higher
+  
+  - [active transport pumps]{.underline} maintian this concentration difference
+  
+  - signals (e.g., $\ce{IP3}$) can open $\ce{Ca^2+}$ channels, causing cytosolic $\ce{Ca^2+}$ to increase up to 100-fold within a fraction of a second
+  
+  - $\ce{Ca^2+}$ activates PKC, controls other ion channels, stimulates secretion by exocytosis
+
+  - :::{.example}
+  Fertilization in a sea star egg - sperm entry causes a rush of $\ce{Ca^2+}$ from the environment into the cytoplasm, triggering cell division and development
+  :::
+
+4. Nitric Oxide 一氧化氮 $\ce{NO}$
+
+  - a gas that acts as a second messenger
+  
+  - produced from arginine 精氨酸 by $\ce{NO}$ synthase ($\ce{NO}$ 合酶)
+  
+  - diffuses to target cells
+  
+  - :::{.example title = "Relaxation of smooth muscles"}
+    - acetylcholine $\Longrightarrow$
+    
+    - $\ce{IP3}$ release $\Longrightarrow$
+    
+    - $\ce{Ca^2+}$ channel opening $\Longrightarrow$
+    
+    - $\ce{Ca^2+}$ increase $\Longrightarrow$
+    
+    - $\ce{NO}$ synthase activation $\Longrightarrow$
+    
+    - $\ce{NO}$ production $\Longrightarrow$
+    
+    - $\ce{NO}$ diffuses to smooth muscle cells $\Longrightarrow$
+    
+    - activates guanylyl cylase 鸟苷酸环化酶 $\Longrightarrow$
+    
+    - produces cGMP $\Longrightarrow$
+    
+    - muscle relaxation
+    :::
+  
+  - drug applications:
+    
+    - [nitroglycerin]{.highlight} 硝酸甘油: releases $\ce{NO}$, dilates blood vessels, treats angina
+    
+    - [sildenafil]{.highlight} 西地那非, Viagra: inhibits phosphodiesterase that breaks down cGMP, enhancing $\ce{NO}$ signaling, causing relaxation of smooth muscles in the penis
+
+### Regulation of Signal Transduction 信号传导的调控
+
+Cells can regulate signal transduction by:
+
+1. synthesis or breakdown of enzymes: e.g., increasing adenylyl cyclase 腺苷酸环化酶 synthesis or decreasing phosphodiesterase 磷酸二酯酶 breakdown will raise cAMP levels
+
+2. activation or inhibition of enzymes by other molecules: e.g., sidenafil inhibits cGMP phosphodiesterase 磷酸二酯酶
+
+3. ion concentration regulation: e.g., membrane pumps and ion channels regulate $\ce{Ca^2+}$ concentration
+
+---
+
+## 7.4 Cells Change in Response to Signals in Several Ways
+
+### Three Primary Forms of Cellular Response
+
+1. opening or closing of ion channels
+
+2. changes in enzyme activities - activation or inhibition
+
+3. differential gene expression - activation or inhibition of transcription
+
+### Ion Channel Responses
+
+:::{.example title = "Sxytocin 催产素"}
+Oxytocin 催产素 signaling pathway:
+
+- oxytocin $\Longrightarrow$
+
+- GPCR $\Longrightarrow$
+
+- G protein activation $\Longrightarrow$
+
+- $\ce{IP3-DAG}$ pathway $\Longrightarrow$
+
+- $\ce{Ca^2+}$ channel opening $\Longrightarrow$
+
+- $\ce{Na+}$ channel opening $\Longrightarrow$
+
+- increased nerve cell activity
+:::
+
+- In prairie voles: oxytocin induces bonding and parental care behaviors
+
+- In humans: oxytocin is involved in trusting behavior [(Paul Zak's experiments]{.underline})
+
+### Enzyme Activity Changes
+
+- enzymes are modified covalently (phosphorylation) or noncovalently (cAMP binding)
+
+- Shape changes expose or hide active sites
+
+:::{.example title = "Epinephrine in Liver Cells 肾上腺素在肝细胞中)"}
+| Effect | Enzyme | Action | Result |
+| ----- | ----- | ----- | ----- |
+| inhibition 抑制 | glycogen synthase 糖原合酶 | phosphorylated and inactivated by protein kinase A | prevents glucose from being stored as glycogen |
+| activation 激活 | phosphorylase kinase 磷酸化酶激酶 | phosphorylated and activated by protein kinase A | activates glycogen phosphorylase $\Longrightarrow$ releases glucose from glycogen |
+:::
+
+### Gene Expression Changes
+
+- common targets of signal transduction are [transcription factors]{.highlight} 转录因子
+
+- transcription factors bind to specific DNA sequences and activate or inactivate transcription of adjacent genes
+
+- e.g., MAPK enters the nucleus and phosphorylates a protein that stimulates expression of genes involved in cell proliferation
+
+---
+
+## 7.5 Adjacent Cells in a Multicellular Organism Can Communicate Directly
+
+### Gap Junctions 间隙连接 - Animal Cells
+
+- channels between adjacent animal cells
+
+- can oppupy up to 25% of the cell membrane area
+
+- structure: [connexons]{.highlight} 连接子 composed of six subunits of the protein [connesin]{.highlight} 连接蛋白
+
+- two connexons from adjacent cells come together to form a channel linking the cytoplasms
+
+- channel pore diameter: ~ $\pu{1.5nm}$
+
+- [permeability]{.highlight}: small molecules and ions (too narrow for large molecules)
+
+- function: hormones and second messengers can move through gap junctions; allows coordinated responses by all cells in a tissue
+
+- e.g., lens of mammalian eye - only cells at the periphery are close to blood supply; gap junctions allow nutrients and wastes to diffuse rapidly through all lens cells
+
+### Plasmodesmata 胞间连丝 - Plant Cells
+
+- membrane-lined tunnels that traverse the thick cell walls separating plant cells
+
+- a typical plant cell has several thousand plasmodesmata
+
+- structure:
+  
+  - lined by fused cell membranes themselves (not by separate protein channels)
+  
+  - contains [desmotubule]{.highlight} 连丝微管 derived from the endoplasmic reticulum, filling most of the opening
+  
+  - effective pore size for diffusion: ~ $\pu{1.5nm}$
+  
+- permeability: small metabolites and ions
+
+- special feature: some viruses can move through plasmodesmata using "movement proteins"
+
+- importance: plants lack capilaries; rely on plasmodesmata for rapid diffusion of hormones from production site to action site
+
+### Comparison: Gap Junction vs. Plasmodesmata
+
+| Feature | Gap Junctions (Animals) | Plasmodesmata (Plants) |
+| ----- | ----- | ----- |
+| Location | between adjacent animal cells | between adjacent plant cells |
+| structure | connexons made of connexin protein | fused cell membranes + desmotubule |
+| pore diameter | ~ $\pu{1.5nm}$ | ~ $\pu{1.5nm}$ (effective) |
+| permeability | small molecules, ions | small metabolites ions |
+| special features |hundreds of channels per cell | desmotubule fills most of the space |
+
+### Evolution of Multicellularity 多细胞性的进化 - Volvocine Green Algae 团藻目绿藻
+
+#### Proposed Steps in Evolution of Multicellularity 多细胞性进化的可能步骤
+
+1. Aggregation of cells into a cluster 细胞聚集成团
+
+2. Intercellular communicaiton within the cluster 团内细胞间通讯
+
+3. Specializaiton of some cells within the cluster 部分细胞特化
+
+4. Organization of specialized cells into tissues 特化细胞组织化为组织
+
+#### Volvocine Line - Evidence of Evolutionary Progression V 谱系 - 进化证据
+
+| Organism | Characteristics | Intercellular Communication |
+| ----- | ----- | ----- |
+| [Chlamydomonas]{.highlight} 衣藻 | single-celled<br>swimming phase and division phase | none |
+| [Gonium]{.highlight} 盘藻 | small cell clusters<br>no cell specialization | limited |
+| [Pandorina]{.highlight} 实球藻 | larger cell clusters<br>no cell specialization | limited |
+| [Eudorina]{.highlight} 空球藻 | larger cell clusters<br>no cell specialization | limited |
+| [Pleodorina]{.highlight} 杂球藻 | colony of somatic and reproductive cells | developing |
+| [Volvox]{.highlight} 团藻 | ~1,000 cells<br>somatic cells (outer, flagellated) and reproductive cells (inner) organized into tissues | Yes<br>gene product from motile cells travels to reproductive cells, causing them to lose flagella and divide |
+
+#### Key Observation
+
+- In Gonium, Pandorina, Eudoring, and Pleodoring, a single detached cell can divide and form a new colony.
+
+- In Volvox, most cells (especially reproductive cells) have lost the ability to live and divide independently
+  
+  - they are now inextricably part of the organism
+
+- The separation of somatic and reproductive functions, and the loss of cellular independence, is made possible by intercellular signaling mechanisms
+
+### Investigating Life: Is Oxytocin 催产素 a "Trust" Signal in Humans
+
+#### Paul Zak's Experiments
+
+- hypothesis: oxytocin is involved in trust between humans
+
+- method: economics trust game experiment - money transfers between strangers
+
+- results:
+  
+  - recipients who felt trusted by donor not only returned more money but also has elevated oxytocin levels
+  
+  - donors given oxytocin nasal spray donated an average of 9.6 units vs. 8.1 units in controls (significant difference)
+  
+  - when donors were told exactly how much to give (removing donor intent), oxytocin has no effect $\Longrightarrow$ indicating the trust relationship requires intentional generosity
+  
+- conclusion: oxytocin correlates with trusting behavior in humans
+
+#### Further Applicaitons
+
+- Oxytocin is also released during pleasant activites such as sexual interactions, massage, and hugs.
+
+- Oxytocin and other behavior-modulating peptides are being investigated as a treatment for autism 自闭症.
+
+- Commercial products (e.g., "Liquid Trust") market oxytocin as a "trust" fragrance.
+
+- The book *Make Love Like a Prairie Vole* offers steps to a happier love life based on these findings.

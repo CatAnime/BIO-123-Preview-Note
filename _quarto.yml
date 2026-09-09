@@ -11,6 +11,7 @@ website:
         contents:
           - chapters/Chapter-5.qmd
           - chapters/Chapter-6-key-concept.qmd
+          - chapters/Chapter-7.qmd
 
 format:
   html:

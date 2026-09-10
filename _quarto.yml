@@ -16,6 +16,7 @@ website:
       - section: "Part 3 Cells and Energies"
         contents:
           - chapters/Chapter-8.qmd
+          - chapters/Chapter-9.qmd
 
 format:
   html:

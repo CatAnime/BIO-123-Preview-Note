@@ -1,0 +1,331 @@
+---
+format: html
+---
+
+# Chapter 9: Pathways That Harvest Chemical Energy
+
+---
+
+## 9.1 Cells Harvest Chemical Energy for Glucose Oxidation <br>细胞从葡萄糖氧化中收获化学能
+
+### Key Principles of Metabolic Pathways<br>代谢通路的五个基本原则
+
+1. A complex chemical transformation occurs in a series of separate reactions that form a metabolic pathway.<br>复杂化学转化通过一系列独立反应完成
+
+2. Each reaction is catalyzed by a specific enzyme.<br>每步反应由特定酶催化
+
+3. Many metabolic pathways are similar in all organisms, from [bacteria to humans]{.underline}.<br>从细菌到人类, 许多通路高度保守
+
+4. In eukaryotes, many metabolic pathways are compartmentalized within specifc organelles.<br>真核生物中, 许多通路被区隔在细胞器中
+
+5. Some key enzymes can be inhibited or activated to alter the rate of the pathway.<br>关键酶可被抑制或激活以调控通路速率
+
+### Complete Oxidation of Glucose
+
+- Equation
+
+$$
+\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O + free energy ( \Delta \mathrm{G} = \pu{-686kcal/mol})}
+$$
+
+- This is a redox reaction: glucose is oxidized (loses $\ce{e-}$), $\ce{O2}$ is reduced (gains $\ce{e-}$).
+
+### Three Catabolic Processes for Glucose
+
+- [glycolysis]{.highlight} 糖酵解:
+  
+  - glucose $\Longrightarrow$ two pyruvate
+  
+  - small ATP
+  
+  - anaerobic 无氧
+
+- [cellular respiration]{.highlight} 细胞呼吸:
+  
+  - aerobic 有氧
+  
+  - fully oxidizes pyruvate to $\ce{CO2}$ 彻底氧化
+  
+  - large ATP
+
+- [fermentation]{.highlight} 发酵:
+  
+  - anaerobic 无氧
+  
+  - incomplete oxidation 不完全氧化
+  
+  - low ATP yield 能量产率低
+
+### Redox Reactions and Energy
+
+- [oxidation]{.highlight}: loss of $\ce{e-}$
+
+- [reduction]{.highlight}: gain of $\ce{e-}$
+
+- $\ce{NAD+}$ is a key $\ce{e-}$ carrier, reduced to $\ce{NADH}$ to store energy.
+
+- oxidation of $\ce{NADH}$ releases energy:
+
+$$
+\ce{NADH + H+ + 1/2 O2 -> NAD+ + H2O} ( \Delta \mathrm{G}^\circ = \pu{-52.4kcal/mol})
+$$
+
+### Locations of Pathways
+
+| Pathway 通路 | Eukaryotes 真核 | Prokaryotes 原核 |
+| ----- | ----- | ------ |
+| glycolysis | cytoplasm | cytoplasm |
+| fermentation | cytoplasm | cytoplasm |
+| citric acid cycle | mitochondrial matrix | cell membrane |
+| pyruvate oxidation | mitochondrial matrix | cell membrane |
+| respiratory chain | inner mitochondrial membrane | cell membrane |
+
+---
+
+## 9.2 In the Presence of Oxygen, Glucose Is Fully Oxidized<br>有氧条件下葡萄糖被完全氧化
+
+### Glycolysis 糖酵解
+
+- location: cytoplasm
+
+- 10 enzyme-catalyzed steps 10 步酶促反应
+
+- 2 stages:
+  
+  - energy-investment (uses 2 $\ce{ATP}$)
+  
+  - energy-harvesting (produces 4 $\ce{ATP}$, 2 $\ce{NADH}$)
+
+- net yield 净产: $\ce{2 ATP + 2NADH + 2 pyruvate}$
+
+### Pyruvate Oxidation 丙酮酸氧化
+
+- location: mitochondrial matrix (eukaryotes)
+
+$$
+\ce{pyruvate -> acetyl CoA + CO2 + NADH}
+$$
+$\ce{丙酮酸 -> 乙酰 CoA + CO2 + NADH}$
+
+- catalyzed by pyruvate dehydrogenase complex 由丙酮酸脱氢酶复合体催化
+
+- connects glycolysis to the citric acid cycle
+
+### Citric Acid Cycle 柠檬酸循环 (Krebs cycle / TCA cycle)
+
+- location: [mitochondrial matrix]{.underline}
+
+- 8 steps: starting with
+  
+$$
+\ce{acetyl CoA + oxaloacetate -> citrate}
+$$
+
+- per glucose: cycle runs [twice]{.underline} (once per pyruvate)
+
+- outputs per turn:
+  
+  - $\ce{3NADH}$
+  
+  - $\ce{1FADH2}$
+  
+  - $\ce{1GTP (-> ATP)}$
+  
+  - $\ce{2CO2}$
+
+### Role of Oxygen
+
+- $\ce{O2}$ is the final electron acceptor, reduced to $\ce{H2O}$
+
+- without $\ce{O2}$, $\ce{NADH}$ and $\ce{FADH2}$ cannot be reoxidized, and the cycle stops
+
+---
+
+## 9.3 Oxidative Phosphorylation Forms ATP<br>氧化磷酸化生成 ATP
+
+### Two Components of Oxidative Phosphorylation
+
+1. [electron transport]{.highlight} 电子传递:
+  
+  - electrons from $\ce{NADH}$/$\ce{FADH2}$ pass through respiratory chain, pumping $\ce{H+}$ out of matrix
+
+2. [chemiosmosis]{.highlight} 化学渗透:
+
+  - $\ce{H+}$ flows back through $\ce{ATP}$ synthase, driving $\ce{ATP}$ synthesis
+
+### Respiratory Chain Complexes
+
+| Complex 复合体 | Function |
+| ----- | ----- |
+| I $\ce{NADH-Q reductase}$ | $\ce{NADH -> Q}$, pumps $\ce{H+}$ |
+| II (succinate dehydrogenase) | $\ce{FADH2 -> Q}$ (不泵 $\ce{H+}$) |
+| III (cytochrome c reductase) | $\ce{Q -> cytochrome c}$, pumps $\ce{H+}$ |
+| IV (cytochrome c oxidase) | $\ce{cytochrome c -> O2}$, pumps $\ce{H+}$ |
+
+- [Q]{.highlight} (ubiquinone): mobile lipid carrier in membrane 膜内可移动脂质载体
+
+- [cytochrome c]{.highlight}: peripheral protein in intermembrane space 膜间隙外周蛋白
+
+### Proton-Motive Force 质子驱动力
+
+- $\ce{H+}$ gradient (concentration + charge) across inner mitochondrial membrane
+
+- $\sim\ce{20H+}$ pumped per 4 $\ce{e-}$
+
+- energy stored in gradient used by ATP synthase
+
+### ATP Yield
+
+- $\ce{NADH -> \sim 2.5ATP}$
+
+- $\ce{FADH2 -> \sim 1.5ATP}$
+
+### ATP Synthase
+
+- $\ce{F_0}$ unit: $\ce{H+}$ channel in membrane
+
+- $\ce{F_1}$ unit: catalytic sites for ATP synthesis
+
+- rotates like a molecular motor
+
+- up to 100 ATP per second
+
+### Uncoupling 解偶联
+
+- UCP1 in brown fat makes inner membrane permeable to $\ce{H+}$ $\Longrightarrow$ heat instead of ATP<br>棕色脂肪中的 UCP1 使内膜对 $\ce{H+}$ 通透 $\Longrightarrow$ 产热而非 ATP
+
+- dinitrophenol is an artificial uncoupler (dangerous side effects)<br>二硝基苯酚是人工解偶联剂, 副作用严重
+
+### Anaerobic Respiration in Microbes
+
+| Terminal $\ce{e-}$ acceptor | Product | Example Organism |
+| ----- | ----- | ----- |
+| $\ce{SO4^2-}$ | $\ce{H2S}$ | Desulfovibrio |
+| $\ce{Fe^3+}$ | $\ce{Fe^2+}$ | Geobacter |
+| $\ce{NO3-}$ | $\ce{NO2-}$ | E. coli |
+| $\ce{CO2}$ | $\ce{CH4}$ | Methanosarcina |
+| Fumarate | Succinate | Wolinella |
+
+---
+
+## 9.4 In the Absence of Oxygen, Some Energy Is Harvested from Glucose
+
+### Purpose of Fermentation
+
+- regenerate $\ce{NAD+}$ from $\ce{NADH}$ so glycolysis can continue
+
+- does NOT produce $\ce{ATP}$ directly
+
+### Two Major Fermentation Pathways
+
+1. [Lactic Acid Fermentation]{.highlight} 乳酸发酵
+
+  - $\ce{丙酮酸 -> 乳酸}$
+
+$$
+\ce{Pyruvate -> Lactate}
+$$
+$$
+\ce{NADH + H+ + 1/2 O2 -> NAD+ + H2O}
+$$
+
+  - occurs in muscle during intense exercise
+
+  - lactate build-up lowers pH $\Longrightarrow$ muscle fatigue
+
+2. [Alcoholic Fermentation]{.highlight} 酒精发酵
+
+- $\ce{丙酮酸 -> 乙醛 + CO2}$
+
+$$
+\ce{pyruvate -> acetaldehyde + CO2}
+$$
+
+- $\ce{乙醛 -> 乙醇}$, 消耗 $\ce{NADH}$
+
+$$
+\ce{acetaldehyde -> ethanol (using NADH)}
+$$
+
+- occurs in yeast and some plant cells
+
+### Energy Yield Comparison
+
+| Process | $\ce{ATP}$ yield per glucose |
+| ----- | ----- |
+| glycolysis + fermentation | $\ce{\sim 2 ATP}$ |
+| cellular respiration (full) | $\ce{\sim 32 ATP}$ |
+
+- fermentation partially oxidizes glucose
+
+- much energy remains in [ethanol/lactate]{.underline}
+
+- 发酵不完全氧化葡萄糖, 大量能量仍留在乙醇/乳酸中
+
+---
+
+## 9.5 Metabolic Pathways Are Interrelated and Regulated<br>代谢通路相互关联且受调控
+
+### Catabolic Interconversions<br>分解代谢的相互转化
+
+| Macromolecule | Breakdown Product | Entry point into pathways |
+| ----- | ----- | ----- |
+| polysaccharides 多糖 | glucose | glycolysis 糖酵解 |
+| lipids 脂类 | $\ce{glycerol -> DHAP}$<br>$\ce{fatty acid -> acetyle CoA$ ($\beta$-oxidation) | glycolysis / citric acid cycle |
+| proteins | amino acids | glycolysis or citric acid cycle (at various points) |
+
+- $\beta$-oxidation: $\ce{C15 fatty acid -> 8 acetyl CoA}$ 16碳脂肪酸 $\longrightarrow$ 8个乙酰 CoA
+
+- amino acid glutamate $\longrightarrow$ $\alpha$-ketoglutarate (citric acid cycle intermediate)<br>谷氨酸 $\longrightarrow$ $\alpha$-酮戊wu4二酸
+
+  - produce $\ce{NH4+}$ (toxic) $\longrightarrow$ converted to urea for excretion<br>产生有毒 $\ce{NH4+}$ $\longrightarrow$ 转化为尿素排出
+
+### Anabolic Interconversions<br>合成代谢的相互转化
+
+- [gluconeogenesis]{.highlight} 糖异生
+  
+  - pyruvate and other intermediates $\longrightarrow$ glucose<br>丙酮酸等中间产物 $\longrightarrow$ 葡萄糖
+
+- Acetyl CoA $\longrightarrow$ fatty acids (even-carbon chains: $\ce{C14}$, $\ce{C16}$, $\ce{C18}$)<br>乙酰 CoA $\longrightarrow$ 脂肪酸, 偶数碳链
+
+- Citric acid cycle intermediates $\longrightarrow$ amino acids, nucleotides, chlorophyll<br>柠檬酸循环中间产物 $\longrightarrow$ 氨基酸, 核苷酸, 叶绿素
+
+### Regulation of Pathways
+
+#### Mechanisms
+
+1. changing enzyme amount
+
+2. covalent modification
+
+3. feedback inhibition
+
+4. substrate availability
+
+#### Key Regulatory Enzymes
+
+- [phosphofructokinase]{.highlight} (PFK) in [glycolysis]{.underline} 糖酵解中的 PFK:
+  
+  - inhibited by: ATP, citrate
+  
+  - activated by: ADP, AMP
+
+- [isocitrate dehydrogenase]{.highlight} in citric acid cycle
+  
+  - inhibited by: ATP, NADH
+  
+  - activated by: ADP, $\ce{NAD+}$, isocitrate 异柠檬酸
+
+- excess acetyl CoA $\longrightarrow$ diverted to fatty acid synthesis when ATP is high<br>ATP 高时, 过量乙酰 CoA 转向合成脂肪酸
+
+### Investigating Life: Mitochondria and Obesity<br>线粒体与肥胖
+
+- brown fat has high mitochondria and UCP1
+
+- UCP1 uncouples $\ce{e-}$ transport from ATP synthesis $\longrightarrow$ heat production
+
+- mice with more UCP1 are leaner 更瘦
+
+- human UCP1 variants correlate with fat accumulation with age
+
+- activating brown fat is a potential obesity treatment strategy

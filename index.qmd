@@ -11,3 +11,5 @@
 # Part 3 Cells and Energy
 
 - [Chapter 8: Energy, Enzymes, and Metabolism](chapters/Chapter-8.qmd)
+
+- [Chapter 9: Pathways That Harvest Chemical Energy](chapters/Chapter-9.qmd)

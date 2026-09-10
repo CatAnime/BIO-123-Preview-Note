@@ -112,7 +112,7 @@ body, h1, h2, h3, h4, h5, h6 {
   /* font-family: "Dancing Script"; */
   
   /* LXGW */
-  font-family: "ELEYANG-Campus-Regular", "LXGW WenKai Screen";
+  font-family: "LXGW WenKai Screen";
   
   /* Elegant */
   /* font-family: "Allura", cursive; */
@@ -146,7 +146,7 @@ hr {
 
 span.math.inline {
   background-color: var(--im-bg-color);
-  padding: 0.1em 0.2em;
+  padding: 0.1em 0.1em;
   border-radius: 3px;
 }
 
